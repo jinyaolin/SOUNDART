@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" width="720" height="290" font-family="-apple-system,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" role="img">
+<rect width="720" height="290" rx="10" fill="#1d1811"/>
+<text x="360" y="32" font-size="17" fill="#f0c87d" text-anchor="middle" font-weight="600">遊戲音源的演進：每一次換技術，都換了一種限制</text>
+<line x1="50" y1="150" x2="670" y2="150" stroke="#3a3026" stroke-width="2"/>
+<circle cx="78" cy="150" r="8" fill="#e0a94e"/>
+<text x="78" y="104" font-size="15" fill="#e0a94e" text-anchor="middle" font-weight="700">1972</text>
+<text x="78" y="126" font-size="12.5" fill="#f2ece1" text-anchor="middle" font-weight="600">電路直接發聲</text>
+<text x="78" y="180" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">Pong：聲音是</text>
+<text x="78" y="198" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">電路的副產品</text>
+<circle cx="211" cy="150" r="8" fill="#e0a94e"/>
+<text x="211" y="104" font-size="15" fill="#e0a94e" text-anchor="middle" font-weight="700">1980</text>
+<text x="211" y="126" font-size="12.5" fill="#f2ece1" text-anchor="middle" font-weight="600">PSG 方波晶片</text>
+<text x="211" y="180" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">3 方波 + 1 噪音</text>
+<text x="211" y="198" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">= 極簡減法合成</text>
+<circle cx="344" cy="150" r="8" fill="#e0a94e"/>
+<text x="344" y="104" font-size="15" fill="#e0a94e" text-anchor="middle" font-weight="700">1985</text>
+<text x="344" y="126" font-size="12.5" fill="#f2ece1" text-anchor="middle" font-weight="600">FM 晶片</text>
+<text x="344" y="180" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">YM2612：省記憶體</text>
+<text x="344" y="198" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">音色範圍大</text>
+<circle cx="477" cy="150" r="8" fill="#e0a94e"/>
+<text x="477" y="104" font-size="15" fill="#e0a94e" text-anchor="middle" font-weight="700">1990</text>
+<text x="477" y="126" font-size="12.5" fill="#f2ece1" text-anchor="middle" font-weight="600">取樣 / CD</text>
+<text x="477" y="180" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">真樂器音色</text>
+<text x="477" y="198" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">但失去即時變化</text>
+<circle cx="610" cy="150" r="8" fill="#6fbfae"/>
+<text x="610" y="104" font-size="15" fill="#6fbfae" text-anchor="middle" font-weight="700">2008</text>
+<text x="610" y="126" font-size="12.5" fill="#f2ece1" text-anchor="middle" font-weight="600">程序音訊</text>
+<text x="610" y="180" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">Spore 內嵌 Pd</text>
+<text x="610" y="198" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">每次都不一樣</text>
+<text x="360" y="258" font-size="12.5" fill="#6fbfae" text-anchor="middle" font-weight="400">限制不是缺點——琶音和弦、通道搶奪、NES 的厚低音，都是限制長出來的風格</text>
+</svg>
