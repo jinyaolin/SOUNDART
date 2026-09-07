@@ -102,6 +102,8 @@ Note:
 
 > ### 整台機器就是一台極簡的減法合成器。
 
+<p class="lablink">🎛 <a href="../lab/?preset=chiptune">聽一段方波琶音</a></p>
+
 ---
 
 ## 限制長出來的三種技巧

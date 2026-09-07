@@ -128,6 +128,8 @@ Moog 訂的 **1V/八度** 標準至今仍是模組合成的通用語言。
 
 <p class="figcap">你在 Pd 裡接的每一個減法合成補丁，都是 1964 年這個架構的軟體版</p>
 
+<p class="lablink">🎛 <a href="../lab/?preset=ch3-vcovcfvca">在瀏覽器接一次這個架構（鍵盤 a w s e d f 可彈）</a></p>
+
 --
 
 ## 對照表

@@ -75,6 +75,8 @@ Note:
 
 ## 加法合成
 
+<p class="lablink">🎛 <a href="../lab/?preset=ch7-additive">在瀏覽器聽四個泛音疊起來</a></p>
+
 > 任何週期性波形，都可以拆成一堆正弦波相加。（傅立葉）
 
 反過來做：**用一堆正弦波疊出想要的音色**。
@@ -134,6 +136,8 @@ Note:
 ---
 
 ## 減法合成
+
+<p class="lablink">🎛 <a href="../lab/?preset=ch7-sub-lfo">在瀏覽器聽 LFO 掃濾波器</a></p>
 
 思路相反：先做泛音很多的粗胚，再把不要的頻率削掉。像雕塑。
 
@@ -213,6 +217,8 @@ Note:
 
 ## 環形調變
 
+<p class="lablink">🎛 <a href="../lab/?preset=ch7-ringmod">在瀏覽器聽環形調變</a></p>
+
 兩個訊號直接相乘：
 
 ```plaintext
@@ -290,6 +296,8 @@ Note:
 --
 
 ## ADSR
+
+<p class="lablink">🎛 <a href="../lab/?preset=ch7-adsr">在瀏覽器把 Attack 調到最左邊，聽 click</a></p>
 
 | 階段 | 意義 | 典型值 |
 |---|---|---|
@@ -383,6 +391,8 @@ Note:
 --
 
 ## 同一組物件，四種效果
+
+<p class="lablink">🎛 <a href="../lab/?preset=ch7-delay">把延遲時間從 4 毫秒拉到 1 秒</a></p>
 
 差別只在延遲時間長短與有沒有調變：
 

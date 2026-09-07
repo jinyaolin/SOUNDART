@@ -120,6 +120,8 @@ CD 音軌的音質勝過晶片音樂，卻失去了即時變化；今天的神�
 
 ### 免費的玩具
 
+- **[聲音實驗室](https://jinyaolin.github.io/SOUNDART/lab/)** — 本教材附的線上工具，在瀏覽器裡接模組化合成器，不用安裝
+
 - **VCV Rack** — 免費開源的 Eurorack 軟體版。想理解第 3 章的模組化，這是零成本的路
 - **PlugData** — Pd 的現代化介面，也可以當 VST3 用
 - **Wekinator** — 免費的互動式機器學習工具，用 OSC 接 Pd 或 Max

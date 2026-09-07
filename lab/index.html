@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>聲音實驗室 — SOUNDART</title>
+<meta name="description" content="在瀏覽器裡接一台模組化合成器：osc、filter、lfo、adsr、delay、seq。不必安裝任何軟體。SOUNDART 聲音藝術教材的線上練習場。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2314100c'/%3E%3Cpath d='M3 16c3.2 0 3.2-9 6.4-9s3.2 18 6.4 18 3.2-18 6.4-18 3.2 9 6.4 9' fill='none' stroke='%23e0a94e' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  :root{--ink:#f2ece1;--dim:#a89f92;--faint:#6d6459;--gold:#e0a94e;--soft:#f0c87d;
+        --bg:#14100c;--panel:#1d1811;--panel2:#251e15;--line:#3a3026}
+  html,body{height:100%}
+  body{background:var(--bg);color:var(--ink);overflow:hidden;
+       font-family:"PingFang TC","Noto Sans CJK TC","Microsoft JhengHei",system-ui,sans-serif;
+       display:flex;flex-direction:column}
+  a{color:var(--gold)}
+
+  header{display:flex;align-items:center;gap:.7rem;flex-wrap:wrap;
+         padding:.55rem .9rem;border-bottom:1px solid var(--line);background:var(--panel)}
+  .brand{font-size:.78rem;letter-spacing:.2em;color:var(--faint);text-decoration:none;white-space:nowrap}
+  .brand b{color:var(--gold);letter-spacing:0}
+  button,select,input{font:inherit;color:var(--ink);background:var(--panel2);
+        border:1px solid var(--line);border-radius:7px;padding:.34rem .7rem;cursor:pointer}
+  button:hover,select:hover{border-color:var(--gold)}
+  #play{min-width:5.4rem;font-weight:600}
+  #play.on{background:var(--gold);color:#14100c;border-color:var(--gold)}
+  #pname{width:11rem;cursor:text}
+  #presets{max-width:19rem}
+  .sp{flex:1}
+
+  main{flex:1;display:flex;min-height:0}
+  #palette{width:104px;flex:none;border-right:1px solid var(--line);background:var(--panel);
+           padding:.55rem;display:flex;flex-direction:column;gap:.38rem;overflow:auto}
+  #palette button{padding:.4rem .3rem;font-size:.82rem;text-align:center}
+  #wrap{flex:1;position:relative;min-width:0}
+  #canvas{position:absolute;inset:0;overflow:auto;
+     background-image:radial-gradient(circle,#2a2319 1px,transparent 1px);background-size:26px 26px}
+  #wires{position:absolute;left:0;top:0;width:4000px;height:2400px;pointer-events:none}
+  #wires path{pointer-events:stroke}
+
+  .node{position:absolute;width:206px;background:var(--panel);border:1px solid var(--line);
+        border-radius:10px;box-shadow:0 6px 22px rgba(0,0,0,.45);user-select:none}
+  .nhead{display:flex;align-items:center;justify-content:space-between;gap:.3rem;cursor:grab;
+         padding:.4rem .55rem;border-bottom:1px solid var(--line);background:var(--panel2);
+         border-radius:9px 9px 0 0;font-size:.83rem}
+  .nhead b{color:var(--soft);font-weight:600}
+  .nhead .x{background:none;border:none;color:var(--faint);padding:0 .2rem;font-size:.9rem}
+  .nhead .x:hover{color:#e07a5e}
+  .ports{display:flex;justify-content:space-between;padding:.4rem .1rem}
+  .pcol{display:flex;flex-direction:column;gap:.2rem}
+  .pcol.right{align-items:flex-end}
+  .port{display:flex;align-items:center;gap:.3rem;font-size:.7rem;color:var(--dim);
+        padding:.05rem .4rem;border-radius:9px;cursor:pointer}
+  .port.out{flex-direction:row-reverse}
+  .port i{width:11px;height:11px;border-radius:50%;background:var(--c);flex:none;
+          box-shadow:0 0 0 3px rgba(0,0,0,.35)}
+  .port:hover{background:var(--panel2);color:var(--ink)}
+  .port.sel i{box-shadow:0 0 0 3px var(--c)}
+  body.linking .port.in i{animation:pulse 1s infinite}
+  @keyframes pulse{50%{transform:scale(1.35)}}
+
+  .prow,.orow{display:flex;align-items:center;gap:.45rem;padding:.16rem .55rem}
+  .prow label,.orow label{width:2.6rem;flex:none;font-size:.72rem;color:var(--dim)}
+  .orow select{flex:1;padding:.16rem .4rem;font-size:.76rem}
+  .slider{flex:1;height:16px;background:var(--panel2);border:1px solid var(--line);
+          border-radius:5px;position:relative;overflow:hidden}
+  .slider i{position:absolute;inset:0;width:0;background:linear-gradient(90deg,#8a6a2c,var(--gold))}
+  .pv{width:3.4rem;text-align:right;font-size:.7rem;color:var(--soft);font-variant-numeric:tabular-nums}
+  .seq{display:grid;grid-template-columns:repeat(8,1fr);gap:2px;padding:.4rem .55rem .6rem}
+  .step{padding:.22rem 0;font-size:.64rem;background:var(--panel2);border:1px solid var(--line);border-radius:4px;color:var(--faint)}
+  .step.on{background:var(--gold);color:#14100c;border-color:var(--gold);font-weight:700}
+  .khint{padding:0 .55rem .55rem;font-size:.68rem;color:var(--faint);line-height:1.5}
+
+  #scopebox{position:absolute;right:12px;bottom:12px;width:212px;height:74px;background:rgba(29,24,17,.92);
+            border:1px solid var(--line);border-radius:9px;padding:5px;pointer-events:none}
+  #scope{width:100%;height:100%;display:block}
+  #tips{position:absolute;left:12px;bottom:12px;max-width:340px;font-size:.72rem;color:var(--faint);
+        background:rgba(29,24,17,.92);border:1px solid var(--line);border-radius:9px;padding:.5rem .7rem;line-height:1.7}
+  #tips b{color:var(--soft)}
+  #toast{position:fixed;left:50%;top:64px;transform:translateX(-50%) translateY(-14px);opacity:0;
+         background:var(--gold);color:#14100c;font-size:.83rem;font-weight:600;padding:.42rem .95rem;
+         border-radius:20px;transition:.22s;pointer-events:none;z-index:50}
+  #toast.on{opacity:1;transform:translateX(-50%)}
+
+  @media (max-width:760px){
+    #palette{width:74px} #tips{display:none} #scopebox{width:132px;height:56px}
+    #pname{width:6rem} #presets{max-width:9rem} header{gap:.4rem;padding:.45rem .5rem}
+    .brand{display:none}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a class="brand" href="../index.html">SOUNDART ／ <b>聲音實驗室</b></a>
+  <button id="play">▶ 開始</button>
+  <select id="presets" title="載入範例"></select>
+  <input id="pname" title="patch 名稱">
+  <span class="sp"></span>
+  <button id="share" title="把目前的 patch 變成一個網址">分享連結</button>
+  <button id="save" title="存到這台電腦的瀏覽器">存檔</button>
+  <button id="clear">清空</button>
+</header>
+
+<main>
+  <div id="palette"></div>
+  <div id="wrap">
+    <div id="canvas"><svg id="wires"></svg></div>
+    <div id="tips">
+      <b>怎麼用</b>：左欄點一下加節點 · 拖標題列移動 ·
+      <b>先點右側輸出埠，再點另一個節點的輸入埠</b>就接好線 · 點線可刪除 ·
+      有 <b>out~</b> 才會出聲 · 按「▶ 開始」啟動音訊。<br>
+      線的顏色：<b style="color:#e8dcc3">音訊</b> ·
+      <b style="color:#e0a94e">cv 控制</b> · <b style="color:#7fd18a">gate 觸發</b>
+    </div>
+    <div id="scopebox"><canvas id="scope"></canvas></div>
+  </div>
+</main>
+
+<div id="toast"></div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>

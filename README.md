@@ -6,6 +6,9 @@
 
 📊 **[線上投影片版本](https://jinyaolin.github.io/SOUNDART/)** — 同樣的內容，可以直接拿來上課或自學。
 
+🎛 **[聲音實驗室](https://jinyaolin.github.io/SOUNDART/lab/)** — 在瀏覽器裡接一台模組化合成器，不必安裝任何軟體。
+教材第 3、4、7 章的關鍵概念都附了直達連結，點開就聽得到。
+
 ---
 
 ## 課程目錄

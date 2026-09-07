@@ -59,6 +59,11 @@
   }
   .reveal .vidlinks a{color:var(--gold-soft); text-decoration:none; border-bottom:1px solid rgba(224,169,78,.3);}
   .reveal .vidlinks .sep{color:var(--line); margin:0 .5em;}
+  .reveal .lablink{
+    font-size:.66em; margin-top:.8em; padding:.45em .8em; display:inline-block;
+    background:rgba(224,169,78,.12); border:1px solid var(--gold); border-radius:8px;
+  }
+  .reveal .lablink a{color:var(--soft); text-decoration:none;}
   body.portrait .reveal .vidlinks{font-size:.55em; line-height:2.1;}
   .reveal .progress{color:var(--gold); height:4px;}
   .reveal .slide-number{background:transparent; color:var(--faint); font-size:.5em; right:auto; left:16px; bottom:10px;}
@@ -153,8 +158,8 @@ Reveal.initialize({
     : `<h2>全部章節結束</h2><p style="margin-top:1.5em">辛苦了。接下來就是打開軟體，把想聽的聲音做出來。</p><p><a href="../index.html">← 回課程首頁</a></p>`;
   document.getElementById('slides').appendChild(end);
   Reveal.sync();
-  // 投影片裡的外部連結開新分頁，點了不會離開簡報
-  document.querySelectorAll('.reveal a[href^="http"]').forEach(a => {
+  // 投影片裡的外部連結與聲音實驗室連結一律開新分頁，點了不會離開簡報
+  document.querySelectorAll('.reveal a[href^="http"], .reveal a[href*="/lab/"]').forEach(a => {
     a.target = '_blank'; a.rel = 'noopener noreferrer';
   });
 });

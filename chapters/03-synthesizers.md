@@ -104,6 +104,8 @@ Moog 訂下的 **1V/八度** 標準（電壓每升高 1 伏，音高升高一個
 
 <img src="../images/diagrams/synth-architecture.svg" alt="經典減法合成器架構" style="width:100%;max-width:720px;" />
 
+🎛 [在瀏覽器接一次這個架構](https://jinyaolin.github.io/SOUNDART/lab/?preset=ch3-vcovcfvca)　— 不用裝任何軟體，鍵盤 a w s e d f 就能彈；改濾波器的截止頻率聽聽看差別
+
 | 模組 | 全名 | 做什麼 | Pd 裡的對應 |
 |---|---|---|---|
 | **VCO** | Voltage Controlled Oscillator | 產生波形，頻率吃電壓 | `[osc~]` `[phasor~]` |

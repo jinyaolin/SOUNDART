@@ -65,6 +65,8 @@ PSG（Programmable Sound Generator，可程式化聲音產生器）是第一代�
 
 整台機器就是一台極簡的減法合成器。你在第 7 章學的每一個概念，在這裡都能一眼對上。
 
+🎛 [聽一段方波琶音](https://jinyaolin.github.io/SOUNDART/lab/?preset=chiptune)　— 方波 + 快速輪流跳三個音，就是本節說的琶音和弦
+
 ### 限制長出來的技巧
 
 只有三個通道，卻要同時有旋律、低音、和聲、打擊。作曲家因此發展出一整套壓縮技法：
