@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" width="720" height="270" font-family="-apple-system,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" role="img">
+<rect width="720" height="270" rx="10" fill="#1d1811"/>
+<text x="360" y="34" font-size="17" fill="#f0c87d" text-anchor="middle" font-weight="600">FM 合成：用一個振盪器去改變另一個的頻率</text>
+<rect x="40" y="90" width="150" height="58" rx="7" fill="none" stroke="#6fbfae" stroke-width="2"/>
+<text x="115.0" y="113.0" font-size="15" fill="#f2ece1" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[osc~]</text>
+<text x="115.0" y="135.0" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">調變器 modulator</text>
+<rect x="230" y="90" width="120" height="58" rx="7" fill="none" stroke="#e0a94e" stroke-width="2"/>
+<text x="290.0" y="113.0" font-size="15" fill="#f2ece1" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[*~ 深度]</text>
+<text x="290.0" y="135.0" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">= Index</text>
+<rect x="390" y="90" width="120" height="58" rx="7" fill="none" stroke="#e0a94e" stroke-width="2"/>
+<text x="450.0" y="113.0" font-size="15" fill="#f2ece1" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[+~ fc]</text>
+<text x="450.0" y="135.0" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">加上載波頻率</text>
+<rect x="550" y="90" width="130" height="58" rx="7" fill="none" stroke="#e0a94e" stroke-width="2"/>
+<text x="615.0" y="113.0" font-size="15" fill="#f2ece1" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[osc~]</text>
+<text x="615.0" y="135.0" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">載波 carrier</text>
+<line x1="190" y1="119" x2="224" y2="119" stroke="#a89f92" stroke-width="2" marker-end="url(#fa)"/>
+<line x1="350" y1="119" x2="384" y2="119" stroke="#a89f92" stroke-width="2" marker-end="url(#fa)"/>
+<line x1="510" y1="119" x2="544" y2="119" stroke="#a89f92" stroke-width="2" marker-end="url(#fa)"/>
+<line x1="615" y1="148" x2="615" y2="188" stroke="#a89f92" stroke-width="2" marker-end="url(#fa)"/>
+<text x="615" y="208" font-size="13" fill="#f0c87d" text-anchor="middle" font-weight="400">輸出</text>
+<text x="40" y="196" font-size="13.5" fill="#f0c87d" text-anchor="start" font-weight="600">比例 Ratio = fm / fc</text>
+<text x="40" y="216" font-size="12.5" fill="#a89f92" text-anchor="start" font-weight="400">整數比 → 像樂器　非整數比 → 像鐘、鑼</text>
+<text x="40" y="240" font-size="12.5" fill="#a89f92" text-anchor="start" font-weight="400">指數 Index 控制泛音「數量」——接一條衰減包絡上去，就是 DX7 電鋼琴的祕密</text>
+<defs><marker id="fa" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#a89f92"/></marker></defs></svg>

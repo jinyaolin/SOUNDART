@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" font-family="-apple-system,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" role="img">
+<rect width="720" height="300" rx="10" fill="#1d1811"/>
+<line x1="90" y1="250" x2="630" y2="250" stroke="#3a3026" stroke-width="1.5"/>
+<line x1="90" y1="250" x2="90" y2="80" stroke="#3a3026" stroke-width="1.5"/>
+<path d="M90,250 L160,80 L240,156 L470,156 L590,250 Z" fill="#e0a94e" opacity="0.13"/>
+<polyline points="90,250 160,80 240,156 470,156 590,250" fill="none" stroke="#e0a94e" stroke-width="3" stroke-linejoin="round"/>
+<line x1="160" y1="250" x2="160" y2="72" stroke="#3a3026" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="240" y1="250" x2="240" y2="72" stroke="#3a3026" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="470" y1="250" x2="470" y2="72" stroke="#3a3026" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="125.0" y="276" font-size="16" fill="#6fbfae" text-anchor="middle" font-weight="700">A</text>
+<text x="200.0" y="276" font-size="16" fill="#6fbfae" text-anchor="middle" font-weight="700">D</text>
+<text x="355.0" y="276" font-size="16" fill="#6fbfae" text-anchor="middle" font-weight="700">S</text>
+<text x="530.0" y="276" font-size="16" fill="#6fbfae" text-anchor="middle" font-weight="700">R</text>
+<text x="125" y="298" font-size="12" fill="#a89f92" text-anchor="middle" font-weight="400">Attack</text>
+<text x="200.0" y="298" font-size="12" fill="#a89f92" text-anchor="middle" font-weight="400">Decay</text>
+<text x="355.0" y="298" font-size="12" fill="#a89f92" text-anchor="middle" font-weight="400">Sustain（音量，不是時間）</text>
+<text x="530.0" y="298" font-size="12" fill="#a89f92" text-anchor="middle" font-weight="400">Release</text>
+<text x="78" y="85" font-size="13" fill="#a89f92" text-anchor="end" font-weight="400">1</text>
+<text x="78" y="161.5" font-size="13" fill="#a89f92" text-anchor="end" font-weight="400">S</text>
+<text x="78" y="255" font-size="13" fill="#a89f92" text-anchor="end" font-weight="400">0</text>
+<text x="90" y="42" font-size="17" fill="#f0c87d" text-anchor="start" font-weight="600">ADSR 包絡：振幅隨時間的變化</text>
+<text x="90" y="64" font-size="13" fill="#a89f92" text-anchor="start" font-weight="400">Attack 設 0 會聽到「喀」——給它 2～5 毫秒就消失</text>
+</svg>

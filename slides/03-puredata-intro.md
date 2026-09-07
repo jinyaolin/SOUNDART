@@ -19,6 +19,14 @@
 
 ---
 
+## 視覺化程式語言在做什麼
+
+<img class="diagram" src="../images/diagrams/vpl-concept.svg" alt="視覺化程式語言在做什麼">
+
+<p class="figcap">沒有語法要背，但「誰先誰後」的問題一件也沒少</p>
+
+---
+
 ## 你可能已經見過的 VPL
 
 <img src="../images/scratch.jpeg" alt="Scratch">

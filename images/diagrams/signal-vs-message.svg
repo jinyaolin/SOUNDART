@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" width="720" height="270" font-family="-apple-system,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" role="img">
+<rect width="720" height="270" rx="10" fill="#1d1811"/>
+<text x="360" y="34" font-size="17" fill="#f0c87d" text-anchor="middle" font-weight="600">兩種線：訊息（細）與訊號（粗）</text>
+<rect x="56" y="86" width="140" height="42" rx="7" fill="none" stroke="#e0a94e" stroke-width="2"/>
+<text x="126.0" y="107.0" font-size="15" fill="#f2ece1" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[metro 500]</text>
+<rect x="56" y="176" width="140" height="42" rx="7" fill="none" stroke="#e0a94e" stroke-width="2"/>
+<text x="126.0" y="197.0" font-size="15" fill="#f2ece1" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[print]</text>
+<line x1="66" y1="128" x2="66" y2="176" stroke="#f2ece1" stroke-width="1.5"/>
+<text x="212" y="112" font-size="13.5" fill="#f2ece1" text-anchor="start" font-weight="600">訊息 Message</text>
+<text x="212" y="134" font-size="12" fill="#a89f92" text-anchor="start" font-weight="400">離散事件</text>
+<text x="212" y="152" font-size="12" fill="#a89f92" text-anchor="start" font-weight="400">有事才發生</text>
+<text x="212" y="170" font-size="12" fill="#a89f92" text-anchor="start" font-weight="400">物件名沒有 ~</text>
+<rect x="400" y="86" width="140" height="42" rx="7" fill="none" stroke="#6fbfae" stroke-width="2"/>
+<text x="470.0" y="107.0" font-size="15" fill="#f2ece1" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[osc~ 440]</text>
+<rect x="400" y="176" width="140" height="42" rx="7" fill="none" stroke="#6fbfae" stroke-width="2"/>
+<text x="470.0" y="197.0" font-size="15" fill="#f2ece1" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[dac~]</text>
+<line x1="410" y1="128" x2="410" y2="176" stroke="#6fbfae" stroke-width="6"/>
+<text x="556" y="112" font-size="13.5" fill="#6fbfae" text-anchor="start" font-weight="600">訊號 Signal</text>
+<text x="556" y="134" font-size="12" fill="#a89f92" text-anchor="start" font-weight="400">連續數字流</text>
+<text x="556" y="152" font-size="12" fill="#a89f92" text-anchor="start" font-weight="400">每秒 44100 個</text>
+<text x="556" y="170" font-size="12" fill="#a89f92" text-anchor="start" font-weight="400">物件名有 ~</text>
+<line x1="360" y1="80" x2="360" y2="230" stroke="#3a3026" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="360" y="252" font-size="13" fill="#a89f92" text-anchor="middle" font-weight="400">看到波浪號 ~ 就代表音訊——Pd 與 Max 完全一致</text>
+</svg>

@@ -92,6 +92,14 @@ Note:
 
 --
 
+## 加法合成：疊出來的音色
+
+<img class="diagram" src="../images/diagrams/additive.svg" alt="加法合成：疊出來的音色">
+
+<p class="figcap">振幅 1、1/2、1/3、1/4 的整數倍泛音相加，就逼近一個鋸齒波</p>
+
+--
+
 ## 手工做一個鋸齒波
 
 ```plaintext
@@ -140,6 +148,14 @@ Note:
 
 --
 
+## 減法合成：削掉的音色
+
+<img class="diagram" src="../images/diagrams/subtractive.svg" alt="減法合成：削掉的音色">
+
+<p class="figcap">同一組泛音，濾波器決定哪些留下來——這就是「雕塑」的意思</p>
+
+--
+
 ## 音源與濾波器
 
 | 音源 | 泛音 |
@@ -156,6 +172,14 @@ Note:
 | `[vcf~ 800 5]` | 帶通，中心頻率**吃訊號** → 可掃頻 |
 
 > `[phasor~]` 輸出是 0～1，要當音源記得 `[-~ 0.5]` 移到中心。
+
+--
+
+## 四種基本音源
+
+<img class="diagram" src="../images/diagrams/waveforms.svg" alt="四種基本音源">
+
+<p class="figcap">泛音越多，濾波器能雕的東西越多——所以減法合成不從正弦波開始</p>
 
 --
 
@@ -233,6 +257,14 @@ Note:
 
 --
 
+## FM 合成的訊號鏈
+
+<img class="diagram" src="../images/diagrams/fm.svg" alt="FM 合成的訊號鏈">
+
+<p class="figcap">比例決定音色的「性格」，指數決定它有多亮</p>
+
+--
+
 ## FM 的兩個關鍵參數
 
 **比例（Ratio）= fm / fc**
@@ -267,6 +299,14 @@ Note:
 | **R** Release | 放開後衰減到 0 要多久 | 鋼琴 800 ms |
 
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=iGOgIdgGCN8">ADSR 包絡怎麼運作</a></p>
+
+--
+
+## ADSR 長什麼樣子
+
+<img class="diagram" src="../images/diagrams/adsr.svg" alt="ADSR 長什麼樣子">
+
+<p class="figcap">Sustain 是唯一一個不是時間的參數——它是「按著不放時的音量」</p>
 
 --
 
@@ -354,6 +394,14 @@ Note:
 | **回聲 Echo** | 100 ms 以上 | 否 | 聽得出是重複 |
 
 要做 Flanger：把 `[delread~]` 換成 `[delread4~]`（延遲時間吃訊號），接一條 LFO 進去。
+
+--
+
+## 延遲時間決定它是哪一種效果
+
+<img class="diagram" src="../images/diagrams/delay-family.svg" alt="延遲時間決定它是哪一種效果">
+
+<p class="figcap">從 1 毫秒到 1 秒，同一組 [delwrite~] / [delread~] 走完四種效果</p>
 
 --
 

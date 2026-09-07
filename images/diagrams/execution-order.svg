@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" width="720" height="270" font-family="-apple-system,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" role="img">
+<rect width="720" height="270" rx="10" fill="#1d1811"/>
+<text x="360" y="34" font-size="17" fill="#f0c87d" text-anchor="middle" font-weight="600">一個 outlet 接多個目標時：從右到左執行</text>
+<rect x="300" y="72" width="120" height="44" rx="7" fill="none" stroke="#e0a94e" stroke-width="2"/>
+<text x="360.0" y="94.0" font-size="15" fill="#f2ece1" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[bng]</text>
+<rect x="80" y="182" width="120" height="44" rx="7" fill="none" stroke="#e0a94e" stroke-width="2"/>
+<text x="140.0" y="204.0" font-size="15" fill="#f2ece1" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[print A]</text>
+<line x1="310" y1="116" x2="140" y2="176" stroke="#a89f92" stroke-width="1.6" marker-end="url(#oa)"/>
+<circle cx="140" cy="158" r="13" fill="#e0a94e"/>
+<text x="140" y="163" font-size="14" fill="#1d1811" text-anchor="middle" font-weight="700">3</text>
+<rect x="300" y="182" width="120" height="44" rx="7" fill="none" stroke="#e0a94e" stroke-width="2"/>
+<text x="360.0" y="204.0" font-size="15" fill="#f2ece1" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[print B]</text>
+<line x1="310" y1="116" x2="360" y2="176" stroke="#a89f92" stroke-width="1.6" marker-end="url(#oa)"/>
+<circle cx="360" cy="158" r="13" fill="#e0a94e"/>
+<text x="360" y="163" font-size="14" fill="#1d1811" text-anchor="middle" font-weight="700">2</text>
+<rect x="520" y="182" width="120" height="44" rx="7" fill="none" stroke="#e0a94e" stroke-width="2"/>
+<text x="580.0" y="204.0" font-size="15" fill="#f2ece1" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[print C]</text>
+<line x1="310" y1="116" x2="580" y2="176" stroke="#a89f92" stroke-width="1.6" marker-end="url(#oa)"/>
+<circle cx="580" cy="158" r="13" fill="#e0a94e"/>
+<text x="580" y="163" font-size="14" fill="#1d1811" text-anchor="middle" font-weight="700">1</text>
+<text x="360" y="252" font-size="13" fill="#6fbfae" text-anchor="middle" font-weight="400">「右」是看物件在畫面上的位置——把物件拖到旁邊，程式行為就變了</text>
+<defs><marker id="oa" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#a89f92"/></marker></defs></svg>

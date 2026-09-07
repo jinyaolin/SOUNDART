@@ -28,6 +28,14 @@ Note:
 
 ---
 
+## 音高與音量，其實是同一條波
+
+<img class="diagram" src="../images/diagrams/wave-anatomy.svg" alt="音高與音量，其實是同一條波">
+
+<p class="figcap">振幅決定聽到多大聲，週期決定聽到多高——第 5、6 章所有合成技術都在操作這兩件事</p>
+
+---
+
 ## 前三個元素會反覆出現
 
 之後所有技術章節，其實都在處理這三件事：
@@ -43,6 +51,14 @@ Note:
 特別強調「起始與消散的過程」——很多人以為音色只跟波形有關，其實包絡（attack）對辨識樂器的貢獻極大。把鋼琴音的起音切掉，多數人會認不出那是鋼琴。
 
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=97jwN_MBEWI">加法合成：用正弦波疊出音色</a></p>
+
+---
+
+## 音色 ＝ 泛音的配方
+
+<img class="diagram" src="../images/diagrams/timbre-harmonics.svg" alt="音色 ＝ 泛音的配方">
+
+<p class="figcap">三個波形的基頻完全相同，聽起來卻完全不一樣——差別只在下方那排泛音的強度分布</p>
 
 ---
 

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" width="720" height="250" font-family="-apple-system,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" role="img">
+<rect width="720" height="250" rx="10" fill="#1d1811"/>
+<text x="360" y="34" font-size="17" fill="#f0c87d" text-anchor="middle" font-weight="600">視覺化程式語言：圖形塊 + 連接線 = 程式</text>
+<rect x="60" y="80" width="150" height="46" rx="7" fill="none" stroke="#6fbfae" stroke-width="2"/>
+<text x="135.0" y="97.0" font-size="15" fill="#f2ece1" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">輸入</text>
+<text x="135.0" y="119.0" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">滑桿・感測器・時間</text>
+<rect x="285" y="80" width="150" height="46" rx="7" fill="none" stroke="#e0a94e" stroke-width="2"/>
+<text x="360.0" y="97.0" font-size="15" fill="#f2ece1" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">處理</text>
+<text x="360.0" y="119.0" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">運算・判斷・轉換</text>
+<rect x="510" y="80" width="150" height="46" rx="7" fill="none" stroke="#6fbfae" stroke-width="2"/>
+<text x="585.0" y="97.0" font-size="15" fill="#f2ece1" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">輸出</text>
+<text x="585.0" y="119.0" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">聲音・影像・訊息</text>
+<line x1="210" y1="103" x2="279" y2="103" stroke="#e0a94e" stroke-width="2" marker-end="url(#va)"/>
+<line x1="435" y1="103" x2="504" y2="103" stroke="#e0a94e" stroke-width="2" marker-end="url(#va)"/>
+<text x="360" y="170" font-size="13.5" fill="#f2ece1" text-anchor="middle" font-weight="400">資料沿著線由上而下、由左而右流動——這叫「資料流」（dataflow）</text>
+<text x="360" y="200" font-size="13" fill="#a89f92" text-anchor="middle" font-weight="400">不用背語法，但要理解「什麼時候發生、誰先誰後」</text>
+<text x="360" y="226" font-size="12.5" fill="#6fbfae" text-anchor="middle" font-weight="400">→ 這正是第 4 章要處理的事</text>
+<defs><marker id="va" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#e0a94e"/></marker></defs></svg>

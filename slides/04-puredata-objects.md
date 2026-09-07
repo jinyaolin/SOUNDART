@@ -27,6 +27,14 @@ Pd 的物件依處理的資料型別分成兩類：
 
 ---
 
+## 訊息與訊號，兩個世界
+
+<img class="diagram" src="../images/diagrams/signal-vs-message.svg" alt="訊息與訊號，兩個世界">
+
+<p class="figcap">線的粗細一眼可辨；物件名有沒有波浪號則是它的身分證</p>
+
+---
+
 ## 常見的控制物件
 
 **數值與運算**
@@ -149,6 +157,14 @@ Pd 是**資料流**語言。順序錯了，結果就錯了——而且錯得很�
 
 > 第 4 點的意思是：**把物件拖到旁邊，程式行為就變了。**
 > 這是視覺程式語言獨有的陷阱。
+
+---
+
+## 右到左：視覺程式語言獨有的陷阱
+
+<img class="diagram" src="../images/diagrams/execution-order.svg" alt="右到左：視覺程式語言獨有的陷阱">
+
+<p class="figcap">同樣的三條線，把 [print A] 拖到最右邊，執行順序就整個反過來</p>
 
 ---
 

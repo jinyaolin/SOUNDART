@@ -133,6 +133,14 @@ Note:
 
 ---
 
+## 右到左，而且「右」是畫面位置
+
+<img class="diagram" src="../images/diagrams/execution-order.svg" alt="右到左，而且「右」是畫面位置">
+
+<p class="figcap">這條規則 Pd 和 Max 完全相同——插一個 [t] 就不用再猜</p>
+
+---
+
 ## 資料結構
 
 | 物件 | 存什麼 | 場合 |
@@ -194,6 +202,14 @@ Note:
 > `~` 代表音訊——這個約定是 Puckette 從 Max 帶到 Pd 的，**兩邊完全一致**。
 
 **要有聲音**：點 `[ezdac~]` 本身，或送 `[startwindow(` 給 `[dac~]`。
+
+---
+
+## 訊息與訊號：Max 與 Pd 完全一致
+
+<img class="diagram" src="../images/diagrams/signal-vs-message.svg" alt="訊息與訊號：Max 與 Pd 完全一致">
+
+<p class="figcap">物件名換了（[osc~] → [cycle~]），規則一模一樣</p>
 
 ---
 
