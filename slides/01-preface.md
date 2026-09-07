@@ -30,6 +30,8 @@ Note:
 
 **Luigi Russolo《噪音的藝術》宣言**
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=BYPXAo1cOA4">噪音器 Intonarumori</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=pSuqDExaopg">《城市的甦醒》1913</a></p>
+
 ---
 
 ## Russolo 主張了什麼
@@ -67,6 +69,8 @@ Note:
 **Ondes Martenot**（1928）
 鍵盤 + 拉桿，可以做出滑音與顫音。Messiaen、Radiohead 的 Jonny Greenwood 都用過。
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=K6KbEnGnymk">Theremin 演奏</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=xpdhqljxhtQ">Whole Lotta Love 特雷門獨奏</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=v0aflcF0-ys">Ondes Martenot 演奏</a></p>
+
 Note:
 這兩件樂器的意義：聲音第一次可以「不從振動的物體來」，而是從電路來。這是後面所有合成器的祖先。
 
@@ -80,6 +84,8 @@ Note:
 - **同時期**：Max/MSP、Pure Data、SuperCollider —— **用程式直接產生與操作聲音**
 
 > 注意「patch」這個詞：從 Moog 的實體接線，一路留到今天的 Pd 補丁。
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=n3K_fZDvINs">Moog System 55 示範</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=UsW2EDGbDqg">Wendy Carlos 與 Moog｜BBC</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=eeHNVVcuSVs">原版 DX7</a></p>
 
 ---
 
@@ -104,6 +110,8 @@ Note:
 **Max Neuhaus《Times Square》(1977)**
 紐約時代廣場地下的永久裝置，**不用喇叭播放錄音**，而是讓地面共鳴。多數行人以為那是城市本身的聲音。
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=38ORiaia9r8">Forty Part Motet｜Tate</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=F5hhFMSAuf4">data.matrix</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=kA-fihBFWBI">Times Square</a></p>
+
 Note:
 Times Square 最值得討論：它 1992 年被關閉，2002 年由 DIA 基金會重新安裝至今。一件「你不知道它存在」的作品，算不算成功？
 
@@ -119,6 +127,8 @@ Times Square 最值得討論：它 1992 年被關閉，2002 年由 DIA 基金會
 
 > 聲景藝術的核心不是「做出新聲音」，而是**讓人重新聽見已經在那裡的聲音**。
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=hg96nU6ltLk">Kits Beach Soundwalk</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=LAhrSiUeP2I">Cardiff & Miller</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=btrinTDDjnQ">The Great Animal Orchestra</a></p>
+
 ---
 
 ## 聲音行為藝術
@@ -128,6 +138,8 @@ Times Square 最值得討論：它 1992 年被關閉，2002 年由 DIA 基金會
 
 **Nam June Paik《One for Violin Solo》(1962)**
 極緩慢地舉起一把小提琴，然後猛然砸向地面。整件作品只有一個聲音。
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=JTEFKFiXSx4">Cage《4'33"》</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=XGTPpvHxsVg">One for Violin Solo</a></p>
 
 Note:
 Cage 的作品常被誤解成「什麼都沒有」。實際上正好相反：它宣稱「從來就沒有真正的無聲」。這個觀念是整個聲音藝術的地基。
@@ -143,6 +155,8 @@ Cage 的作品常被誤解成「什麼都沒有」。實際上正好相反：它
 - 《Surround Me》：在倫敦金融區週末的空城裡，佈置一圈 16、17 世紀的歌曲
 
 > 「週末金融區的寂靜給我留下了深刻的印象……我認為讓其他人體驗這種詭異的寂靜會很有趣。」
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=s_yMZJkzbcw">Study for Strings</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=UWeKzTDi-OA">Lowlands</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=-vt5w5VuECY">Surround Me</a></p>
 
 ---
 

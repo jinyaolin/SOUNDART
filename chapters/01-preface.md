@@ -14,9 +14,11 @@ Luigi Russolo在1913年撰寫的《噪聲的藝術》（The Art of Noises）是�
 
 在這樣的社會文化背景下，Russolo的《噪聲的藝術》進一步挑戰了音樂的傳統定義，他主張將日常生活中的各種噪聲納入音樂創作的範疇，尤其是那些與工業化和現代都市生活相關的聲音。這不僅反映了他作為未來主義藝術家的革新精神，也代表了20世紀初音樂與藝術領域中的一種實驗與尋求變革的潮流。Russolo的觀念和他的作品都對20世紀的實驗音樂和電子音樂產生了深遠影響。他對聲音的開放態度和他的實驗精神對許多後來的作曲家和藝術家產生了深遠的影響，他的理念被認為是現代音樂，特別是聲音藝術的重要先驅。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BYPXAo1cOA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Luigi Russolo, Intonarumoris, 1913（噪音器實體與演奏）](https://www.youtube.com/watch?v=BYPXAo1cOA4)
 
-*埃德加·瓦雷茲（Edgard Varèse）*
+▶️ [Luigi Russolo《Risveglio di una Città 城市的甦醒》(1913)](https://www.youtube.com/watch?v=pSuqDExaopg)　— 史上第一首「噪音音樂」作品，全曲由噪音器演奏
+
+## Edgard Varèse 埃德加·瓦雷茲
 
 
 
@@ -27,7 +29,7 @@ Luigi Russolo在1913年撰寫的《噪聲的藝術》（The Art of Noises）是�
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LEtuTzdCr6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Edgard Varèse — Complete Works, Vol. 1](https://www.youtube.com/watch?v=LEtuTzdCr6s)
 
 
 
@@ -37,7 +39,7 @@ Luigi Russolo在1913年撰寫的《噪聲的藝術》（The Art of Noises）是�
 
 約翰·凱吉的《4分33秒》(4'33")：這是一個非常知名的聲音藝術作品，由實驗音樂家約翰·凱吉在1952年創作。這首作品的譜面上寫著“在任何情況下，不管用什麼儀器，都不演奏”。其目的是讓觀眾專注於音樂會廳內的其他聲音，如觀眾的呼吸聲、座位的摩擦聲等，從而重新審視我們對“音樂”和“聲音”的定義。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JTEFKFiXSx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [John Cage《4'33"》](https://www.youtube.com/watch?v=JTEFKFiXSx4)
 
 
 
@@ -57,7 +59,7 @@ Luigi Russolo在1913年撰寫的《噪聲的藝術》（The Art of Noises）是�
 
 舒弗的《鐵路研究》(Étude aux chemins de fer) 是具象音樂的開創作品。該曲中的所有聲音均來自錄製的火車聲音，經過磁帶操作後形成一種充滿節奏與動感的音樂。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/N9pOq8u6-bA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Pierre Schaeffer《Étude aux chemins de fer 鐵路研究》](https://www.youtube.com/watch?v=N9pOq8u6-bA)
 
 **電子音樂 (Elektronische Musik)**
 
@@ -65,7 +67,9 @@ Luigi Russolo在1913年撰寫的《噪聲的藝術》（The Art of Noises）是�
 
 卡爾海因茨·史托克豪森是德國電子音樂的重要創作家，他的《接觸》(Kontakte) 是1960年代電子音樂的重要作品。該作品中，史托克豪森使用電子產生的聲音，並透過磁帶操作來創造出豐富而多變的音響效果。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l_UHaulsw3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Karlheinz Stockhausen《Kontakte 接觸》(1958–60) 完整演出](https://www.youtube.com/watch?v=nbdmzSeFy_Y)
+
+▶️ [Stockhausen 親自解說《Kontakte》](https://www.youtube.com/watch?v=7XWNR_TcPFI)
 
 這些初期的磁帶音樂創作方式為音樂的發展打開了全新的領域，對後續的電子音樂與聲音藝術有著深遠的影響。
 
@@ -79,8 +83,7 @@ Luigi Russolo在1913年撰寫的《噪聲的藝術》（The Art of Noises）是�
 
 特雷門（Theremin）是一種於1920年代由俄羅斯物理學家萊昂·特雷門（Leon Theremin）所發明的電子樂器，是世界上最早的電子樂器之一。特別之處在於，演奏者無需接觸樂器就能演奏，因此特雷門也常被視為首款“無接觸”音樂器具。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/K6KbEnGnymk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-*THEREMIN - Over The Rainbow*
+▶️ [Theremin —〈Over the Rainbow〉（Peter Pringle 演奏）](https://www.youtube.com/watch?v=K6KbEnGnymk)
 
 
 
@@ -90,14 +93,13 @@ Luigi Russolo在1913年撰寫的《噪聲的藝術》（The Art of Noises）是�
 
 特雷門在電影配樂中常被用來創造超自然或神秘的氛圍，例如在1951年的科幻電影《天外來客》中就有使用到。此外，特雷門也在流行音樂、搖滾音樂和實驗音樂中得到應用，例如樂團The Led Zeppelin在他們的作品《Whole Lotta Love》中就使用了特雷門。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xpdhqljxhtQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-*Whole Lotta Love theramin solo*
+▶️ [Led Zeppelin〈Whole Lotta Love〉特雷門獨奏](https://www.youtube.com/watch?v=xpdhqljxhtQ)
 
 
 
 ## Ondes Martenot
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v0aflcF0-ys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Thomas Bloch — Ondes Martenot 演奏](https://www.youtube.com/watch?v=v0aflcF0-ys)
 
 Ondes Martenot（馬腾諾波）是一種早期的電子樂器，由法國音樂家和發明家 Maurice Martenot 在 1928 年發明。它的名字來自法語 "ondes"（意為波）和發明者的姓氏 "Martenot"。Martenot 受到無線電和熱爾曼電樂器（Theremin）的啟發，創造了一種能夠產生豐富且具有表達力的音色的樂器。
 
@@ -121,7 +123,7 @@ Ondes Martenot 的聲音源自一個或多個電子振蕩器，並可以通過�
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n3K_fZDvINs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Moog System 55 模組合成器示範](https://www.youtube.com/watch?v=n3K_fZDvINs)
 
 
 
@@ -131,12 +133,13 @@ Moog合成器是由美國工程師和創業家羅伯特·摩格（Robert Moog）
 
 最早的Moog合成器對於許多音樂家來說體積過大、價格過高，並且操作起來相對複雜。然而，當Moog公司在1970年代推出小型化、簡化操作的迷你摩格（Minimoog）時，它迅速成為了專業和業餘音樂家的首選。Minimoog合成器因其豐富的聲音和攜帶方便的特性，被廣泛用於流行音樂、搖滾音樂和電子音樂中。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sLx_x5Fuzp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-*A Brief History of the Minimoog Part I*
+▶️ [A Brief History of the Minimoog, Part I](https://www.youtube.com/watch?v=sLx_x5Fuzp4)
 
 
 
 Moog合成器在許多經典音樂作品中扮演了重要的角色，包括 The Beatles 的 "Here Comes the Sun"，Pink Floyd 的 "Dark Side of the Moon"，以及許多Kraftwerk的作品等。此外，它也在電影音樂和電視配樂中有廣泛的應用，例如在 Wendy Carlos 的 "Switched-On Bach" 中，就全程使用了Moog合成器進行演奏。
+
+▶️ [BBC Archive：Wendy Carlos 與她的 Moog 合成器 (1970)](https://www.youtube.com/watch?v=UsW2EDGbDqg)
 
 Moog合成器的獨特音色、創新的設計，以及其在音樂創作中的靈活性，使其成為電子音樂的代表性工具之一。
 
@@ -146,7 +149,7 @@ Moog合成器的獨特音色、創新的設計，以及其在音樂創作中的�
 
 1980年代見證了數字合成器的興起，如山葉的DX7，以及樂器數字接口（MIDI）的出現。數字合成器使用數學算法（例如頻率調變合成）來產生聲音，而MIDI則允許不同的電子音樂設備互相溝通和控制。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eeHNVVcuSVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [原版 Yamaha DX7 介紹](https://www.youtube.com/watch?v=eeHNVVcuSVs)
 
 MIDI（Musical Instrument Digital Interface，音樂儀器數位介面）在聲音藝術中起到關鍵作用，因為它改變了音樂創作、表演和錄音的方式。
 
@@ -184,7 +187,7 @@ MIDI（Musical Instrument Digital Interface，音樂儀器數位介面）在聲�
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sOkQE7m31Pw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Cardiff & Miller《Alter Bahnhof Video Walk》](https://www.youtube.com/watch?v=sOkQE7m31Pw)
 
 *此作品在德國卡塞爾的老火車站展出，觀眾在觀看和聆聽Cardiff和Miller創作的影片和聲音時，漫步穿越這個空間。*
 
@@ -192,7 +195,7 @@ MIDI（Musical Instrument Digital Interface，音樂儀器數位介面）在聲�
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s_yMZJkzbcw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Susan Philipsz《Study for Strings》dOCUMENTA 13](https://www.youtube.com/watch?v=s_yMZJkzbcw)
 
 蘇珊·菲利普茲的《Study for Strings》：蘇珊·菲利普茲是一位使用聲音和影像的藝術家，她的作品《Study for Strings》是一部基於二戰時期作曲家帕維爾·哈斯的同名弦樂作品的裝置藝術，該作品在塔林音樂節上首次演奏。"Study for Strings"是由捷克作曲家Pavel Haas於1943年在特雷濟恩集中營裡創作的一首音樂作品。Haas是二戰期間一位優秀的作曲家，他在納粹集中營中被囚禁，並在那裡創作了這部作品。不幸的是，他在1944年在奧斯維辛集中營遇害。
 
@@ -202,13 +205,13 @@ MIDI（Musical Instrument Digital Interface，音樂儀器數位介面）在聲�
 
 她在2010年獲得了英國著名的特納獎（Turner Prize），成為首位以聲音藝術獲獎的藝術家。她的一個知名作品是《Lowlands》，這件作品中，她在蘇格蘭格拉斯哥的三個不同的地下橋樑下播放了自己獨唱的傳統蘇格蘭民謠。這種在公共空間裡的聲音投射，既創造出一種深度的個人與內心體驗，也引發觀眾對於公共空間的新的理解與思考。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UWeKzTDi-OA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Susan Philipsz《Lowlands》— 2010 特納獎](https://www.youtube.com/watch?v=UWeKzTDi-OA)
 
 
 
 另一件著名作品是《Surround Me》，這是一個在倫敦市區多個地點進行的大型公共聲音裝置。在這個作品中，她使用了16世紀和17世紀的英格蘭和蘇格蘭的音樂作品，通過這些音樂對城市的歷史和公共空間進行了重新思考和詮釋。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-vt5w5VuECY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Susan Philipsz《Surround Me》](https://www.youtube.com/watch?v=-vt5w5VuECY)
 
 ```
 我想要與Artangel共同創作一個專門為倫敦打造的作品。當我最初來這裡尋找地點時，周末的金融區的寂靜給我留下了深刻的印象。這裡在工作日有超過35萬人在這裡工作，但到了周末，這個城市變成了一個空蕩蕩、寂靜無聲的地方。我認為，讓其他人體驗這種詭異的寂靜會很有趣，這使我想到了一個讓人穿越城市的歌曲循環的概念。我決定在皇家交易所（Royal Exchange）的銀行周圍安排一個廣闊的歌曲循環。我想我可以將它近似為老倫敦城的邊界，這讓我從莫爾蓋特（Moorgate）走到倫敦橋（London Bridge）。我逐漸意識到倫敦橋對於早期現代城市的重要性，並且非常高興能將其作為一個地點納入其中。這幫助我將河流引入到這個項目中，河流強烈喚起的流動水的意象，幾乎在所有的聲音作品中都有所體現。
@@ -242,18 +245,18 @@ MIDI（Musical Instrument Digital Interface，音樂儀器數位介面）在聲�
 
 1. **賈尼特·卡迪（Janet Cardiff）的"Forty Part Motet"**：這個作品是一個重新解讀英國作曲家湯瑪斯·塔利斯（Thomas Tallis）在1570年代創作的40部分莫泰特（Motet）合唱作品。每一個揚聲器播放一個歌手的聲音，創造出身臨其境的空間音樂體驗。
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/38ORiaia9r8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Janet Cardiff《Forty Part Motet》｜Tate](https://www.youtube.com/watch?v=38ORiaia9r8)
 
 2. **池田亮司（Ryoji Ikeda）的"data.matrix"**：薩博提的作品通常採用極端的音頻頻率和簡單的視覺元素來創造強烈的感官體驗。在"data.matrix"中，一連串的電子聲音和閃爍的抽象數據視覺效果一起形成一種超感官體驗。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F5hhFMSAuf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Ryoji Ikeda《data.matrix》](https://www.youtube.com/watch?v=F5hhFMSAuf4)
 
 
 
 
 3. **馬克思·紐豪斯（Max Neuhaus）的"Times Square"**：紐豪斯在紐約時代廣場的地下安裝了一個永久性的聲音裝置。裝置發出的聲音經過特殊調製，與周圍城市的聲音混合在一起，創造出一種新的聲音環境。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kA-fihBFWBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Max Neuhaus《Times Square》｜New York Out Loud](https://www.youtube.com/watch?v=kA-fihBFWBI)
 
 馬克斯·紐豪斯（Max Neuhaus）的"Times Square"是他的代表作之一，該作品於1977年首次公開展出。該裝置位於紐約市的時代廣場地鐵站附近，是一種無形的聲音裝置或聲音雕塑。
 
@@ -271,7 +274,7 @@ MIDI（Musical Instrument Digital Interface，音樂儀器數位介面）在聲�
 
 1. **Harry Bertoia "Sonambient Sculptures"**：哈利·貝托亞是一位著名的工業設計師和雕塑家，他的Sonambient雕塑是一組由金屬棒和板構成的雕塑，當風吹過或被觸摸時，它們會產生美妙的共鳴聲。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a9EF_zO5ihs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Harry Bertoia 聲音雕塑紀錄片（1965）](https://www.youtube.com/watch?v=a9EF_zO5ihs)
 
    
 
@@ -285,7 +288,7 @@ MIDI（Musical Instrument Digital Interface，音樂儀器數位介面）在聲�
 
    1. **"Sound Sculptures Through the Golden Gate"（1987年）**：此作品使用傳送過金門大橋的聲音，這些聲音被實時廣播到舊金山的藝術博物館。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tQOIa-1Y6Qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Bill Fontana《International Orange》— 金門大橋的聲音](https://www.youtube.com/watch?v=tQOIa-1Y6Qo)
 
 ​      
 
@@ -299,9 +302,9 @@ MIDI（Musical Instrument Digital Interface，音樂儀器數位介面）在聲�
 
 3. **Bernhard Leitner “Sound Spaces”**：伯納德·萊特納的作品主要關注聲音如何與建築空間互動。他的"Sound Spaces"作品系列中，特定的聲音會在特定的建築結構中播放，創造出一種聽覺體驗，使觀眾能夠以全新的方式感知空間。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uPbq9aixozo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Bernhard Leitner 訪談｜RESONATE](https://www.youtube.com/watch?v=uPbq9aixozo)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pMInTCr9__o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Bernhard Leitner《Sound Space Sculpture》｜Hamburger Bahnhof](https://www.youtube.com/watch?v=pMInTCr9__o)
 
    
 
@@ -319,19 +322,19 @@ MIDI（Musical Instrument Digital Interface，音樂儀器數位介面）在聲�
 
 1. **Hildegard Westerkamp**：作為一名作曲家和聲景研究員，Westerkamp的作品主要聚焦在環境聲音的收錄與創作。她的聲音漫步作品，如 "Kits Beach Soundwalk"（1989年），引導觀眾在特定的城市環境中漫步，並透過頭戴耳機聆聽環境聲音的實地錄音。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hg96nU6ltLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Hildegard Westerkamp《Kits Beach Soundwalk》(1989)](https://www.youtube.com/watch?v=hg96nU6ltLk)
 
    
 
 2. **Janet Cardiff and George Bures Miller**：這對藝術家夫婦創造了一系列的聲音漫步作品，如 "The Missing Voice (Case Study B)"（1999年），引導觀眾在倫敦的街頭體驗一種劇情導向的聲音旅程。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LAhrSiUeP2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Cardiff & Miller《Lost in the Memory Palace》全片](https://www.youtube.com/watch?v=LAhrSiUeP2I)
 
    
 
 3. **Bernie Krause**：作為一名生物聲學家和音樂家，Krause的作品紀錄了各種自然環境中的聲音。他的作品 "The Great Animal Orchestra"（2016年）在巴黎的Fondation Cartier展出，將收錄的自然聲音轉換成一種動態的聲音和視覺裝置。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/btrinTDDjnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Bernie Krause《The Great Animal Orchestra》](https://www.youtube.com/watch?v=btrinTDDjnQ)
 
 
 
@@ -346,9 +349,9 @@ MIDI（Musical Instrument Digital Interface，音樂儀器數位介面）在聲�
 - **John Cage**：Cage 是20世紀最有影響力的作曲家之一，他對聲音的寬廣定義深深影響了聲音行為藝術的發展。他的作品 "4'33"" 是一部沒有任何指定音樂的作品，演奏者在整個4分鐘33秒的時間內不進行任何傳統的音樂演奏，讓觀眾專注於演奏環境中的自然聲音。
 - **Nam June Paik**：白南準作為錄像藝術的先驅，Paik 也創作了多部音樂行為藝術作品，例如 "One for Violin Solo"（1962年），在這個行為裡，他慢慢提高一把小提琴，然後突然將其摔在地上，產生單一、短暫的噪聲。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XGTPpvHxsVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Nam June Paik《One for Violin Solo》(1962)](https://www.youtube.com/watch?v=XGTPpvHxsVg)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cTXTOJLFmFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Nam June Paik《One for Violin Solo》(1962)｜另一版本](https://www.youtube.com/watch?v=cTXTOJLFmFw)
 
 ## 電子音樂和電腦音樂
 
@@ -360,9 +363,9 @@ MIDI（Musical Instrument Digital Interface，音樂儀器數位介面）在聲�
 
    - **Delia Derbyshire**：在BBC的廣播工作室工作期間，Derbyshire使用錄音帶剪接技術創作出了許多電子音樂作品。她最知名的作品可能是1963年為英國科幻劇集《Doctor Who》創作的主題曲。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CM8uBGANASc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [BBC Archive：Delia Derbyshire 如何做出《Doctor Who》主題曲 (1965)](https://www.youtube.com/watch?v=qsRuhCflRyg)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/puzHEbL4-xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Delia Derbyshire 與 BBC Radiophonic Workshop](https://www.youtube.com/watch?v=puzHEbL4-xs)
 
 
 
@@ -371,9 +374,9 @@ MIDI（Musical Instrument Digital Interface，音樂儀器數位介面）在聲�
 
    - **Max Mathews**：他被認為是電腦音樂的先驅，他在貝爾實驗室創作的"Music I"是世界上第一個電腦音樂程式，此後他開發出了一系列的"Music N"軟體，這些軟體為電腦音樂的發展打下了基礎。
    
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mT3U98cFqSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Max Mathews 談 MUSIC I：電腦音樂的起點｜Bell Labs](https://www.youtube.com/watch?v=mT3U98cFqSs)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZFUVR-clo8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [Max Mathews《Daisy Bell》(1961) — 史上第一首電腦歌唱](https://www.youtube.com/watch?v=ZFUVR-clo8g)
 
 
 
@@ -381,20 +384,19 @@ MIDI（Musical Instrument Digital Interface，音樂儀器數位介面）在聲�
    - **John Chowning**：他在電腦音樂的發展中起著重要的角色，特別是他在頻率調變合成（FM synthesis）方面的創新。他的作品"Turenas"（1972年）是首個完全利用電腦合成的立體聲作品，對電腦音樂的發展有深遠影響。
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w4g92vX1YF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [John Chowning「FM 合成的起源」](https://www.youtube.com/watch?v=w4g92vX1YF4)
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kSbTOB5ft5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [John Chowning《Turenas》](https://www.youtube.com/watch?v=kSbTOB5ft5c)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tpysRrYXxg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+▶️ [John Chowning：FM 合成的歷史｜Knobcon 2019](https://www.youtube.com/watch?v=tpysRrYXxg4)
 
 這些藝術家與他們的作品都是電子音樂與電腦音樂領域裡的重要里程碑，透過這些創新的工作，他們擴大了音樂的邊界，並開創了全新的創作與聆聽音樂的方式。
 
 筆者在2012所創作的Auto Music Machine，利用puredata合成聲音，並利用對位法的概念讓音樂自行發展，並每次都製作出完全不同之音樂。
 
-<iframe src="https://player.vimeo.com/video/24908632?h=005097bcdc" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/24908632">Auto Music Machine</a> from <a href="https://vimeo.com/user4314583">Jinyao Lin</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+▶️ [Auto Music Machine（2012，作者作品，以 Pure Data 合成）](https://vimeo.com/24908632)
 
 
 

@@ -647,6 +647,10 @@ OSC（Open Sound Control）是裝置藝術的通用語言。手機裝 TouchOSC �
 
 《Jupiter》確立了一整個作品類型的技術模型，之後三十多年的「樂器 + 即時電子」作品幾乎都建立在這個架構上。
 
+▶️ [Philippe Manoury《Jupiter》長笛與即時電子](https://www.youtube.com/watch?v=q8varyj7B1k)
+
+▶️ [IRCAM 樂譜追蹤（score following）示範｜Manoury《Partita I》](https://www.youtube.com/watch?v=q55Okme1vTc)　— 直接看電腦怎麼「聽懂」演奏者走到哪一個音
+
 ### 案例二：David Rokeby《Very Nervous System》(1982–1991)
 
 雖然早於 Max 的普及（Rokeby 當年自行開發硬體與軟體），但它是**所有影像互動聲音裝置的原型**，也是今天用 Max + Jitter 最常被重建的作品模型。
@@ -656,6 +660,8 @@ OSC（Open Sound Control）是裝置藝術的通用語言。手機裝 TouchOSC �
 - **輸入**：攝影機影像（用 Max 重建的話就是 `[jit.grab]`）
 - **映射**：影格差異運算 → 動作量與位置 → 對應到音高、密度、音色
 - **值得學的地方**：它刻意讓映射**不完全可預測**。如果動作和聲音是一對一的死板對應，人五分鐘就玩膩了；留一點模糊與延遲，人反而會待上半小時。**這是互動設計上的重要一課：可預測性與吸引力常常是反比。**
+
+▶️ [David Rokeby《Very Nervous System》(1986–90)](https://www.youtube.com/watch?v=SrawKucSSRw)　— 看觀眾的身體如何直接變成聲音
 
 ### 案例三：Autechre 的生成式現場
 

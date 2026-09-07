@@ -47,6 +47,13 @@
   .reveal table td{border-bottom:1px solid var(--line); padding:.4em .7em;}
   .reveal table tr:last-child td{border-bottom:none;}
   .reveal section img{max-height:52vh; width:auto; border:1px solid var(--line); border-radius:6px; background:#fff; box-shadow:0 8px 30px rgba(0,0,0,.5); margin:.4em auto; display:block;}
+  .reveal .vidlinks{
+    font-size:.62em; color:var(--faint); margin-top:.9em; line-height:1.9;
+    border-top:1px solid var(--line); padding-top:.6em;
+  }
+  .reveal .vidlinks a{color:var(--gold-soft); text-decoration:none; border-bottom:1px solid rgba(224,169,78,.3);}
+  .reveal .vidlinks .sep{color:var(--line); margin:0 .5em;}
+  body.portrait .reveal .vidlinks{font-size:.55em; line-height:2.1;}
   .reveal .progress{color:var(--gold); height:4px;}
   .reveal .slide-number{background:transparent; color:var(--faint); font-size:.5em; right:auto; left:16px; bottom:10px;}
   .reveal .controls{color:var(--gold);}
@@ -136,6 +143,10 @@ Reveal.initialize({
     : `<h2>全部章節結束</h2><p style="margin-top:1.5em">辛苦了。接下來就是打開軟體，把想聽的聲音做出來。</p><p><a href="../index.html">← 回課程首頁</a></p>`;
   document.getElementById('slides').appendChild(end);
   Reveal.sync();
+  // 投影片裡的外部連結開新分頁，點了不會離開簡報
+  document.querySelectorAll('.reveal a[href^="http"]').forEach(a => {
+    a.target = '_blank'; a.rel = 'noopener noreferrer';
+  });
 });
 </script>
 </body>

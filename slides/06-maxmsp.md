@@ -396,6 +396,8 @@ Note:
 
 > 這確立了「樂器 + 即時電子」整個作品類型的技術模型。
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=q8varyj7B1k">Manoury《Jupiter》</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=q55Okme1vTc">IRCAM 樂譜追蹤示範</a></p>
+
 --
 
 ## Rokeby《Very Nervous System》(1982–91)
@@ -410,6 +412,8 @@ Note:
 
 > 一對一的死板對應，人五分鐘就玩膩；留一點模糊與延遲，人反而會待上半小時。
 > **可預測性與吸引力常常是反比。**
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=SrawKucSSRw">Very Nervous System (1986–90)</a></p>
 
 --
 
