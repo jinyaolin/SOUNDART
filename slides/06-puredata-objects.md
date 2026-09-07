@@ -107,7 +107,7 @@ Note:
 
 <img src="../images/coldhot.png" alt="hot cold inlet">
 
-**Inlet 分成兩種，差別在「會不會觸發運算」**
+Inlet 分成兩種，差別在「會不會觸發運算」
 
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=hgoDpuaTi8M">深夜樂堂：Pd「float」的使用（中文）</a></p>
 
@@ -201,7 +201,7 @@ Note:
 `[t b b]` 明確指定「先做哪個、再做哪個」（由右至左）
 
 > **職業習慣：只要一個 outlet 要接到兩個以上的地方，就插一個 `[t]`。**
-> 這不是龜毛，是省下未來三小時的除錯。
+> 這個習慣看起來瑣碎，但能省下日後好幾個小時的除錯時間。
 
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=6VccfmBczHE">深夜樂堂：用 Pd 製作音列（中文）</a></p>
 

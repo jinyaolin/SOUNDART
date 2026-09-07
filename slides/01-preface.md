@@ -108,7 +108,7 @@ Note:
 1940 年代，法國與德國的實驗室各自發展出一種用磁帶創作的方法：錄下聲音，再透過剪接、變速、反轉去改造它。
 
 **具象音樂（Musique concrète）· 法國**
-皮耶·舒弗 1948 年發起。用**實際錄下來的聲音**當材料，不是合成的。《鐵路研究》全曲的聲音都來自火車。
+皮耶·舒弗 1948 年發起。用**實際錄下來的聲音**當材料，而不是電子合成的聲音。《鐵路研究》全曲的聲音都來自火車。
 
 **電子音樂（Elektronische Musik）· 德國**
 科隆的西德廣播公司工作室是中心，側重**電子產生的聲音**。史托克豪森的《接觸》是這條路線的代表。
@@ -172,7 +172,7 @@ Times Square 這件最適合拿來討論：它 1992 年被關閉，2002 年由 D
 - **Janet Cardiff & George Bures Miller**《The Missing Voice》(1999) — 劇情導向的聲音漫步
 - **Bernie Krause**《The Great Animal Orchestra》(2016) — 自然環境錄音轉成聲音與視覺裝置
 
-> 聲景藝術的核心不是「做出新聲音」，而是**讓人重新聽見已經在那裡的聲音**。
+> 聲景藝術的核心是**讓人重新聽見已經在那裡的聲音**，而不在於做出新的聲音。
 
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=hg96nU6ltLk">Kits Beach Soundwalk</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=LAhrSiUeP2I">Cardiff & Miller</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=btrinTDDjnQ">The Great Animal Orchestra</a></p>
 
@@ -248,7 +248,7 @@ Cage 的作品常被誤解成「什麼都沒有」。實際上正好相反：它
 
 二十世紀後半規模最大、被最多人親身經歷的互動聲音系統，就是電子遊戲。
 
-從 1972 年《Pong》——聲音是工程師從電路裡找出來的副產品——到 1978 年《Space Invaders》那段會隨敵人減少而加快的四音循環，遊戲很早就做到了聲音藝術一直在追求的事：**聲音是系統狀態的聽覺化，而聽的人同時也是造成聲音改變的人**。
+從 1972 年《Pong》——聲音是工程師從電路裡找出來的副產品——到 1978 年《Space Invaders》那段會隨敵人減少而加快的四音循環，遊戲很早就做到了聲音藝術一直在追求的事：聲音是系統狀態的聽覺化，而聽的人同時也是造成聲音改變的人。
 
 這條線一路走到 2008 年的《Spore》，那款遊戲把 Pure Data 整個嵌進遊戲裡跑即時生成的音樂。
 
