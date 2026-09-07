@@ -207,6 +207,23 @@ Note:
 
 > `[*~ 幅度] → [+~ 中心]` 是 Pd 裡把 −1~1 映射到任意範圍的**標準寫法**，之後一直用。
 
+--
+
+## 實驗室裡的 `amp` 節點
+
+`lfo` 節點內建了深度旋鈕，等於 `[osc~] → [*~ 幅度]` 併成一個。
+中心點由被控制的那個節點自己的參數決定，例如濾波器的截止頻率。
+
+要放大的訊號換成聽得見的振盪器、或一條包絡曲線時，
+就得自己接 `[*~] → [+~]`。實驗室把這一組做成一個節點：
+
+| `amp` 的旋鈕 | 對應的 Pd 物件 |
+|---|---|
+| 深度 | `[*~ 幅度]` 的乘數 |
+| 中心 | `[+~ 中心]` 的加數 |
+
+> 下一節的 FM 就是靠它把調變器接進載波。
+
 ---
 
 ## 調變合成
@@ -286,6 +303,20 @@ Note:
 <p class="lablink">🎛 <a href="../lab/?preset=ch7-fm">在瀏覽器聽 FM</a>　·　<a href="../lab/?preset=ch7-fm-env">聽 Index 隨時間衰減</a></p>
 
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=_X5ZRuP_Uyw">How FM Synthesis Works</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=w4g92vX1YF4">Chowning 談 FM 合成的起源</a></p>
+
+--
+
+## Index 包絡怎麼接
+
+Pd：把包絡送進 `[*~ 500]` 的右 inlet，讓乘數本身變成一條會下降的曲線。
+
+實驗室：`adsr` 的 `env` 輸出（0~1）→ `amp` 放大到需要的 Hz 範圍
+→ 接進負責 FM 深度那顆 `amp` 的 `dep` 輸入。
+
+ch7-fm-env 用了兩條包絡，一條管音量、一條管 Index。
+管 Index 的那條衰減得比較快、尾巴收到 0，所以聲音會先亮後暗。
+
+<p class="lablink">🎛 <a href="../lab/?preset=ch7-fm-env">照著這張接法聽聽看</a></p>
 
 ---
 
