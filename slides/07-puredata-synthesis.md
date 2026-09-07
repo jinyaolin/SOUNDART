@@ -39,7 +39,7 @@ Note:
 
 三個 `[osc~]` 都接到同一個 `[*~]` 的左 inlet，它們就混在一起了。
 
-這正是下一節加法合成的基礎。
+這也是下一節加法合成的基礎。
 
 ---
 
@@ -275,7 +275,7 @@ Note:
 控制泛音的**數量**。越大越亮越尖。
 
 > **最大的祕密**：把調變深度接上一條**會衰減的包絡**。
-> 「一開始很亮、然後變柔和」正是真實樂器的行為（撥弦、敲擊的瞬間泛音最豐富）。
+> 「一開始很亮、然後變柔和」也是真實樂器的行為（撥弦、敲擊的瞬間泛音最豐富）。
 
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=_X5ZRuP_Uyw">How FM Synthesis Works</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=w4g92vX1YF4">Chowning 談 FM 合成的起源</a></p>
 
