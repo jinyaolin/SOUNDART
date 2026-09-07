@@ -19,6 +19,8 @@ Note:
 - **改變頻率內容**：濾波、疊加、相乘、FM
 - **改變時間**：延遲家族與殘響
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=Fx5nTjUrK-g">Learning Synthesis with Pure Data 第一講</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=6VccfmBczHE">深夜樂堂：用 Pd 製作音列（中文）</a></p>
+
 ---
 
 ## Pd 眼中的聲音
@@ -86,6 +88,8 @@ Note:
 
 **泛音的相對強度 = 音色。**
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=97jwN_MBEWI">加法合成（Simon Hutchinson）</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=YsZKvLnf7wU">泛音與諧波</a></p>
+
 --
 
 ## 手工做一個鋸齒波
@@ -131,6 +135,8 @@ Note:
 ```
 
 這是類比合成器（Moog、Roland）的標準架構，也是**最容易控制**的合成方式。
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=2QIyaS6B3rY">減法合成：濾波器與濾波包絡</a></p>
 
 --
 
@@ -239,6 +245,8 @@ Note:
 > **最大的祕密**：把調變深度接上一條**會衰減的包絡**。
 > 「一開始很亮、然後變柔和」正是真實樂器的行為（撥弦、敲擊的瞬間泛音最豐富）。
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=_X5ZRuP_Uyw">How FM Synthesis Works</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=w4g92vX1YF4">Chowning 談 FM 合成的起源</a></p>
+
 ---
 
 ## 包絡：讓聲音有開始與結束
@@ -257,6 +265,8 @@ Note:
 | **D** Decay | 從最大掉到持續音量要多久 | 100 ms |
 | **S** Sustain | 按著不放時的**音量**（不是時間） | 0.6 |
 | **R** Release | 放開後衰減到 0 要多久 | 鋼琴 800 ms |
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=iGOgIdgGCN8">ADSR 包絡怎麼運作</a></p>
 
 --
 
@@ -358,6 +368,25 @@ Pd vanilla 內建三個現成的：
 - `[rev3~]` — 立體聲輸出，音質最好
 
 （PlugData 與 Pd-extended 另有 `[freeverb~]`。）
+
+---
+
+## 顆粒合成初探
+
+把聲音切成幾十毫秒的極短片段（grain），再大量重疊播放。
+
+每顆 grain 的**位置、長度、音高、音量**都能獨立亂數決定——所以它做得到「**把一秒的聲音拉長成三分鐘而不變調**」，這是其他合成法辦不到的。
+
+最小邏輯：
+
+1. `[metro 20]` 每 20 毫秒觸發一顆 grain
+2. `[random]` 決定從陣列哪個位置開始讀
+3. `[vline~]` 給每顆 grain 一個很短的包絡（避免 click）
+4. 用多個複製讓 grain 彼此重疊
+
+> 說穿了就是**「包絡 + 陣列讀取」重複幾十次**。熟悉 5.6 與 5.7 之後再回頭挑戰。
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=GksWUB_B1OY">顆粒合成解說（Simon Hutchinson）</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=bmsz5JNi2Mo">Granular Synthesis Explained Simply</a></p>
 
 ---
 

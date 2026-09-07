@@ -59,6 +59,8 @@ Note:
 | 1983 | Yamaha DX7、MIDI | 數位合成與設備互通 |
 | 1990s〜 | Max/MSP、Pure Data | 聲音創作變成「寫程式」 |
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=JTEFKFiXSx4">Cage《4'33"》</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=N9pOq8u6-bA">Schaeffer 鐵路研究</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=ZFUVR-clo8g">史上第一首電腦歌唱 (1961)</a></p>
+
 --
 
 ## 電子樂器的兩位先驅
@@ -176,6 +178,8 @@ Cage 的作品常被誤解成「什麼都沒有」。實際上正好相反：它
 
 商業軟體。以靈活與強大著稱，是許多作曲家、表演者、藝術家的首選。
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/playlist?list=PLasl9I6VeCCqdfQpjZwV-rjIXQS3OnoDe">Cycling '74 官方「Getting Started with Max」</a></p>
+
 ---
 
 ## Pure Data
@@ -183,6 +187,8 @@ Cage 的作品常被誤解成「什麼都沒有」。實際上正好相反：它
 <img src="../images/puredata.jpeg" alt="Pure Data">
 
 由 **Miller Puckette**（也是 Max 的原始開發者）於 1990 年代中期創建。**開源、免費、跨平台**。
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=hgoDpuaTi8M">深夜樂堂：Pd 中文教學</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=aldrM2yoz1g">Miller Puckette 訪談</a></p>
 
 ---
 

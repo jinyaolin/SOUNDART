@@ -20,6 +20,8 @@ Note:
 
 加上**連接線**，就是 Max 的全部文法。
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/playlist?list=PLasl9I6VeCCqdfQpjZwV-rjIXQS3OnoDe">Cycling '74 官方「Getting Started with Max」</a></p>
+
 ---
 
 ## 物件
@@ -300,6 +302,8 @@ Note:
 
 > RNBO 解決了 Max 長年的痛點：**作品不用再綁在 Max 上執行。**
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=Aqq6fUUq1Fc">Cycling '74：Welcome to RNBO</a></p>
+
 ---
 
 ## Max 真正的強項
@@ -358,6 +362,8 @@ Note:
 **聲音 → 影像**
 `[peakamp~]` 或 `[fft~]` 分析聲音 → 驅動 3D 物件的大小、顏色、變形
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=VXTxZUsFIuY">Cycling '74：用 Jitter 播放影片</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=MS0Ratnr95o">Jitter 入門課：Vizzie 影像處理</a></p>
+
 ---
 
 ## Max for Live
@@ -370,6 +376,8 @@ Note:
 
 > 意義：**實驗性的想法可以直接進入正規的音樂製作流程。**
 > Max 的使用者數量在 2010 年後大幅成長，很大一部分來自這裡。
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=Ahs9g46rWbw">Max for Live 總覽</a></p>
 
 ---
 
@@ -425,6 +433,8 @@ Note:
 
 > **把工具本身當成作品的一部分**：補丁不是達成某個聲音的手段，
 > 補丁就是樂器、就是樂譜、就是作曲家。
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=ev3vENli7wQ">Autechre《Gantz Graf》官方 MV</a></p>
 
 ---
 

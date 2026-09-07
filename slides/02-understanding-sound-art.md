@@ -24,6 +24,8 @@ Note:
 | **質感** Texture | 複雜度與層次 | — |
 | **持續時間** Duration | 聲音的長度 | — |
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=YsZKvLnf7wU">泛音、諧波與音色</a></p>
+
 ---
 
 ## 前三個元素會反覆出現
@@ -40,6 +42,8 @@ Note:
 Note:
 特別強調「起始與消散的過程」——很多人以為音色只跟波形有關，其實包絡（attack）對辨識樂器的貢獻極大。把鋼琴音的起音切掉，多數人會認不出那是鋼琴。
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=97jwN_MBEWI">加法合成：用正弦波疊出音色</a></p>
+
 ---
 
 ## 後四個元素是聲音藝術的主場
@@ -51,6 +55,8 @@ Note:
 - Neuhaus《Times Square》— 作品的意義完全依附在那個**特定地點**上
 
 > 一旦聲音離開喇叭、進入空間，**位置本身就變成素材**。
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=38ORiaia9r8">Forty Part Motet</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=s_yMZJkzbcw">Study for Strings</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=kA-fihBFWBI">Times Square</a></p>
 
 ---
 
@@ -77,6 +83,8 @@ Note:
 Note:
 這也是為什麼後面要學 Pd／Max：它們的即時性讓「先做出來聽聽看」變得非常便宜。
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=hg96nU6ltLk">Kits Beach Soundwalk：一次完整的聲景創作</a></p>
+
 ---
 
 ## 怎麼評價一件聲音作品
@@ -84,6 +92,8 @@ Note:
 聲音藝術和視覺藝術最大的差別：**多了時間性**。持續多久、什麼順序、什麼節奏，都是作品的一部分。
 
 四個評價角度：
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=JTEFKFiXSx4">Cage《4'33"》— 拿這件來練習四個角度</a></p>
 
 ---
 

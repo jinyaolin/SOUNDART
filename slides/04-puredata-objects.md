@@ -23,6 +23,8 @@ Pd 的物件依處理的資料型別分成兩類：
 
 > **`~` 是 Pd 最重要的視覺約定：看到波浪號就代表音訊。**
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=1o5Wasmd8yU">Intro to Pure Data：只用三個物件開始</a></p>
+
 ---
 
 ## 常見的控制物件
@@ -98,6 +100,8 @@ Note:
 
 **Inlet 分成兩種，差別在「會不會觸發運算」**
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=hgoDpuaTi8M">深夜樂堂：Pd「float」的使用（中文）</a></p>
+
 ---
 
 ## Hot Inlet
@@ -168,6 +172,8 @@ Note:
 > **職業習慣：只要一個 outlet 要接到兩個以上的地方，就插一個 `[t]`。**
 > 這不是龜毛，是省下未來三小時的除錯。
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=6VccfmBczHE">深夜樂堂：用 Pd 製作音列（中文）</a></p>
+
 ---
 
 ## UI 物件
@@ -206,6 +212,8 @@ Note:
 - **音高** — 數字框控制 `[osc~]` 頻率
 - **音量** — 滑桿控制 `[*~]` 的乘數
 - **開關** — `[tgl]` 啟停
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=Fx5nTjUrK-g">Learning Synthesis with Pure Data 第一講</a></p>
 
 ---
 

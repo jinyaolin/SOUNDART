@@ -41,6 +41,8 @@ Google 開發的網頁版視覺化程式工具，可生成 JavaScript、Python �
 
 National Instruments 開發，用於工程與科學：數據採集、儀器控制、數據分析
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=tGEpHNN-COo">LabVIEW 入門介紹</a></p>
+
 --
 
 ## Max/MSP
@@ -48,6 +50,8 @@ National Instruments 開發，用於工程與科學：數據採集、儀器控�
 <img src="../images/maxmsp.jpeg" alt="Max/MSP">
 
 專門用於音訊、影像與多媒體處理，支援即時運算
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/playlist?list=PLasl9I6VeCCqdfQpjZwV-rjIXQS3OnoDe">Cycling '74 官方「Getting Started with Max」</a></p>
 
 ---
 
@@ -72,6 +76,8 @@ National Instruments 開發，用於工程與科學：數據採集、儀器控�
 
 > **Pd 可以看作 Max 的自由軟體版本**——同一個人的兩個作品。
 > 隨著時間推移，兩者發展出不少差異，但**核心邏輯完全相同**。
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=aldrM2yoz1g">Miller Puckette 訪談</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=N9_J5qsntrc">Puckette 本人的 Pd 課程 MUS171 第一講</a></p>
 
 ---
 
@@ -113,6 +119,8 @@ National Instruments 開發，用於工程與科學：數據採集、儀器控�
 Note:
 實務建議：課堂統一用 PlugData（介面友善、跨平台一致），有興趣再裝 Vanilla 看原版長什麼樣。兩者補丁檔案完全相容。
 
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=dJK0zbEsFOs">PlugData 安裝與設定</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=s0Gr2YmHz1A">把 Pure Data 當 VST 用</a></p>
+
 ---
 
 ## PlugData 值得單獨一提
@@ -134,6 +142,8 @@ Note:
 - **子補丁與抽象** — 組織與重用，等同傳統程式的函式
 
 > 下一章開始逐一拆解。
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=hgoDpuaTi8M">深夜樂堂：Pd 物件與訊息（中文）</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=1o5Wasmd8yU">Intro to Pure Data：只用三個物件</a></p>
 
 ---
 
