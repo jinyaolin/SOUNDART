@@ -283,6 +283,8 @@ Note:
 > **最大的祕密**：把調變深度接上一條**會衰減的包絡**。
 > 「一開始很亮、然後變柔和」也是真實樂器的行為（撥弦、敲擊的瞬間泛音最豐富）。
 
+<p class="lablink">🎛 <a href="../lab/?preset=ch7-fm">在瀏覽器聽 FM</a>　·　<a href="../lab/?preset=ch7-fm-env">聽 Index 隨時間衰減</a></p>
+
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=_X5ZRuP_Uyw">How FM Synthesis Works</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=w4g92vX1YF4">Chowning 談 FM 合成的起源</a></p>
 
 ---

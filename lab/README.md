@@ -8,7 +8,14 @@
 
 `SOUNDART` 教材的線上練習場。第 3 章的 VCO → VCF → VCA、第 7 章的加法／減法／調變合成與延遲家族，都可以直接點開來聽，不必先裝 Pure Data。
 
-節點：`osc` `noise` `filter` `vca` `adsr` `lfo` `delay` `keyboard` `seq` `out`
+節點：`osc` `noise` `filter` `vca` `amp` `adsr` `lfo` `delay` `keyboard` `seq` `out`
+
+其中 **`amp`（調變深度）** 做的是 `× 深度 ＋ 中心`，也就是教材 7.4 節說的
+「`[*~ 幅度] → [+~ 中心]` 是 Pd 裡把 −1~1 的訊號映射到任意範圍的標準寫法」。
+有了它才做得出 FM：`osc`（調變器）→ `amp`（深度 600）→ `osc.fm`（載波）。
+
+`adsr` 除了音訊輸出，另有一個 `env` 輸出（cv，0~1），可以把包絡本身當控制訊號用——
+接一個 `amp` 放大之後去控制另一個 `amp` 的深度，就是「Index 隨時間衰減」。
 
 接線分三種，對應教材裡的觀念：
 
@@ -27,6 +34,8 @@
 | 7.3 加法合成 | [`?preset=ch7-additive`](./?preset=ch7-additive) |
 | 7.4 減法合成與 LFO | [`?preset=ch7-sub-lfo`](./?preset=ch7-sub-lfo) |
 | 7.5 環形調變 | [`?preset=ch7-ringmod`](./?preset=ch7-ringmod) |
+| 7.5 FM 合成 | [`?preset=ch7-fm`](./?preset=ch7-fm) |
+| 7.5 FM：Index 隨時間衰減 | [`?preset=ch7-fm-env`](./?preset=ch7-fm-env) |
 | 7.6 ADSR 包絡 | [`?preset=ch7-adsr`](./?preset=ch7-adsr) |
 | 7.8 延遲家族 | [`?preset=ch7-delay`](./?preset=ch7-delay) |
 

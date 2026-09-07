@@ -4,7 +4,7 @@ import { PRESETS } from './presets.js';
 
 const LS_KEY = 'soundart.lab.patch.v1';
 const KIND_COLOR = { audio: '#e8dcc3', cv: '#e0a94e', gate: '#7fd18a' };
-const PALETTE = ['osc','noise','filter','vca','adsr','lfo','delay','keyboard','seq','out'];
+const PALETTE = ['osc','noise','filter','vca','amp','adsr','lfo','delay','keyboard','seq','out'];
 const KEYMAP = { a:60,w:61,s:62,e:63,d:64,f:65,t:66,g:67,y:68,h:69,u:70,j:71,k:72,o:73,l:74,p:75,';':76 };
 
 let uidN = 1;
@@ -267,6 +267,9 @@ function scope() {
 
 // ── 啟動 ────────────────────────────────────────────────────
 function init() {
+  // 對外掛鉤：方便自動化測試與在 console 裡玩（window.SoundLab.engine.analyser 等）
+  window.SoundLab = { engine, PRESETS, load, get patch() { return patch; } };
+
   const pal = $('#palette');
   PALETTE.forEach(t => {
     const b = document.createElement('button');

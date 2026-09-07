@@ -105,7 +105,7 @@ export const NODE_DEFS = {
     label: 'adsr~ 包絡',
     hint: 'Attack 設 0 會聽到「喀」。給它 2～5 毫秒就消失。',
     inputs: [{ id: 'gate', label: 'gate', kind: 'gate' }, { id: 'in', label: 'in', kind: 'audio' }],
-    outputs: [{ id: 'out', label: 'out', kind: 'audio' }],
+    outputs: [{ id: 'out', label: 'out', kind: 'audio' }, { id: 'env', label: 'env', kind: 'cv' }],
     params: [
       { id: 'a', label: 'A', min: 0.001, max: 2, def: 0.01, log: true, unit: 's' },
       { id: 'd', label: 'D', min: 0.001, max: 2, def: 0.08, log: true, unit: 's' },
@@ -114,11 +114,14 @@ export const NODE_DEFS = {
     ],
     options: [],
     create(ctx, node) {
-      const g = ctx.createGain();
+      const g = ctx.createGain();          // 音訊路徑：拿包絡去乘輸入
       g.gain.value = 0;
+      const ge = ctx.createGain();         // 控制路徑：同一條包絡，輸出成 0~1 的 cv
+      ge.gain.value = 0;
+      const one = ctx.createConstantSource();
+      one.offset.value = 1; one.start(); one.connect(ge);
       const P = () => ({ a: node.params.a ?? 0.01, d: node.params.d ?? 0.08, s: node.params.s ?? 0.6, r: node.params.r ?? 0.2 });
-      const onGate = (on, when) => {
-        const p = g.gain, { a, d, s, r } = P();
+      const ramp = (p, on, when, a, d, s, r) => {
         p.cancelScheduledValues(when);
         if (on) {
           p.setValueAtTime(Math.max(p.value, 0.0001), when);
@@ -129,10 +132,42 @@ export const NODE_DEFS = {
           p.linearRampToValueAtTime(0, when + r);
         }
       };
+      const onGate = (on, when) => {
+        const { a, d, s, r } = P();
+        ramp(g.gain, on, when, a, d, s, r);
+        ramp(ge.gain, on, when, a, d, s, r);
+      };
       return {
-        ins: { in: g }, targets: {}, outs: { out: g }, onGate,
+        ins: { in: g }, targets: {}, outs: { out: g, env: ge }, onGate,
         setParam: (id, v) => { node.params[id] = v; },
-        dispose: () => g.disconnect(),
+        dispose: () => { try { one.stop(); } catch {} for (const n of [g, ge, one]) n.disconnect(); },
+      };
+    },
+  },
+
+  amp: {
+    label: 'amp 調變深度',
+    hint: '把 −1~1 的訊號放大成任意範圍：× 深度 ＋ 中心。做 FM、或用 LFO 掃參數，都需要它。',
+    inputs: [{ id: 'in', label: 'in', kind: 'cv' }, { id: 'dep', label: 'dep', kind: 'cv' }],
+    outputs: [{ id: 'out', label: 'out', kind: 'cv' }],
+    params: [
+      { id: 'depth', label: '深度', min: 0, max: 4000, def: 400, log: true },
+      { id: 'offset', label: '中心', min: -2000, max: 4000, def: 0, step: 1 },
+    ],
+    options: [],
+    create(ctx, node) {
+      const g = ctx.createGain();
+      g.gain.value = node.params.depth ?? 400;
+      const off = ctx.createConstantSource();
+      off.offset.value = node.params.offset ?? 0;
+      off.start();
+      const out = ctx.createGain();
+      out.gain.value = 1;
+      g.connect(out); off.connect(out);
+      return {
+        ins: { in: g }, targets: { dep: g.gain }, outs: { out },
+        setParam: (id, v) => { if (id === 'depth') g.gain.value = v; else off.offset.value = v; },
+        dispose: () => { try { off.stop(); } catch {} for (const n of [g, off, out]) n.disconnect(); },
       };
     },
   },

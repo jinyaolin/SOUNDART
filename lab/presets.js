@@ -75,13 +75,15 @@ export const PRESETS = [
   { id: 'ch3-vcovcfvca', ch: '第 3 章 3.4', name: '🎹 VCO → VCF → VCA（1964 年的標準版型）', patch: {
     name: 'VCO → VCF → VCA',
     nodes: [
-      { id: 'kbd1', type: 'keyboard', x: 30, y: 150, params: { octave: 0, glide: 0.02 }, opts: {} },
-      { id: 'osc1', type: 'osc', x: 270, y: 40, params: { freq: 110, detune: 0 }, opts: { type: 'sawtooth' } },
-      { id: 'flt1', type: 'filter', x: 520, y: 50, params: { freq: 1200, q: 6 }, opts: { type: 'lowpass' } },
-      { id: 'adsr1', type: 'adsr', x: 770, y: 60, params: { a: 0.01, d: 0.2, s: 0.6, r: 0.35 }, opts: {} },
-      { id: 'out1', type: 'out', x: 1010, y: 70, params: { vol: 0.6 }, opts: {} },
+      { id: 'seq1', type: 'seq', x: 30, y: 20, params: { bpm: 92 }, opts: {}, steps: seq([0,null,null,null,0,null,null,null,0,null,null,null,0,null,null,null]) },
+      { id: 'kbd1', type: 'keyboard', x: 30, y: 280, params: { octave: 0, glide: 0.02 }, opts: {} },
+      { id: 'osc1', type: 'osc', x: 300, y: 60, params: { freq: 0, detune: 0 }, opts: { type: 'sawtooth' } },
+      { id: 'flt1', type: 'filter', x: 550, y: 70, params: { freq: 1200, q: 6 }, opts: { type: 'lowpass' } },
+      { id: 'adsr1', type: 'adsr', x: 800, y: 80, params: { a: 0.01, d: 0.2, s: 0.5, r: 0.35 }, opts: {} },
+      { id: 'out1', type: 'out', x: 1040, y: 90, params: { vol: 0.6 }, opts: {} },
     ],
     cables: [
+      { f:'seq1', fp:'gate', t:'adsr1', tp:'gate' },
       { f:'kbd1', fp:'freq', t:'osc1', tp:'fm' }, { f:'kbd1', fp:'gate', t:'adsr1', tp:'gate' },
       { f:'osc1', fp:'out', t:'flt1', tp:'in' }, { f:'flt1', fp:'out', t:'adsr1', tp:'in' },
       { f:'adsr1', fp:'out', t:'out1', tp:'in' },
@@ -150,15 +152,48 @@ export const PRESETS = [
   { id: 'ch7-delay', ch: '第 7 章 7.8', name: '🔁 延遲家族：從梳狀濾波到回聲', patch: {
     name: '延遲家族',
     nodes: [
-      { id: 'seq1', type: 'seq', x: 30, y: 30, params: { bpm: 100 }, opts: {}, steps: seq([0,null,null,null,null,null,null,null,7,null,null,null,null,null,null,null]) },
+      { id: 'seq1', type: 'seq', x: 30, y: 30, params: { bpm: 96 }, opts: {}, steps: seq([0,null,null,null,7,null,null,null,0,null,null,null,5,null,null,null]) },
       { id: 'osc1', type: 'osc', x: 280, y: 50, params: { freq: 330, detune: 0 }, opts: { type: 'triangle' } },
-      { id: 'adsr1', type: 'adsr', x: 520, y: 60, params: { a: 0.004, d: 0.08, s: 0, r: 0.08 }, opts: {} },
-      { id: 'dly1', type: 'delay', x: 760, y: 70, params: { time: 0.004, fb: 0.7, mix: 0.5 }, opts: {} },
+      { id: 'adsr1', type: 'adsr', x: 520, y: 60, params: { a: 0.004, d: 0.12, s: 0.25, r: 0.12 }, opts: {} },
+      { id: 'dly1', type: 'delay', x: 760, y: 70, params: { time: 0.004, fb: 0.75, mix: 0.5 }, opts: {} },
       { id: 'out1', type: 'out', x: 1010, y: 80, params: { vol: 0.6 }, opts: {} },
     ],
     cables: [
       { f:'seq1', fp:'freq', t:'osc1', tp:'fm' }, { f:'seq1', fp:'gate', t:'adsr1', tp:'gate' },
       { f:'osc1', fp:'out', t:'adsr1', tp:'in' }, { f:'adsr1', fp:'out', t:'dly1', tp:'in' },
       { f:'dly1', fp:'out', t:'out1', tp:'in' },
+    ] } },
+
+  { id: 'ch7-fm', ch: '第 7 章 7.5', name: '🎺 FM 合成：調變器 → 深度 → 載波', patch: {
+    name: 'FM 合成',
+    nodes: [
+      { id: 'mod', type: 'osc', x: 40, y: 60, params: { freq: 220, detune: 0 }, opts: { type: 'sine' } },
+      { id: 'amp1', type: 'amp', x: 320, y: 70, params: { depth: 600, offset: 0 }, opts: {} },
+      { id: 'car', type: 'osc', x: 620, y: 60, params: { freq: 220, detune: 0 }, opts: { type: 'sine' } },
+      { id: 'vca1', type: 'vca', x: 900, y: 70, params: { gain: 0.35 }, opts: {} },
+      { id: 'out1', type: 'out', x: 1140, y: 80, params: { vol: 0.6 }, opts: {} },
+    ],
+    cables: [
+      { f:'mod', fp:'out', t:'amp1', tp:'in' }, { f:'amp1', fp:'out', t:'car', tp:'fm' },
+      { f:'car', fp:'out', t:'vca1', tp:'in' }, { f:'vca1', fp:'out', t:'out1', tp:'in' },
+    ] } },
+
+  { id: 'ch7-fm-env', ch: '第 7 章 7.5', name: '🎹 FM：讓 Index 隨時間衰減（DX7 的祕密）', patch: {
+    name: 'FM + Index 包絡',
+    nodes: [
+      { id: 'seq1', type: 'seq', x: 20, y: 20, params: { bpm: 84 }, opts: {}, steps: seq([0,null,null,null,0,null,null,null,0,null,null,null,0,null,null,null]) },
+      { id: 'mod', type: 'osc', x: 20, y: 250, params: { freq: 220, detune: 0 }, opts: { type: 'sine' } },
+      { id: 'eidx', type: 'adsr', x: 270, y: 20, params: { a: 0.002, d: 0.35, s: 0, r: 0.2 }, opts: {} },
+      { id: 'aenv', type: 'amp', x: 520, y: 20, params: { depth: 1400, offset: 0 }, opts: {} },
+      { id: 'aidx', type: 'amp', x: 300, y: 260, params: { depth: 0, offset: 0 }, opts: {} },
+      { id: 'car', type: 'osc', x: 600, y: 250, params: { freq: 220, detune: 0 }, opts: { type: 'sine' } },
+      { id: 'aout', type: 'adsr', x: 850, y: 250, params: { a: 0.004, d: 0.5, s: 0.15, r: 0.3 }, opts: {} },
+      { id: 'out1', type: 'out', x: 1100, y: 260, params: { vol: 0.6 }, opts: {} },
+    ],
+    cables: [
+      { f:'seq1', fp:'gate', t:'eidx', tp:'gate' }, { f:'seq1', fp:'gate', t:'aout', tp:'gate' },
+      { f:'eidx', fp:'env', t:'aenv', tp:'in' }, { f:'aenv', fp:'out', t:'aidx', tp:'dep' },
+      { f:'mod', fp:'out', t:'aidx', tp:'in' }, { f:'aidx', fp:'out', t:'car', tp:'fm' },
+      { f:'car', fp:'out', t:'aout', tp:'in' }, { f:'aout', fp:'out', t:'out1', tp:'in' },
     ] } },
 ];
