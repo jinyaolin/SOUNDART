@@ -19,6 +19,7 @@
 | 5 | [Pure Data 聲音合成](chapters/05-puredata-synthesis.md) | 加法／減法／調變合成、包絡、取樣、延遲與殘響 | 長 |
 | 6 | [Max/MSP 的使用](chapters/06-maxmsp.md) | 介面、數據處理、MSP 音訊、互動裝置、案例研究 | 長 |
 | 7 | [電子遊戲音樂的歷史](chapters/07-game-audio.md) | 從電路發聲到程序音訊、iMUSE、libpd 與遊戲產業接點 | 長 |
+| 8 | [電子合成樂器的歷史與技術](chapters/08-synthesizers.md) | 電壓控制、五種合成法、MIDI 與標準、介面的歷史 | 長 |
 
 ---
 
@@ -31,6 +32,9 @@ Pure Data 完全免費、跨平台，是學合成原理最直接的路。第 5 �
 
 **目標是展場裝置 / 劇場 / 接感測器** → 上面走完之後接第 6 章。
 Max/MSP 在接硬體、影像（Jitter）與 Ableton 整合上遠比 Pd 成熟，但原理是共通的——第 6.7 節有兩者的完整對照表。
+
+**對樂器與硬體有興趣** → 第 1 章 → 第 5 章（先會做合成）→ 第 8 章。
+第 8 章的每一台機器都能在 Pd 裡重建，章末有一台 Minimoog 的補丁。
 
 **對遊戲音訊有興趣** → 第 1、2 章 → 第 3～5 章（Pure Data）→ 第 7 章。
 第 7 章結尾的 libpd 是把補丁變成遊戲聲音引擎的路。
@@ -56,8 +60,8 @@ Max/MSP 在接硬體、影像（Jitter）與 Ableton 整合上遠比 Pd 成熟�
 這份教材還在長。原始大綱裡規劃、但目前還沒寫的部分：
 
 - **Pure Data 的互動裝置與案例研究**（對應 Max 的 6.5、6.6 兩節）
-- **第 8 章 兩個工具的比較與應用** — 目前濃縮在 [6.7 節](chapters/06-maxmsp.md#67-給-pure-data-使用者的對照表)
-- **第 9 章 結論** — 未來趨勢、延伸閱讀與學習資源
+- **兩個工具的比較與應用** — 目前濃縮在 [6.7 節](chapters/06-maxmsp.md#67-給-pure-data-使用者的對照表)
+- **結論** — 未來趨勢、延伸閱讀與學習資源
 
 ---
 
@@ -74,7 +78,8 @@ SOUNDART/
 │   ├── 04-puredata-objects.md
 │   ├── 05-puredata-synthesis.md
 │   ├── 06-maxmsp.md
-│   └── 07-game-audio.md
+│   ├── 07-game-audio.md
+│   └── 08-synthesizers.md
 ├── slides/                投影片
 │   ├── index.html         reveal.js 播放器
 │   └── *.md               各章投影片內容

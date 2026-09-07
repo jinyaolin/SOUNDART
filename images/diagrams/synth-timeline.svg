@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" font-family="-apple-system,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" role="img">
+<rect width="720" height="320" rx="10" fill="#1d1811"/>
+<text x="360" y="32" font-size="17" fill="#f0c87d" text-anchor="middle" font-weight="600">電子合成樂器：一百年的技術演進</text>
+<line x1="46" y1="168" x2="674" y2="168" stroke="#3a3026" stroke-width="2"/>
+<circle cx="88" cy="168" r="7.5" fill="#e0a94e"/>
+<line x1="88" y1="160" x2="88" y2="138" stroke="#3a3026" stroke-width="1.5"/>
+<text x="88" y="80" font-size="15" fill="#e0a94e" text-anchor="middle" font-weight="700">1897</text>
+<text x="88" y="100" font-size="12" fill="#f2ece1" text-anchor="middle" font-weight="600">Telharmonium</text>
+<text x="88" y="118" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">加法合成</text>
+<text x="88" y="134" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">200 噸，走電話線</text>
+<circle cx="192" cy="168" r="7.5" fill="#e0a94e"/>
+<line x1="192" y1="176" x2="192" y2="198" stroke="#3a3026" stroke-width="1.5"/>
+<text x="192" y="218" font-size="15" fill="#e0a94e" text-anchor="middle" font-weight="700">1920</text>
+<text x="192" y="238" font-size="12" fill="#f2ece1" text-anchor="middle" font-weight="600">Theremin</text>
+<text x="192" y="256" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">外差原理</text>
+<text x="192" y="272" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">不必碰觸</text>
+<circle cx="296" cy="168" r="7.5" fill="#e0a94e"/>
+<line x1="296" y1="160" x2="296" y2="138" stroke="#3a3026" stroke-width="1.5"/>
+<text x="296" y="80" font-size="15" fill="#e0a94e" text-anchor="middle" font-weight="700">1964</text>
+<text x="296" y="100" font-size="12" fill="#f2ece1" text-anchor="middle" font-weight="600">電壓控制</text>
+<text x="296" y="118" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">Moog／Buchla</text>
+<text x="296" y="134" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">模組化誕生</text>
+<circle cx="400" cy="168" r="7.5" fill="#e0a94e"/>
+<line x1="400" y1="176" x2="400" y2="198" stroke="#3a3026" stroke-width="1.5"/>
+<text x="400" y="218" font-size="15" fill="#e0a94e" text-anchor="middle" font-weight="700">1978</text>
+<text x="400" y="238" font-size="12" fill="#f2ece1" text-anchor="middle" font-weight="600">Prophet-5</text>
+<text x="400" y="256" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">音色第一次</text>
+<text x="400" y="272" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">能被儲存</text>
+<circle cx="504" cy="168" r="7.5" fill="#6fbfae"/>
+<line x1="504" y1="160" x2="504" y2="138" stroke="#3a3026" stroke-width="1.5"/>
+<text x="504" y="80" font-size="15" fill="#6fbfae" text-anchor="middle" font-weight="700">1983</text>
+<text x="504" y="100" font-size="12" fill="#f2ece1" text-anchor="middle" font-weight="600">MIDI + DX7</text>
+<text x="504" y="118" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">互通標準</text>
+<text x="504" y="134" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">與數位 FM</text>
+<circle cx="608" cy="168" r="7.5" fill="#6fbfae"/>
+<line x1="608" y1="176" x2="608" y2="198" stroke="#3a3026" stroke-width="1.5"/>
+<text x="608" y="218" font-size="15" fill="#6fbfae" text-anchor="middle" font-weight="700">1995~</text>
+<text x="608" y="238" font-size="12" fill="#f2ece1" text-anchor="middle" font-weight="600">Eurorack／VST</text>
+<text x="608" y="256" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">軟體化</text>
+<text x="608" y="272" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">與模組化復興</text>
+<text x="690" y="173" font-size="18" fill="#3a3026" text-anchor="middle" font-weight="400">→</text>
+<text x="360" y="300" font-size="12.5" fill="#6fbfae" text-anchor="middle" font-weight="400">標準（1V/八度、MIDI、Eurorack、VST）比技術突破更能決定歷史走向</text>
+</svg>

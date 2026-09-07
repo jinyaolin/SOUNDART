@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" width="720" height="370" font-family="-apple-system,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" role="img">
+<rect width="720" height="370" rx="10" fill="#1d1811"/>
+<text x="360" y="34" font-size="17" fill="#f0c87d" text-anchor="middle" font-weight="600">經典減法合成器架構（1964 至今的標準版型）</text>
+<rect x="126" y="54" width="132" height="72" rx="8" fill="none" stroke="#6fbfae" stroke-width="2.2"/>
+<text x="192.0" y="78" font-size="17" fill="#f2ece1" text-anchor="middle" font-weight="700">LFO</text>
+<text x="192.0" y="96" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">慢速調變</text>
+<text x="192.0" y="114" font-size="12" fill="#6fbfae" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[osc~ 0.2]</text>
+<rect x="392" y="54" width="132" height="72" rx="8" fill="none" stroke="#6fbfae" stroke-width="2.2"/>
+<text x="458.0" y="78" font-size="17" fill="#f2ece1" text-anchor="middle" font-weight="700">EG</text>
+<text x="458.0" y="96" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">ADSR 包絡</text>
+<text x="458.0" y="114" font-size="12" fill="#6fbfae" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[vline~]</text>
+<rect x="58" y="196" width="124" height="72" rx="8" fill="none" stroke="#e0a94e" stroke-width="2.2"/>
+<text x="120.0" y="220" font-size="17" fill="#f2ece1" text-anchor="middle" font-weight="700">VCO</text>
+<text x="120.0" y="238" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">振盪器</text>
+<text x="120.0" y="256" font-size="12" fill="#e0a94e" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[phasor~]</text>
+<rect x="248" y="196" width="124" height="72" rx="8" fill="none" stroke="#e0a94e" stroke-width="2.2"/>
+<text x="310.0" y="220" font-size="17" fill="#f2ece1" text-anchor="middle" font-weight="700">VCF</text>
+<text x="310.0" y="238" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">濾波器</text>
+<text x="310.0" y="256" font-size="12" fill="#e0a94e" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[vcf~]</text>
+<rect x="438" y="196" width="124" height="72" rx="8" fill="none" stroke="#e0a94e" stroke-width="2.2"/>
+<text x="500.0" y="220" font-size="17" fill="#f2ece1" text-anchor="middle" font-weight="700">VCA</text>
+<text x="500.0" y="238" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">放大器</text>
+<text x="500.0" y="256" font-size="12" fill="#e0a94e" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[*~]</text>
+<rect x="618" y="212" width="66" height="40" rx="8" fill="#e0a94e" opacity="0.18" stroke="#e0a94e" stroke-width="1.6"/>
+<text x="651" y="237" font-size="12.5" fill="#f0c87d" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[dac~]</text>
+<line x1="182" y1="232.0" x2="239" y2="232.0" stroke="#e0a94e" stroke-width="4.5" marker-end="url(#sa)"/>
+<line x1="372" y1="232.0" x2="429" y2="232.0" stroke="#e0a94e" stroke-width="4.5" marker-end="url(#sa)"/>
+<line x1="562" y1="232.0" x2="609" y2="232.0" stroke="#e0a94e" stroke-width="4.5" marker-end="url(#sa)"/>
+<path d="M168,126 C168,176 100,138 100,188" fill="none" stroke="#6fbfae" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#sb)"/>
+<path d="M226,126 C226,176 290,138 290,188" fill="none" stroke="#6fbfae" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#sb)"/>
+<path d="M430,126 C430,176 320,138 320,188" fill="none" stroke="#6fbfae" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#sb)"/>
+<path d="M486,126 C486,176 486,138 486,188" fill="none" stroke="#6fbfae" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#sb)"/>
+<text x="58" y="326" font-size="12.5" fill="#e0a94e" text-anchor="start" font-weight="400">實線 ＝ 音訊訊號（粗）</text>
+<text x="280" y="326" font-size="12.5" fill="#6fbfae" text-anchor="start" font-weight="400">虛線 ＝ 控制電壓——在 Pd 裡，它就是另一條訊號</text>
+<text x="58" y="352" font-size="12" fill="#a89f92" text-anchor="start" font-weight="400">VCO → VCF → VCA 這條鏈，就是第 5 章 5.4 節「音源 → 濾波器 → 放大器」的硬體原型</text>
+<defs><marker id="sa" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#e0a94e"/></marker><marker id="sb" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#6fbfae"/></marker></defs></svg>
