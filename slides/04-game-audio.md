@@ -225,7 +225,7 @@ LucasArts 的 **Michael Land** 與 **Peter McConnell**，首用於《Monkey Isla
 **水平重排** ＝ 用 `[select]` 決定下一段播哪個檔（第 6 章）
 
 > ### 遊戲業界花了十年才標準化的東西，
-> ### 是這門課第 4、5 章的組合。
+> ### 是這門課第 6、7 章的組合。
 
 ---
 
@@ -254,7 +254,7 @@ LucasArts 的 **Michael Land** 與 **Peter McConnell**，首用於《Monkey Isla
 
 ## 這是本課程最直接的產業接點
 
-> ### 你在第 4、5 章寫的補丁，
+> ### 你在第 6、7 章寫的補丁，
 > ### 透過 libpd，可以原封不動變成
 > ### 一款手機遊戲的聲音引擎。
 
