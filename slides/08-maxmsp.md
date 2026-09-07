@@ -10,6 +10,69 @@ Note:
 
 ---
 
+## 先認識工作區
+
+Max 的介面由幾個元件構成，做任何事之前都會用到：
+
+| 元件 | 做什麼 |
+|---|---|
+| **物件盒** Object Box | 輸入物件名稱，它就變成那個工具 |
+| **訊息盒** Message Box | 存一段訊息，被觸發時送出去 |
+| **註解** Comment | 純文字說明，不參與運算 |
+| **連接線** Patch Cord | 把資料或訊號從一個 outlet 送到另一個 inlet |
+| **物件庫** Object Explorer | 列出所有可用物件，可搜尋、可拖曳 |
+| **控制台** Max Console | 顯示錯誤、警告與系統訊息 |
+
+---
+
+## 新增一個物件
+
+<img src="../images/editmode.png" alt="切換編輯模式">
+
+<p class="figcap">先確認左下角的鎖是打開的（編輯模式），才能新增或修改物件</p>
+
+--
+
+## 物件盒
+
+<img src="../images/OBJECT.png" alt="新增一個物件">
+
+<p class="figcap">在工作區雙擊（或按 n）產生空盒，輸入物件名稱後按 Enter 生效</p>
+
+--
+
+## 訊息盒
+
+<img src="../images/helloworld.png" alt="新增一個訊息盒">
+
+<p class="figcap">按 m 產生訊息盒。它的右邊是斜角，和物件盒的直角不同</p>
+
+--
+
+## 註解
+
+<img src="../images/comment.png" alt="註解">
+
+<p class="figcap">按 c 產生註解。三個月後回來看自己的補丁，你會很感謝當初寫的這幾行字</p>
+
+--
+
+## 連接線
+
+<img src="../images/cable.png" alt="連接線">
+
+<p class="figcap">從一個物件的 outlet 拖到另一個物件的 inlet，接近時 inlet 會變亮</p>
+
+--
+
+## 物件庫
+
+<img src="../images/objectlibrary.png" alt="物件庫">
+
+<p class="figcap">Window → Object Explorer。點任一物件會在下方顯示它的功能、用途與輸入輸出說明</p>
+
+---
+
 ## Max 的三個基本單位
 
 | | 按鍵 | 是什麼 |

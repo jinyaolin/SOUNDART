@@ -47,6 +47,20 @@ Note:
 
 ---
 
+## Varèse：運用「聲音材料本身」
+
+**埃德加·瓦雷茲**（Edgard Varèse，1883–1965），法國作曲家，後入籍美國。
+
+早在 1914 年之前，他就開始考慮拋棄傳統的作曲方法、平均律系統與傳統樂器，轉而運用「聲音材料本身」。
+
+這個念頭強烈到讓他銷毀了自己早期的作品，直到《美洲》（Amériques）——那部作品裡他已經用上了在頻率與強度上變化的警報聲。
+
+他也因此鼓勵了聲學領域的研究，從動態音響儀到特雷門與馬特諾的創作。
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=LEtuTzdCr6s">Varèse 作品全集 Vol. 1</a></p>
+
+---
+
 ## 一條一百年的線
 
 | 年代 | 誰 | 做了什麼 |
@@ -87,6 +101,20 @@ Note:
 
 > 注意「patch」這個詞：從 Moog 的實體接線，一路留到今天的 Pd 補丁。
 
+--
+
+## 1948：磁帶剪出來的兩種音樂
+
+1940 年代，法國與德國的實驗室各自發展出一種用磁帶創作的方法：錄下聲音，再透過剪接、變速、反轉去改造它。
+
+**具象音樂（Musique concrète）· 法國**
+皮耶·舒弗 1948 年發起。用**實際錄下來的聲音**當材料，不是合成的。《鐵路研究》全曲的聲音都來自火車。
+
+**電子音樂（Elektronische Musik）· 德國**
+科隆的西德廣播公司工作室是中心，側重**電子產生的聲音**。史托克豪森的《接觸》是這條路線的代表。
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=N9pOq8u6-bA">Schaeffer《鐵路研究》</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=nbdmzSeFy_Y">Stockhausen《Kontakte》</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=7XWNR_TcPFI">Stockhausen 解說</a></p>
+
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=n3K_fZDvINs">Moog System 55 示範</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=UsW2EDGbDqg">Wendy Carlos 與 Moog｜BBC</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=eeHNVVcuSVs">原版 DX7</a></p>
 
 ---
@@ -119,6 +147,23 @@ Times Square 最值得討論：它 1992 年被關閉，2002 年由 DIA 基金會
 
 ---
 
+## 聲音雕塑：三件代表作
+
+聲音雕塑結合聲音與空間。它可能是一件會發聲的實體雕塑，也可能完全由聲音構成，只是被配置在特定的空間裡。
+
+**Harry Bertoia《Sonambient Sculptures》**
+一組由金屬棒與金屬板構成的雕塑。風吹過或被觸摸時，它們會產生共鳴。
+
+**Bill Fontana《Sound Sculptures》**
+用現場錄音與廣播技術，把某個地點的聲音搬到另一個公共空間。1987 年的《Sound Sculptures Through the Golden Gate》把金門大橋的聲音即時傳送到舊金山的美術館。
+
+**Bernhard Leitner《Sound Spaces》**
+關注聲音如何與建築空間互動。特定的聲音在特定的建築結構裡播放，讓人以新的方式感知空間。
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=a9EF_zO5ihs">Bertoia 紀錄片 (1965)</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=tQOIa-1Y6Qo">Fontana 金門大橋</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=uPbq9aixozo">Leitner 訪談</a></p>
+
+---
+
 ## 聲景藝術
 
 源自加拿大作曲家 **R. Murray Schafer** 1970 年代提出的「聲景」（Soundscape）概念與聲景生態學。
@@ -148,6 +193,31 @@ Cage 的作品常被誤解成「什麼都沒有」。實際上正好相反：它
 
 ---
 
+## 電子音樂與電腦音樂
+
+兩者的差別在於創作與執行的方式。電子音樂指的是用電子儀器與設備創作的音樂，電腦音樂則專指以電腦為主要創作工具的音樂。
+
+### 電子音樂
+
+**Delia Derbyshire**（BBC Radiophonic Workshop）
+用磁帶剪接創作電子音樂。最知名的作品是 1963 年《Doctor Who》的主題曲。
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=qsRuhCflRyg">BBC Archive：她怎麼做出那首主題曲</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=puzHEbL4-xs">BBC Radiophonic Workshop</a></p>
+
+--
+
+## 電腦音樂的兩位先驅
+
+**Max Mathews**（貝爾實驗室）
+他在貝爾實驗室寫的 *Music I* 是世界上第一個電腦音樂程式，之後的 *Music N* 系列奠定了電腦音樂的基礎。1961 年他讓電腦唱出〈Daisy Bell〉，那是史上第一首電腦歌唱。
+
+**John Chowning**（史丹佛）
+1973 年發表**頻率調變合成（FM）**。他 1972 年的《Turenas》是第一部完全用電腦合成的立體聲作品。FM 後來授權給 Yamaha，成為 DX7 與整個 1980 年代的聲音。
+
+<p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=mT3U98cFqSs">Mathews 談 Music I</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=ZFUVR-clo8g">Daisy Bell (1961)</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=kSbTOB5ft5c">Chowning《Turenas》</a></p>
+
+---
+
 ## 兩位當代藝術家
 
 **Susan Philipsz**
@@ -159,6 +229,30 @@ Cage 的作品常被誤解成「什麼都沒有」。實際上正好相反：它
 > 「週末金融區的寂靜給我留下了深刻的印象……我認為讓其他人體驗這種詭異的寂靜會很有趣。」
 
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=s_yMZJkzbcw">Study for Strings</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=UWeKzTDi-OA">Lowlands</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=-vt5w5VuECY">Surround Me</a></p>
+
+---
+
+## 一件用 Pure Data 做的作品
+
+**《Auto Music Machine》**（2012，本教材作者）
+
+用 Pure Data 合成聲音，並以對位法的概念讓音樂自行發展，每一次執行都產生完全不同的音樂。
+
+這件作品用到的東西，你在第 7 章之後全部做得出來。
+
+<p class="vidlinks">▶ <a href="https://vimeo.com/24908632">Auto Music Machine（Vimeo）</a></p>
+
+---
+
+## 還有一條線：電子遊戲音樂
+
+二十世紀後半規模最大、被最多人親身經歷的互動聲音系統，其實是電子遊戲。
+
+從 1972 年《Pong》——聲音是工程師從電路裡找出來的副產品——到 1978 年《Space Invaders》那段會隨敵人減少而加快的四音循環，遊戲很早就做到了聲音藝術一直在追求的事：**聲音是系統狀態的聽覺化，而聽的人同時也是造成聲音改變的人**。
+
+這條線一路走到 2008 年的《Spore》，那款遊戲把 Pure Data 整個嵌進遊戲裡跑即時生成的音樂。
+
+完整的討論見**第 4 章**。
 
 ---
 
