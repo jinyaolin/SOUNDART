@@ -34,25 +34,25 @@ Pure Data是一個視覺化編程語言，使用圖形介面來創建音樂、�
 - **介紹**：Scratch 是由麻省理工學院（MIT）媒體實驗室開發的圖形化編程語言，主要面向兒童和初學者。
 - **特點**：使用圖形塊來代表指令和控制結構，通過拖放操作來構建程序。
 - **應用**：教學工具，用於教學程式設計的基本概念和邏輯思維。
- <img src="/Users/test/Documents/SOUNDART/images/scratch.jpeg" style="width:600px;" />
+ <img src="../images/scratch.jpeg" style="width:600px;" />
 
 #### Blockly
 - **介紹**：Blockly 是由Google開發的一個基於網頁的視覺化編程工具。
 - **特點**：通過積木狀的圖形塊來構建程序，可以生成多種語言的代碼（如JavaScript、Python）。
 - **應用**：教育和培訓工具，廣泛用於教學、遊戲開發等領域。
-<img src="/Users/test/Documents/SOUNDART/images/blockly.png" style="width:600px;" />
+<img src="../images/blockly.png" style="width:600px;" />
 
 #### LabVIEW
 - **介紹**：LabVIEW 是由國家儀器公司（National Instruments）開發的圖形化編程語言，專為工程和科學應用設計。
 - **特點**：使用圖形化的虛擬儀器來進行數據採集、儀器控制和數據分析。
 - **應用**：工程測試、控制系統、數據分析和科學研究。
-<img src="/Users/test/Documents/SOUNDART/images/labview.png" style="width:600px;" />
+<img src="../images/labview.png" style="width:600px;" />
 
 #### Max/MSP
 - **介紹**：Max/MSP 是一個視覺化編程環境，專門用於音頻、視頻和多媒體處理。
 - **特點**：使用圖形化的物件來創建複雜的音頻和視覺效果，支持實時處理。
 - **應用**：電子音樂創作、互動藝術、多媒體裝置。
-<img src="/Users/test/Documents/SOUNDART/images/maxmsp.jpeg" style="width:600px;" />
+<img src="../images/maxmsp.jpeg" style="width:600px;" />
 
 
 ### 2.4視覺化編程語言的優勢和挑戰

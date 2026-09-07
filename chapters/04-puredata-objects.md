@@ -125,12 +125,12 @@
 
 #### 範例1：簡單合成器
 這個簡單合成器使用 `[osc~]` 生成正弦波，由 `[number]` 控制頻率，並通過 `[dac~]` 輸出音頻信號。
-<img src="/Users/test/Documents/SOUNDART/images/audioobjectexample.png" style="width:350px;" />
+<img src="../images/audioobjectexample.png" style="width:350px;" />
 
 
 #### 範例2：節拍器
 這個節拍器使用 `[metro]` 每500毫秒觸發一次 `[bang]`，`[toggle]` 控制節拍器的啟動和停止，`[osc~]` 生成440 Hz的音調。
-<img src="/Users/test/Documents/SOUNDART/images/metroexample.png" style="width:250px;" />
+<img src="../images/metroexample.png" style="width:250px;" />
 
 Pure Data中的物件根據處理的數據類型分為訊號類別和音訊類別。訊號類別物件主要處理控制訊號和數據，用於管理數據流和控制其他物件；音訊類別物件則處理連續的音頻訊號，用於生成、處理和輸出音頻。通過了解這些物件的功能和用法，用戶可以創建各種複雜的聲音和多媒體應用。
 
@@ -147,17 +147,17 @@ Pure Data中的物件根據處理的數據類型分為訊號類別和音訊類�
 - **圓角矩形**：部分快速消息物件（如[bng]）和滑塊（如[hslider]）使用圓角矩形。
 
 - **顏色**：某些物件（如[tgl]）使用不同顏色來區分狀態。
-<img src="/Users/test/Documents/SOUNDART/images/route.png" style="width:100px;" />
+<img src="../images/route.png" style="width:100px;" />
 
 #### 端口類型
 
 - **Inlets**：位於物件的頂部，用於接收數據或控制訊號。
 - **Outlets**：位於物件的底部，用於輸出數據或控制訊號。
-<img src="/Users/test/Documents/SOUNDART/images/inletoutlet.png" style="width:200px;" />
+<img src="../images/inletoutlet.png" style="width:200px;" />
 
 ### Hot Inlet 和 Cold Inlet
 - **說明**：在Pure Data中inlets分為hot inlet和cold inlet。Hot inlet用於接收數據並觸發操作，而cold inlet則用於設置參數或儲存數據。依據訊號是否會立即處理並輸出結果來分辯該Inlet是Hot或是Cold。
-  <img src="/Users/test/Documents/SOUNDART/images/coldhot.png" style="width:200px;" />
+  <img src="../images/coldhot.png" style="width:200px;" />
 
 #### Hot Inlet
 
@@ -185,7 +185,7 @@ Pure Data中的物件根據處理的數據類型分為訊號類別和音訊類�
 - **Cold Inlet（右邊）**：接收數據但不觸發運算，儲存數據供下一次hot inlet觸發時使用。
 
 範例：
-<img src="/Users/test/Documents/SOUNDART/images/hotinletexample.png" style="width:200px;" />
+<img src="../images/hotinletexample.png" style="width:200px;" />
 
 描述：
 - 端口1（Hot Inlet）：接收數據並立即進行加法運算。
@@ -194,7 +194,7 @@ Pure Data中的物件根據處理的數據類型分為訊號類別和音訊類�
 
 #### 範例：控制訊號和數據流
 
-<img src="/Users/test/Documents/SOUNDART/images/coldinletexample.png" style="width:200px;" />
+<img src="../images/coldinletexample.png" style="width:200px;" />
 描述：開關物件（[tgl]）連接到選擇器物件（[select]）的cold inlet，用於設定選擇條件。節拍器（[metro]）的輸出連接到選擇器的hot inlet，每500毫秒觸發一次選擇操作，當值為1時，列印消息。
 
 
@@ -227,7 +227,7 @@ Pd中，訊號物件的執行順序是由物件在Patch中連接的方式決定�
 
 #### 範例1：加法運算順序
 這個範例介紹物件執行順序
-<img src="/Users/test/Documents/SOUNDART/images/addorderexample.png" style="width:200px;" />
+<img src="../images/addorderexample.png" style="width:200px;" />
 
 在這個範例中：
 - `[float 1]` 連接到 `[+ 3]` 的熱輸入端口。
@@ -237,7 +237,7 @@ Pd中，訊號物件的執行順序是由物件在Patch中連接的方式決定�
 
 #### 範例2：計數器
 這個範例介紹利用hot inlet和cold inlet來製作計數器：
-<img src="/Users/test/Documents/SOUNDART/images/metroadd.png" style="width:200px;" />
+<img src="../images/metroadd.png" style="width:200px;" />
 
 在這個範例中：
 - `[tgl]` 控制 `[metro 500]` 的開關。
@@ -255,7 +255,7 @@ Pd中，訊號物件的執行順序是由物件在Patch中連接的方式決定�
 #### 使用 `[trigger]` 確保順序
 
 有時，確保訊號和消息的正確執行順序非常重要。在這種情況下，可以使用 `[trigger]` 物件來明確指定執行順序。
-<img src="/Users/test/Documents/SOUNDART/images/triggersequence.png" style="width:200px;" />
+<img src="../images/triggersequence.png" style="width:200px;" />
 
 
 在這個範例中，`[trigger bang bang]` 確保 `[bang]` 先更新 `[float 3]`，然後觸發加法運算，最後輸出結果到 `[print]`。

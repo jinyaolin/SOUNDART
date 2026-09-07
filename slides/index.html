@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>SOUNDART 投影片</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%2314100c%22%2F%3E%3Cpath%20d%3D%22M3%2016c3.2%200%203.2-9%206.4-9s3.2%2018%206.4%2018%203.2-18%206.4-18%203.2%209%206.4%209%22%20fill%3D%22none%22%20stroke%3D%22%23e0a94e%22%20stroke-width%3D%222.4%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/monokai.css">
+<style>
+  :root{
+    --ink:#f2ece1; --ink-dim:#a89f92; --gold:#e0a94e; --gold-soft:#f0c87d;
+    --bg:#14100c; --bg2:#1d1811; --line:#3a3026; --faint:#6d6459;
+  }
+  html,body,.reveal-viewport{background:var(--bg);}
+  .reveal-viewport{background-image:radial-gradient(ellipse 90% 60% at 50% -20%, rgba(224,169,78,.09), transparent 70%);}
+  .reveal{
+    font-family:"PingFang TC","Noto Sans CJK TC","Microsoft JhengHei","Hiragino Sans GB",system-ui,sans-serif;
+    color:var(--ink); font-size:32px; font-weight:400;
+  }
+  .reveal .slides{text-align:left;}
+  .reveal .slides section,.reveal .slides section *{box-sizing:border-box;}
+  .reveal .slides section{padding:0 2rem; max-width:100%;}
+  .reveal h1,.reveal h2,.reveal h3,.reveal h4{
+    color:var(--gold); font-weight:600; text-transform:none; letter-spacing:.02em;
+    text-shadow:none; margin-bottom:.5em; line-height:1.25;
+  }
+  .reveal h1{font-size:2.1em;} .reveal h2{font-size:1.55em;} .reveal h3{font-size:1.15em;}
+  .reveal h1 + p, .reveal h2 + p{color:var(--ink-dim);}
+  .reveal p,.reveal li{line-height:1.6;}
+  .reveal ul,.reveal ol{display:block; margin-left:1.2em;}
+  .reveal li{margin:.35em 0;}
+  .reveal li::marker{color:var(--gold);}
+  .reveal strong{color:var(--gold-soft); font-weight:600;}
+  .reveal em{color:var(--ink-dim); font-style:normal;}
+  .reveal a{color:var(--gold); text-decoration:underline; text-underline-offset:3px;}
+  .reveal blockquote{
+    background:var(--bg2); border-left:4px solid var(--gold); box-shadow:none;
+    width:100%; margin:.8em 0; padding:.7em 1.1em; font-style:normal; font-size:.85em; color:var(--ink-dim);
+  }
+  .reveal blockquote strong{color:var(--gold-soft);}
+  .reveal code{font-family:"SF Mono",Menlo,Consolas,monospace; color:var(--gold-soft); background:rgba(224,169,78,.1); padding:.1em .35em; border-radius:3px;}
+  .reveal pre{width:100%; box-shadow:none; font-size:.5em; margin:.6em 0;}
+  .reveal pre code{background:#0d0a07; border:1px solid var(--line); border-radius:6px; padding:1em; max-height:60vh; color:#d8cfc0;}
+  .reveal table{font-size:.68em; margin:.5em 0; border-collapse:collapse; width:100%;}
+  .reveal table th{color:var(--gold); border-bottom:2px solid var(--gold); padding:.45em .7em; text-align:left;}
+  .reveal table td{border-bottom:1px solid var(--line); padding:.4em .7em;}
+  .reveal table tr:last-child td{border-bottom:none;}
+  .reveal section img{max-height:52vh; width:auto; border:1px solid var(--line); border-radius:6px; background:#fff; box-shadow:0 8px 30px rgba(0,0,0,.5); margin:.4em auto; display:block;}
+  .reveal .progress{color:var(--gold); height:4px;}
+  .reveal .slide-number{background:transparent; color:var(--faint); font-size:.5em; right:auto; left:16px; bottom:10px;}
+  .reveal .controls{color:var(--gold);}
+  /* 章名角標 */
+  #deck-tag{
+    position:fixed; top:12px; left:16px; z-index:40; font-size:13px; letter-spacing:.08em;
+    color:var(--ink-dim); font-family:"PingFang TC","Noto Sans CJK TC",system-ui,sans-serif;
+  }
+  #deck-tag a{color:var(--ink-dim); text-decoration:none; border-bottom:1px solid var(--line);}
+  #deck-tag a:hover{color:var(--gold); border-color:var(--gold);}
+  #deck-tag span{color:var(--gold);}
+  /* 標題頁 */
+  .reveal section.title{text-align:center;}
+  .reveal section.title h1{font-size:2.4em; margin-bottom:.3em;}
+  .reveal section.title p{color:var(--ink-dim); font-size:.85em;}
+  .reveal .fragment.highlight-gold.visible{color:var(--gold);}
+  /* 手機 */
+  /* 直向手機：畫布本身換成直式（見 JS），這裡只微調密集元素 */
+  body.portrait .reveal .slides section{padding:0 .6rem;}
+  body.portrait .reveal pre{font-size:.46em;}
+  body.portrait .reveal table{font-size:.62em;}
+  body.portrait .reveal table th,body.portrait .reveal table td{padding:.3em .4em;}
+  body.portrait .reveal section img{max-height:34vh;}
+  body.portrait #deck-tag{font-size:11px;}
+  @media print{ #deck-tag{display:none;} }
+</style>
+</head>
+<body>
+<div id="deck-tag"><a href="../index.html">SOUNDART</a> ／ <span id="deck-name"></span></div>
+
+<div class="reveal"><div class="slides" id="slides"></div></div>
+
+<script type="module">
+import Reveal      from 'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.esm.js';
+import Markdown    from 'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/markdown/markdown.esm.js';
+import Highlight   from 'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.esm.js';
+import Notes       from 'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.esm.js';
+
+const DECKS = {
+  '01': { file:'01-preface.md',                title:'1. 前言：聲音藝術的世界' },
+  '02': { file:'02-understanding-sound-art.md', title:'2. 深入理解聲音藝術' },
+  '03': { file:'03-puredata-intro.md',          title:'3. Pure Data 入門' },
+  '04': { file:'04-puredata-objects.md',        title:'4. Pure Data 的物件' },
+  '05': { file:'05-puredata-synthesis.md',      title:'5. Pure Data 聲音合成' },
+  '06': { file:'06-maxmsp.md',                  title:'6. Max/MSP 的使用' },
+};
+
+// 直向（手機／平板豎著拿）改用直式畫布，否則 1280 寬的畫布會被縮到字看不清
+const mqPortrait = window.matchMedia('(orientation: portrait) and (max-width: 900px)');
+const PORTRAIT = mqPortrait.matches;
+if (PORTRAIT) document.body.classList.add('portrait');
+// 只在「真的轉向」時重載（hash 會保留目前頁碼）；用 matchMedia 而非 resize，
+// 避免手機網址列收合造成的假性 resize 觸發重載迴圈
+mqPortrait.addEventListener('change', () => location.reload());
+
+const id   = (new URLSearchParams(location.search).get('deck') || '01').padStart(2,'0');
+const deck = DECKS[id] || DECKS['01'];
+
+document.title = deck.title + ' — SOUNDART';
+document.getElementById('deck-name').textContent = deck.title;
+
+const sec = document.createElement('section');
+sec.setAttribute('data-markdown', deck.file);
+sec.setAttribute('data-separator', '^\\r?\\n---\\r?\\n');
+sec.setAttribute('data-separator-vertical', '^\\r?\\n--\\r?\\n');
+sec.setAttribute('data-separator-notes', '^Note:');
+sec.setAttribute('data-charset', 'utf-8');
+document.getElementById('slides').appendChild(sec);
+
+Reveal.initialize({
+  plugins:[Markdown, Highlight, Notes],
+  hash:true, slideNumber:'c/t', progress:true,
+  transition:'fade', transitionSpeed:'fast', backgroundTransition:'fade',
+  width:PORTRAIT?720:1280, height:PORTRAIT?1010:760, margin:PORTRAIT?0.04:0.07,
+  minScale:0.2, maxScale:1.6,
+  controls:true, controlsTutorial:false,
+  // reveal 5 預設在 <435px 自動切成捲動模式；這裡關掉，讓手機也是真的翻頁投影片
+  scrollActivationWidth: null,
+  pdfSeparateFragments:false,
+}).then(() => {
+  // 最後一頁之後，附上「下一章」的導引
+  const next = DECKS[String(Number(id)+1).padStart(2,'0')];
+  const end  = document.createElement('section');
+  end.className = 'title';
+  end.innerHTML = next
+    ? `<h2>本章結束</h2><p style="margin-top:1.5em">下一章：<a href="?deck=${String(Number(id)+1).padStart(2,'0')}">${next.title}</a></p><p><a href="../index.html">← 回課程首頁</a></p>`
+    : `<h2>全部章節結束</h2><p style="margin-top:1.5em">辛苦了。接下來就是打開軟體，把想聽的聲音做出來。</p><p><a href="../index.html">← 回課程首頁</a></p>`;
+  document.getElementById('slides').appendChild(end);
+  Reveal.sync();
+});
+</script>
+</body>
+</html>

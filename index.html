@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOUNDART — 聲音藝術與視覺化程式設計</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%2314100c%22%2F%3E%3Cpath%20d%3D%22M3%2016c3.2%200%203.2-9%206.4-9s3.2%2018%206.4%2018%203.2-18%206.4-18%203.2%209%206.4%209%22%20fill%3D%22none%22%20stroke%3D%22%23e0a94e%22%20stroke-width%3D%222.4%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E">
+<meta name="description" content="一套中文的聲音藝術教材：從聲音藝術的歷史，到用 Pure Data 與 Max/MSP 把聲音做出來。">
+<style>
+  *{box-sizing:border-box; margin:0; padding:0;}
+  :root{
+    --ink:#f2ece1; --dim:#a89f92; --faint:#6d6459;
+    --gold:#e0a94e; --gold-soft:#f0c87d;
+    --bg:#14100c; --card:#1d1811; --card-hi:#251e15; --line:#3a3026;
+  }
+  body{
+    background:var(--bg); color:var(--ink); min-height:100vh;
+    font-family:"PingFang TC","Noto Sans CJK TC","Microsoft JhengHei","Hiragino Sans GB",system-ui,sans-serif;
+    line-height:1.7; -webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(ellipse 80% 50% at 50% -10%, rgba(224,169,78,.10), transparent 70%);
+  }
+  .wrap{max-width:940px; margin:0 auto; padding:clamp(3rem,9vw,6rem) clamp(1.2rem,5vw,2rem) 5rem;}
+
+  header{margin-bottom:clamp(2.5rem,6vw,4rem);}
+  .eyebrow{color:var(--gold); font-size:.8rem; letter-spacing:.32em; margin-bottom:1.2rem;}
+  h1{font-size:clamp(2.2rem,7vw,3.6rem); font-weight:600; letter-spacing:.01em; line-height:1.15; margin-bottom:1rem;}
+  h1 .sub{display:block; font-size:.42em; color:var(--dim); font-weight:400; letter-spacing:.06em; margin-top:.7rem;}
+  .lede{color:var(--dim); max-width:44em; font-size:clamp(.95rem,2.4vw,1.06rem);}
+  .lede + .lede{margin-top:.7rem;}
+
+  h2{font-size:.78rem; letter-spacing:.28em; color:var(--faint); font-weight:600;
+     margin:clamp(2.5rem,6vw,3.5rem) 0 1.3rem; padding-bottom:.7rem; border-bottom:1px solid var(--line);}
+
+  .decks{display:grid; gap:.7rem;}
+  .deck{
+    display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:clamp(.9rem,3vw,1.5rem);
+    background:var(--card); border:1px solid var(--line); border-radius:10px;
+    padding:clamp(1rem,3vw,1.35rem) clamp(1.1rem,3.5vw,1.6rem);
+    text-decoration:none; color:inherit; transition:background .18s, border-color .18s, transform .18s;
+  }
+  @media (hover:hover){ .deck:hover{background:var(--card-hi); border-color:var(--gold); transform:translateX(4px);} }
+  .num{font-size:clamp(1.5rem,4.5vw,2rem); color:var(--gold); font-weight:600; opacity:.75; min-width:1.4em;}
+  .deck-title{font-size:clamp(1rem,3vw,1.15rem); font-weight:600; margin-bottom:.25rem;}
+  .deck-desc{font-size:.85rem; color:var(--dim); line-height:1.5;}
+  .go{color:var(--faint); font-size:1.3rem;}
+  @media (hover:hover){ .deck:hover .go{color:var(--gold);} }
+  @media (max-width:560px){ .go{display:none;} .deck{grid-template-columns:auto 1fr;} }
+
+  .grid2{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1.6rem;}
+  .box h3{font-size:.95rem; color:var(--gold-soft); margin-bottom:.5rem; font-weight:600;}
+  .box p, .box li{font-size:.88rem; color:var(--dim);}
+  .box ul{list-style:none;}
+  .box li{padding-left:1.1em; position:relative; margin:.3em 0;}
+  .box li::before{content:"—"; position:absolute; left:0; color:var(--faint);}
+  .box a{color:var(--gold); text-decoration:none; border-bottom:1px solid rgba(224,169,78,.35);}
+  @media (hover:hover){ .box a:hover{border-color:var(--gold);} }
+
+  kbd{background:var(--card-hi); border:1px solid var(--line); border-bottom-width:2px; border-radius:4px;
+      padding:.1em .45em; font-size:.8em; font-family:inherit; color:var(--gold-soft);}
+
+  footer{margin-top:4rem; padding-top:1.6rem; border-top:1px solid var(--line); color:var(--faint); font-size:.8rem;}
+  footer a{color:var(--dim); text-decoration:none; border-bottom:1px solid var(--line);}
+  @media (hover:hover){ footer a:hover{color:var(--gold); border-color:var(--gold);} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">SOUNDART</div>
+  <h1>聲音藝術<span class="sub">與視覺化程式設計 — Pure Data ／ Max/MSP</span></h1>
+  <p class="lede">從「聲音藝術到底是什麼」開始，一路走到你能自己做出一台合成器、接上感測器、讓觀眾一動聲音就變。</p>
+  <p class="lede">不需要程式背景。需要的是一副耳機，和願意花時間聽的耳朵。</p>
+</header>
+
+<h2>投影片</h2>
+<div class="decks">
+  <a class="deck" href="slides/?deck=01"><div class="num">1</div>
+    <div><div class="deck-title">前言：聲音藝術的世界</div>
+    <div class="deck-desc">從 1913 年的《噪音的藝術》到今天的互動裝置——聲音怎麼變成藝術材料的一百年</div></div><div class="go">→</div></a>
+
+  <a class="deck" href="slides/?deck=02"><div class="num">2</div>
+    <div><div class="deck-title">深入理解聲音藝術</div>
+    <div class="deck-desc">聲音的七個元素、創作的四個階段，以及怎麼評價一件聲音作品</div></div><div class="go">→</div></a>
+
+  <a class="deck" href="slides/?deck=03"><div class="num">3</div>
+    <div><div class="deck-title">Pure Data 入門</div>
+    <div class="deck-desc">視覺化程式語言是什麼、Pd 的來歷、五個版本該裝哪一個</div></div><div class="go">→</div></a>
+
+  <a class="deck" href="slides/?deck=04"><div class="num">4</div>
+    <div><div class="deck-title">Pure Data 的物件</div>
+    <div class="deck-desc">物件、inlet 的冷熱之分、執行順序——補丁行為的所有規則都在這一章</div></div><div class="go">→</div></a>
+
+  <a class="deck" href="slides/?deck=05"><div class="num">5</div>
+    <div><div class="deck-title">Pure Data 聲音合成</div>
+    <div class="deck-desc">加法、減法、調變、包絡、取樣、延遲與殘響——做出你的第一台合成器</div></div><div class="go">→</div></a>
+
+  <a class="deck" href="slides/?deck=06"><div class="num">6</div>
+    <div><div class="deck-title">Max/MSP 的使用</div>
+    <div class="deck-desc">介面、數據處理、MSP 音訊、接感測器與影像、三個作品案例</div></div><div class="go">→</div></a>
+</div>
+
+<h2>怎麼用</h2>
+<div class="grid2">
+  <div class="box">
+    <h3>投影片操作</h3>
+    <ul>
+      <li>翻頁 <kbd>→</kbd> <kbd>←</kbd> 或空白鍵；手機直接滑</li>
+      <li>總覽全部投影片 <kbd>Esc</kbd></li>
+      <li>講者備忘稿 <kbd>S</kbd>（另開視窗）</li>
+      <li>全螢幕 <kbd>F</kbd></li>
+      <li>匯出 PDF：網址加上 <code>?print-pdf</code> 再列印</li>
+    </ul>
+  </div>
+  <div class="box">
+    <h3>完整教材</h3>
+    <p>投影片是濃縮版。每一章的完整內容（含所有範例補丁與說明）在 GitHub 上：</p>
+    <ul>
+      <li><a href="https://github.com/jinyaolin/SOUNDART#課程目錄">閱讀完整章節</a></li>
+      <li><a href="https://github.com/jinyaolin/SOUNDART">原始碼與圖片</a></li>
+    </ul>
+  </div>
+  <div class="box">
+    <h3>先裝軟體</h3>
+    <ul>
+      <li><a href="https://plugdata.org">PlugData</a> — 免費，初學者推薦</li>
+      <li><a href="https://puredata.info/downloads/pure-data">Pure Data Vanilla</a> — 免費，原版</li>
+      <li><a href="https://cycling74.com/downloads">Max/MSP</a> — 商業軟體，30 天試用</li>
+    </ul>
+  </div>
+</div>
+
+<footer>
+  教材文字與圖片版權為作者所有。程式碼範例可自由使用。<br>
+  <a href="https://github.com/jinyaolin/SOUNDART">github.com/jinyaolin/SOUNDART</a>
+</footer>
+
+</div>
+</body>
+</html>

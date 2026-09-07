@@ -4,7 +4,7 @@
 ### 什麼是聲音藝術？
 Luigi Russolo（1885年-1947年）是一位意大利作曲家和畫家，他也是未來主義藝術運動的重要人物。他最為人所知的是他在音樂領域的開創性工作，特別是他對噪聲音樂的貢獻。1913年，Russolo寫了一篇名為《噪聲的藝術》的宣言，提出了他對於噪聲在音樂中應用的理念。他認為傳統的音樂結構和旋律已經無法滿足現代社會的聲音需求。他主張，噪聲和不和諧的聲音可以成為創作音樂的新材料。他還設計和創造了一種新的樂器，名為“噪聲器”，這種樂器可以製造出各種不同的噪聲，包括工業和自然聲音，以及其他非傳統的聲音。
 
-<img src="images/LUIGIRUSSOLO.jpeg" style="width:600px;" />
+<img src="../images/LUIGIRUSSOLO.jpeg" style="width:600px;" />
 *Luigi Russolo在1913年撰寫的《噪聲的藝術》（The Art of Noises）*
 
 
@@ -413,7 +413,7 @@ Max/MSP以其靈活性和強大功能而聞名，是許多作曲家、表演者�
 
 除了Max/MSP，Cycling '74也開發了一個名為Jitter的視覺處理插件，可以用於影片和3D圖形，使Max/MSP成為一個全面的多媒體創作工具。
 
-<img src="images/maxmsp.png" style="width:600px;" />
+<img src="../images/maxmsp.png" style="width:600px;" />
 *max/msp*
 
 
@@ -428,7 +428,7 @@ Pd的主要特點包括：
 
 在聲音藝術中，Pd常常被用於創建電子音樂、實時音訊處理、互動裝置等。由於其靈活和開放性，Pd已經成為了聲音藝術家和實驗音樂家的重要工具之一。
 
-<img src="images/puredata.jpeg" style="width:600px;" />
+<img src="../images/puredata.jpeg" style="width:600px;" />
 *pure data*
 
 
