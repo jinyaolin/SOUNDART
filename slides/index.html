@@ -145,6 +145,10 @@ Reveal.initialize({
   width:PORTRAIT?720:1280, height:PORTRAIT?1010:760, margin:PORTRAIT?0.04:0.07,
   minScale:0.2, maxScale:1.6,
   controls:true, controlsTutorial:false,
+  // 線性導覽：←／→ 會走過每一張（含縱向的子投影片）。
+  // 預設的 default 模式下，→ 會跳到下一個橫向 stack，把同一疊裡剩下的張數全部略過，
+  // 而本教材大量的圖與範例都放在縱向子投影片上，那樣會看不到。
+  navigationMode:'linear',
   // reveal 5 預設在 <435px 自動切成捲動模式；這裡關掉，讓手機也是真的翻頁投影片
   scrollActivationWidth: null,
   pdfSeparateFragments:false,
