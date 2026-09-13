@@ -21,6 +21,7 @@
 | 3 | [電子合成樂器的歷史與技術](chapters/03-synthesizers.md) | 電壓控制、五種合成法、MIDI 與標準、介面的歷史 | 長 |
 | 4 | [電子遊戲音樂的歷史](chapters/04-game-audio.md) | 從電路發聲到程序音訊、iMUSE、libpd 與產業接點 | 長 |
 | | **第二部分　動手：怎麼做** | | |
+| 4.5 | [類比、數位與 Buffer](chapters/04b-digital-audio.md) | 取樣與量化、取樣率與混疊、位元深度、buffer 與延遲 | 中 |
 | 5 | [Pure Data 入門](chapters/05-puredata-intro.md) | 歷史、視覺化程式語言、各版本比較與安裝 | 中 |
 | 6 | [Pure Data 的物件](chapters/06-puredata-objects.md) | 訊號／音訊物件、hot & cold inlet、執行順序、UI 物件 | 中 |
 | 7 | [Pure Data 聲音合成](chapters/07-puredata-synthesis.md) | 加法／減法／調變合成、包絡、取樣、延遲與殘響 | 長 |
@@ -82,6 +83,7 @@ SOUNDART/
 │   ├── 02-understanding-sound-art.md
 │   ├── 03-synthesizers.md
 │   ├── 04-game-audio.md
+│   ├── 04b-digital-audio.md
 │   ├── 05-puredata-intro.md
 │   ├── 06-puredata-objects.md
 │   ├── 07-puredata-synthesis.md

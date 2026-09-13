@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 230" width="720" height="230" font-family="-apple-system,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" role="img">
+<rect width="720" height="230" rx="10" fill="#1d1811"/>
+<text x="360.0" y="30.0" font-size="17" fill="#f0c87d" text-anchor="middle" font-weight="600">聲音是振動,電腦處理的是數字。中間發生了什麼事?</text>
+<rect x="55.0" y="71.0" width="150.0" height="68.0" rx="7" fill="none" stroke="#6fbfae" stroke-width="2"/>
+<text x="130.0" y="102.0" font-size="14" fill="#f2ece1" text-anchor="middle" font-weight="600">麥克風</text>
+<text x="130.0" y="120.0" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">接收空氣振動</text>
+<rect x="285.0" y="71.0" width="150.0" height="68.0" rx="7" fill="none" stroke="#e0a94e" stroke-width="2"/>
+<text x="360.0" y="102.0" font-size="14" fill="#f2ece1" text-anchor="middle" font-weight="600">電腦</text>
+<text x="360.0" y="120.0" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">?</text>
+<rect x="515.0" y="71.0" width="150.0" height="68.0" rx="7" fill="none" stroke="#6fbfae" stroke-width="2"/>
+<text x="590.0" y="102.0" font-size="14" fill="#f2ece1" text-anchor="middle" font-weight="600">喇叭</text>
+<text x="590.0" y="120.0" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">推動空氣振動</text>
+<line x1="212.0" y1="105.0" x2="278.0" y2="105.0" stroke="#a89f92" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="278.0,105.0 271.6,107.9 271.6,102.1" fill="#a89f92"/>
+<line x1="442.0" y1="105.0" x2="508.0" y2="105.0" stroke="#a89f92" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="508.0,105.0 501.6,107.9 501.6,102.1" fill="#a89f92"/>
+<text x="360.0" y="167.0" font-size="12.5" fill="#a89f92" text-anchor="middle" font-weight="400">這一段就是這堂課要拆開的地方</text>
+<text x="360.0" y="214.0" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400" opacity="0.85">先請學生猜:電腦裡面存的到底是什麼?</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 265" width="720" height="265" font-family="-apple-system,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" role="img">
+<rect width="720" height="265" rx="10" fill="#1d1811"/>
+<text x="360.0" y="30.0" font-size="17" fill="#f0c87d" text-anchor="middle" font-weight="600">從聲音到數字,再回到聲音</text>
+<rect x="30.0" y="96.0" width="116.0" height="58.0" rx="7" fill="none" stroke="#6fbfae" stroke-width="2"/>
+<text x="88.0" y="122.0" font-size="14" fill="#f2ece1" text-anchor="middle" font-weight="600">麥克風</text>
+<text x="88.0" y="140.0" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">聲波→電壓</text>
+<line x1="149.0" y1="125.0" x2="163.0" y2="125.0" stroke="#a89f92" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="163.0,125.0 156.6,127.9 156.6,122.1" fill="#a89f92"/>
+<rect x="166.0" y="96.0" width="116.0" height="58.0" rx="7" fill="none" stroke="#e0a94e" stroke-width="2"/>
+<text x="224.0" y="122.0" font-size="14" fill="#f2ece1" text-anchor="middle" font-weight="600">ADC</text>
+<text x="224.0" y="140.0" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">取樣+量化</text>
+<line x1="285.0" y1="125.0" x2="299.0" y2="125.0" stroke="#a89f92" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="299.0,125.0 292.6,127.9 292.6,122.1" fill="#a89f92"/>
+<rect x="302.0" y="96.0" width="116.0" height="58.0" rx="7" fill="none" stroke="#e0a94e" stroke-width="2"/>
+<text x="360.0" y="122.0" font-size="14" fill="#f2ece1" text-anchor="middle" font-weight="600">數位處理</text>
+<text x="360.0" y="140.0" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">程式在這裡</text>
+<line x1="421.0" y1="125.0" x2="435.0" y2="125.0" stroke="#a89f92" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="435.0,125.0 428.6,127.9 428.6,122.1" fill="#a89f92"/>
+<rect x="438.0" y="96.0" width="116.0" height="58.0" rx="7" fill="none" stroke="#e0a94e" stroke-width="2"/>
+<text x="496.0" y="122.0" font-size="14" fill="#f2ece1" text-anchor="middle" font-weight="600">DAC</text>
+<text x="496.0" y="140.0" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">數值→電壓</text>
+<line x1="557.0" y1="125.0" x2="571.0" y2="125.0" stroke="#a89f92" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="571.0,125.0 564.6,127.9 564.6,122.1" fill="#a89f92"/>
+<rect x="574.0" y="96.0" width="116.0" height="58.0" rx="7" fill="none" stroke="#6fbfae" stroke-width="2"/>
+<text x="632.0" y="122.0" font-size="14" fill="#f2ece1" text-anchor="middle" font-weight="600">喇叭</text>
+<text x="632.0" y="140.0" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">電壓→聲波</text>
+<line x1="360.0" y1="158.0" x2="360.0" y2="176.0" stroke="#3a3229" stroke-width="1" stroke-linecap="round" stroke-dasharray="4 4"/>
+<rect x="96.0" y="176.0" width="528.0" height="42.0" rx="7" fill="none" stroke="#e0a94e" stroke-width="1.5"/>
+<text x="360.0" y="202.0" font-size="12" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">+0.00  +0.71  +1.00  +0.71  +0.00  -0.71  -1.00  -0.71  +0.00  +0.71  …</text>
+<text x="360.0" y="251.0" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">程式拿到的是依時間排列的取樣值</text>
+</svg>

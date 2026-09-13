@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" width="720" height="240" font-family="-apple-system,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" role="img">
+<rect width="720" height="240" rx="10" fill="#1d1811"/>
+<text x="360.0" y="30.0" font-size="17" fill="#f0c87d" text-anchor="middle" font-weight="600">接下來:讓 Pure Data 幫我們處理這些事</text>
+<rect x="62.0" y="92.0" width="176.0" height="52.0" rx="5" fill="none" stroke="#e0a94e" stroke-width="1.8"/>
+<text x="150.0" y="116.0" font-size="15" fill="#e0a94e" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[osc~ 440]</text>
+<text x="150.0" y="134.0" font-size="10.5" fill="#a89f92" text-anchor="middle" font-weight="400">產生 440 Hz 正弦波</text>
+<line x1="242.0" y1="118.0" x2="268.0" y2="118.0" stroke="#a89f92" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="268.0,118.0 261.6,120.9 261.6,115.1" fill="#a89f92"/>
+<rect x="272.0" y="92.0" width="176.0" height="52.0" rx="5" fill="none" stroke="#e0a94e" stroke-width="1.8"/>
+<text x="360.0" y="116.0" font-size="15" fill="#e0a94e" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[*~ 0.1]</text>
+<text x="360.0" y="134.0" font-size="10.5" fill="#a89f92" text-anchor="middle" font-weight="400">把振幅降到 0.1</text>
+<line x1="452.0" y1="118.0" x2="478.0" y2="118.0" stroke="#a89f92" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="478.0,118.0 471.6,120.9 471.6,115.1" fill="#a89f92"/>
+<rect x="482.0" y="92.0" width="176.0" height="52.0" rx="5" fill="none" stroke="#e0a94e" stroke-width="1.8"/>
+<text x="570.0" y="116.0" font-size="15" fill="#e0a94e" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">[dac~]</text>
+<text x="570.0" y="134.0" font-size="10.5" fill="#a89f92" text-anchor="middle" font-weight="400">送到音效輸出</text>
+<rect x="90.0" y="168.0" width="540.0" height="50.0" rx="7" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="360.0" y="189.0" font-size="12.5" fill="#f2ece1" text-anchor="middle" font-weight="400">Pd 把這些運算組成 DSP 網路,並且分塊執行</text>
+<text x="360.0" y="208.0" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">你剛學的取樣率與 block,就是它背後在做的事</text>
+</svg>

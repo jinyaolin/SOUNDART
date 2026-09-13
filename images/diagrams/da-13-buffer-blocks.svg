@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" width="720" height="260" font-family="-apple-system,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" role="img">
+<rect width="720" height="260" rx="10" fill="#1d1811"/>
+<text x="360.0" y="30.0" font-size="17" fill="#f0c87d" text-anchor="middle" font-weight="600">Buffer 是暫存空間,block 是一次處理的區塊</text>
+<rect x="44.0" y="92.0" width="37.0" height="30.0" rx="3" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="62.5" y="112.0" font-size="9.5" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">+0.00</text>
+<rect x="85.0" y="92.0" width="37.0" height="30.0" rx="3" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="103.5" y="112.0" font-size="9.5" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">+0.71</text>
+<rect x="126.0" y="92.0" width="37.0" height="30.0" rx="3" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="144.5" y="112.0" font-size="9.5" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">+1.00</text>
+<rect x="167.0" y="92.0" width="37.0" height="30.0" rx="3" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="185.5" y="112.0" font-size="9.5" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">+0.71</text>
+<rect x="208.0" y="92.0" width="37.0" height="30.0" rx="3" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="226.5" y="112.0" font-size="9.5" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">+0.00</text>
+<rect x="249.0" y="92.0" width="37.0" height="30.0" rx="3" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="267.5" y="112.0" font-size="9.5" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">-0.71</text>
+<rect x="290.0" y="92.0" width="37.0" height="30.0" rx="3" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="308.5" y="112.0" font-size="9.5" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">-1.00</text>
+<rect x="331.0" y="92.0" width="37.0" height="30.0" rx="3" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="349.5" y="112.0" font-size="9.5" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">-0.71</text>
+<rect x="372.0" y="92.0" width="37.0" height="30.0" rx="3" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="390.5" y="112.0" font-size="9.5" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">+0.00</text>
+<rect x="413.0" y="92.0" width="37.0" height="30.0" rx="3" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="431.5" y="112.0" font-size="9.5" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">+0.71</text>
+<rect x="454.0" y="92.0" width="37.0" height="30.0" rx="3" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="472.5" y="112.0" font-size="9.5" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">+1.00</text>
+<rect x="495.0" y="92.0" width="37.0" height="30.0" rx="3" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="513.5" y="112.0" font-size="9.5" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">+0.71</text>
+<rect x="536.0" y="92.0" width="37.0" height="30.0" rx="3" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="554.5" y="112.0" font-size="9.5" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">+0.00</text>
+<rect x="577.0" y="92.0" width="37.0" height="30.0" rx="3" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="595.5" y="112.0" font-size="9.5" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">-0.71</text>
+<rect x="618.0" y="92.0" width="37.0" height="30.0" rx="3" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="636.5" y="112.0" font-size="9.5" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">-1.00</text>
+<rect x="659.0" y="92.0" width="37.0" height="30.0" rx="3" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="677.5" y="112.0" font-size="9.5" fill="#e0a94e" text-anchor="middle" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">-0.71</text>
+<rect x="40.0" y="80.0" width="160.0" height="54.0" rx="6" fill="none" stroke="#6fbfae" stroke-width="1.8" stroke-dasharray="5 4"/>
+<text x="120.0" y="72.0" font-size="11" fill="#6fbfae" text-anchor="middle" font-weight="400">block 1</text>
+<rect x="204.0" y="80.0" width="160.0" height="54.0" rx="6" fill="none" stroke="#6fbfae" stroke-width="1.8" stroke-dasharray="5 4"/>
+<text x="284.0" y="72.0" font-size="11" fill="#6fbfae" text-anchor="middle" font-weight="400">block 2</text>
+<rect x="368.0" y="80.0" width="160.0" height="54.0" rx="6" fill="none" stroke="#6fbfae" stroke-width="1.8" stroke-dasharray="5 4"/>
+<text x="448.0" y="72.0" font-size="11" fill="#6fbfae" text-anchor="middle" font-weight="400">block 3</text>
+<rect x="532.0" y="80.0" width="160.0" height="54.0" rx="6" fill="none" stroke="#6fbfae" stroke-width="1.8" stroke-dasharray="5 4"/>
+<text x="612.0" y="72.0" font-size="11" fill="#6fbfae" text-anchor="middle" font-weight="400">block 4</text>
+<text x="360.0" y="178.0" font-size="12.5" fill="#f2ece1" text-anchor="middle" font-weight="400">同一串取樣值,被框成一塊一塊送去處理</text>
+<rect x="60.0" y="196.0" width="600.0" height="48.0" rx="7" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="360.0" y="216.0" font-size="12" fill="#a89f92" text-anchor="middle" font-weight="400">處理大小(block)、儲存容量(buffer)、實際排隊量</text>
+<text x="360.0" y="234.0" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">是三件不同的事,不要混為一談</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 265" width="720" height="265" font-family="-apple-system,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" role="img">
+<rect width="720" height="265" rx="10" fill="#1d1811"/>
+<text x="360.0" y="30.0" font-size="17" fill="#f0c87d" text-anchor="middle" font-weight="600">音效裝置按固定時鐘走,CPU 的節奏卻會抖</text>
+<text x="56.0" y="74.0" font-size="12" fill="#6fbfae" text-anchor="start" font-weight="400">音效裝置:等距、不會等人</text>
+<line x1="60.0" y1="100.0" x2="60.0" y2="126.0" stroke="#6fbfae" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="110.0" y1="100.0" x2="110.0" y2="126.0" stroke="#6fbfae" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="160.0" y1="100.0" x2="160.0" y2="126.0" stroke="#6fbfae" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="210.0" y1="100.0" x2="210.0" y2="126.0" stroke="#6fbfae" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="260.0" y1="100.0" x2="260.0" y2="126.0" stroke="#6fbfae" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="310.0" y1="100.0" x2="310.0" y2="126.0" stroke="#6fbfae" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="360.0" y1="100.0" x2="360.0" y2="126.0" stroke="#6fbfae" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="410.0" y1="100.0" x2="410.0" y2="126.0" stroke="#6fbfae" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="460.0" y1="100.0" x2="460.0" y2="126.0" stroke="#6fbfae" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="510.0" y1="100.0" x2="510.0" y2="126.0" stroke="#6fbfae" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="560.0" y1="100.0" x2="560.0" y2="126.0" stroke="#6fbfae" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="610.0" y1="100.0" x2="610.0" y2="126.0" stroke="#6fbfae" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="660.0" y1="100.0" x2="660.0" y2="126.0" stroke="#6fbfae" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="56.0" y1="113.0" x2="668.0" y2="113.0" stroke="#3a3229" stroke-width="1" stroke-linecap="round"/>
+<polygon points="668.0,113.0 661.6,115.9 661.6,110.1" fill="#3a3229"/>
+<text x="56.0" y="164.0" font-size="12" fill="#e0a94e" text-anchor="start" font-weight="400">CPU:忙碌程度會變動</text>
+<rect x="60.0" y="190.0" width="26.0" height="26.0" rx="4" fill="none" stroke="#e0a94e" stroke-width="1.6"/>
+<rect x="94.0" y="190.0" width="44.0" height="26.0" rx="4" fill="none" stroke="#e0a94e" stroke-width="1.6"/>
+<rect x="146.0" y="190.0" width="18.0" height="26.0" rx="4" fill="none" stroke="#e0a94e" stroke-width="1.6"/>
+<rect x="172.0" y="190.0" width="62.0" height="26.0" rx="4" fill="none" stroke="#e0a94e" stroke-width="1.6"/>
+<rect x="242.0" y="190.0" width="30.0" height="26.0" rx="4" fill="none" stroke="#e0a94e" stroke-width="1.6"/>
+<rect x="280.0" y="190.0" width="22.0" height="26.0" rx="4" fill="none" stroke="#e0a94e" stroke-width="1.6"/>
+<rect x="310.0" y="190.0" width="78.0" height="26.0" rx="4" fill="none" stroke="#e0a94e" stroke-width="1.6"/>
+<rect x="396.0" y="190.0" width="34.0" height="26.0" rx="4" fill="none" stroke="#e0a94e" stroke-width="1.6"/>
+<rect x="438.0" y="190.0" width="20.0" height="26.0" rx="4" fill="none" stroke="#e0a94e" stroke-width="1.6"/>
+<rect x="466.0" y="190.0" width="48.0" height="26.0" rx="4" fill="none" stroke="#e0a94e" stroke-width="1.6"/>
+<text x="360.0" y="251.0" font-size="11.5" fill="#f2ece1" text-anchor="middle" font-weight="400">即時音訊的要求:每一批資料都要「準時」交出去</text>
+</svg>

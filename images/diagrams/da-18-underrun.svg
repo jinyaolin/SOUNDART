@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 275" width="720" height="275" font-family="-apple-system,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" role="img">
+<rect width="720" height="275" rx="10" fill="#1d1811"/>
+<text x="360.0" y="30.0" font-size="17" fill="#f0c87d" text-anchor="middle" font-weight="600">來不及交付,就可能斷音</text>
+<line x1="60.0" y1="88.0" x2="60.0" y2="182.0" stroke="#3a3229" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="119.0" y="82.0" font-size="10.5" fill="#a89f92" text-anchor="middle" font-weight="400">期限 1</text>
+<line x1="178.0" y1="88.0" x2="178.0" y2="182.0" stroke="#3a3229" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="237.0" y="82.0" font-size="10.5" fill="#a89f92" text-anchor="middle" font-weight="400">期限 2</text>
+<line x1="296.0" y1="88.0" x2="296.0" y2="182.0" stroke="#3a3229" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="355.0" y="82.0" font-size="10.5" fill="#a89f92" text-anchor="middle" font-weight="400">期限 3</text>
+<line x1="414.0" y1="88.0" x2="414.0" y2="182.0" stroke="#3a3229" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="473.0" y="82.0" font-size="10.5" fill="#a89f92" text-anchor="middle" font-weight="400">期限 4</text>
+<line x1="532.0" y1="88.0" x2="532.0" y2="182.0" stroke="#3a3229" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="591.0" y="82.0" font-size="10.5" fill="#a89f92" text-anchor="middle" font-weight="400">期限 5</text>
+<line x1="650.0" y1="88.0" x2="650.0" y2="182.0" stroke="#3a3229" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<rect x="64.0" y="108.0" width="58.0" height="34.0" rx="4" fill="none" stroke="#e0a94e" stroke-width="1.7"/>
+<rect x="182.0" y="108.0" width="72.0" height="34.0" rx="4" fill="none" stroke="#e0a94e" stroke-width="1.7"/>
+<rect x="300.0" y="108.0" width="64.0" height="34.0" rx="4" fill="none" stroke="#e0a94e" stroke-width="1.7"/>
+<rect x="418.0" y="108.0" width="152.0" height="34.0" rx="4" fill="none" stroke="#d97757" stroke-width="1.7"/>
+<text x="477.0" y="130.0" font-size="11" fill="#d97757" text-anchor="middle" font-weight="400">超過期限</text>
+<rect x="536.0" y="108.0" width="60.0" height="34.0" rx="4" fill="none" stroke="#e0a94e" stroke-width="1.7"/>
+<rect x="418.0" y="152.0" width="110.0" height="26.0" rx="4" fill="#d97757" stroke="#d97757" stroke-width="0" opacity="0.22"/>
+<text x="473.0" y="170.0" font-size="10.5" fill="#d97757" text-anchor="middle" font-weight="400">輸出缺口 → 爆音</text>
+<rect x="60.0" y="196.0" width="600.0" height="56.0" rx="7" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="360.0" y="217.0" font-size="12" fill="#f2ece1" text-anchor="middle" font-weight="400">輸出供應不及 = underflow;輸入來不及取走 = overflow</text>
+<text x="360.0" y="237.0" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">平均 CPU 使用率低,仍可能因為單次尖峰錯過期限</text>
+</svg>
