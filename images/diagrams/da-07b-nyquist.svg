@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 275" width="720" height="275" font-family="-apple-system,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" role="img">
+<rect width="720" height="275" rx="10" fill="#1d1811"/>
+<text x="360.0" y="30.0" font-size="17" fill="#f0c87d" text-anchor="middle" font-weight="600">Nyquist 頻率:取樣率的一半,就是能正確表示的上限</text>
+<line x1="70.0" y1="168.0" x2="666.0" y2="168.0" stroke="#a89f92" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="666.0,168.0 659.6,170.9 659.6,165.1" fill="#a89f92"/>
+<text x="672.0" y="172.0" font-size="11.5" fill="#a89f92" text-anchor="start" font-weight="400">頻率</text>
+<rect x="70.0" y="122.0" width="290.0" height="46.0" rx="0" fill="#6fbfae" stroke="#6fbfae" stroke-width="1.4" opacity="0.16"/>
+<rect x="70.0" y="122.0" width="290.0" height="46.0" rx="0" fill="none" stroke="#6fbfae" stroke-width="1.6"/>
+<text x="215.0" y="148.0" font-size="12.5" fill="#6fbfae" text-anchor="middle" font-weight="400">可以正確表示</text>
+<rect x="360.0" y="122.0" width="290.0" height="46.0" rx="0" fill="#d97757" stroke="#d97757" stroke-width="1.4" opacity="0.12"/>
+<text x="505.0" y="142.0" font-size="12.5" fill="#d97757" text-anchor="middle" font-weight="400">超過就會混疊</text>
+<text x="505.0" y="159.0" font-size="10.5" fill="#a89f92" text-anchor="middle" font-weight="400">被折回左邊的頻帶</text>
+<path d="M 557.2 106.0 Q 360.0 72.0 186.0 106.0" fill="none" stroke="#d97757" stroke-width="1.8" stroke-dasharray="5 4"/>
+<line x1="197.6" y1="105.0" x2="180.2" y2="110.0" stroke="#d97757" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="180.2,110.0 185.6,105.5 187.1,111.0" fill="#d97757"/>
+<text x="360.0" y="64.0" font-size="11" fill="#d97757" text-anchor="middle" font-weight="400">折返(fold back)</text>
+<line x1="70.0" y1="162.0" x2="70.0" y2="176.0" stroke="#a89f92" stroke-width="1.6" stroke-linecap="round"/>
+<text x="70.0" y="194.0" font-size="12.5" fill="#a89f92" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">0</text>
+<line x1="360.0" y1="162.0" x2="360.0" y2="176.0" stroke="#e0a94e" stroke-width="1.6" stroke-linecap="round"/>
+<text x="360.0" y="194.0" font-size="12.5" fill="#e0a94e" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">fs / 2</text>
+<text x="360.0" y="212.0" font-size="11" fill="#e0a94e" text-anchor="middle" font-weight="400">Nyquist 頻率</text>
+<line x1="650.0" y1="162.0" x2="650.0" y2="176.0" stroke="#a89f92" stroke-width="1.6" stroke-linecap="round"/>
+<text x="650.0" y="194.0" font-size="12.5" fill="#a89f92" text-anchor="middle" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">fs</text>
+<text x="650.0" y="212.0" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">取樣率</text>
+<rect x="70.0" y="212.0" width="580.0" height="44.0" rx="7" fill="none" stroke="#3a3229" stroke-width="1"/>
+<text x="360.0" y="232.0" font-size="12.5" fill="#f2ece1" text-anchor="middle" font-weight="400">48 kHz → Nyquist 頻率 24 kHz　|　44.1 kHz → 22.05 kHz</text>
+<text x="360.0" y="249.0" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">人耳上限約 20 kHz,所以兩者都夠用</text>
+</svg>

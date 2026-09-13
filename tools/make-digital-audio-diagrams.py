@@ -296,6 +296,44 @@ def d07():
     return h, s
 
 
+# ── 7b. Nyquist 頻率 ──────────────────────────────────────
+def d07b():
+    h = 275
+    s = head(h, "Nyquist 頻率:取樣率的一半,就是能正確表示的上限")
+    x0, wdt, ax = 70, 580, 168
+    # 頻率軸
+    s += arrow(x0, ax, x0 + wdt + 16, ax, DIM, 1.4)
+    s += txt(x0 + wdt + 22, ax + 4, "頻率", 11.5, DIM, "start")
+    half = x0 + wdt / 2
+    # 可用頻帶
+    s += rect(x0, ax - 46, wdt / 2, 46, TEAL, TEAL, rx=0, sw=1.4, opacity=0.16)
+    s += rect(x0, ax - 46, wdt / 2, 46, TEAL, "none", rx=0, sw=1.6)
+    s += txt(x0 + wdt / 4, ax - 20, "可以正確表示", 12.5, TEAL)
+    # 超過的區域
+    s += rect(half, ax - 46, wdt / 2, 46, RED, RED, rx=0, sw=1.4, opacity=0.12)
+    s += txt(half + wdt / 4, ax - 26, "超過就會混疊", 12.5, RED)
+    s += txt(half + wdt / 4, ax - 9, "被折回左邊的頻帶", 10.5, DIM)
+    # 折返示意
+    s += (f'<path d="M {half + wdt * 0.34:.1f} {ax - 62:.1f} '
+          f'Q {half:.1f} {ax - 96:.1f} {half - wdt * 0.30:.1f} {ax - 62:.1f}" '
+          f'fill="none" stroke="{RED}" stroke-width="1.8" stroke-dasharray="5 4"/>\n')
+    s += arrow(half - wdt * 0.28, ax - 63, half - wdt * 0.31, ax - 58, RED, 1.6)
+    s += txt(half, ax - 104, "折返(fold back)", 11, RED)
+    # 刻度
+    for xx, lab, sub, col in ((x0, "0", "", DIM),
+                              (half, "fs / 2", "Nyquist 頻率", GOLD),
+                              (x0 + wdt, "fs", "取樣率", DIM)):
+        s += line(xx, ax - 6, xx, ax + 8, col, 1.6)
+        s += txt(xx, ax + 26, lab, 12.5, col, weight=600, mono=True)
+        if sub:
+            s += txt(xx, ax + 44, sub, 11, col)
+    # 具體數字
+    s += rect(x0, 212, wdt, 44, LINE, "none", rx=7, sw=1)
+    s += txt(x0 + wdt / 2, 232, "48 kHz → Nyquist 頻率 24 kHz　|　44.1 kHz → 22.05 kHz", 12.5, INK)
+    s += txt(x0 + wdt / 2, 249, "人耳上限約 20 kHz,所以兩者都夠用", 11, DIM)
+    return h, s
+
+
 # ── 8. Bit Depth ──────────────────────────────────────────
 def d08():
     h = 300
@@ -563,7 +601,8 @@ DIAGRAMS = [
     ("da-01-question.svg", d01), ("da-02-pressure-wave.svg", d02),
     ("da-03-amp-freq.svg", d03), ("da-04-analog.svg", d04),
     ("da-05-sampling.svg", d05), ("da-06-samplerate.svg", d06),
-    ("da-07-aliasing.svg", d07), ("da-08-bitdepth.svg", d08),
+    ("da-07-aliasing.svg", d07), ("da-07b-nyquist.svg", d07b),
+    ("da-08-bitdepth.svg", d08),
     ("da-09-sr-vs-bd.svg", d09), ("da-10-chain.svg", d10),
     ("da-11-clock-vs-cpu.svg", d11), ("da-12-batch.svg", d12),
     ("da-13-buffer-blocks.svg", d13), ("da-14-double-buffer.svg", d14),
