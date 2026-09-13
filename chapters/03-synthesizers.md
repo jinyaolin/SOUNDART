@@ -24,6 +24,10 @@
 
 ### Telharmonium（1897 設計，1906 上線）
 
+<img src="../images/instruments/telharmonium.jpg" alt="Telharmonium（1897 年設計）：重達 200 噸，用發電機組產生聲音" style="width:100%;max-width:419px;" />
+
+*Telharmonium（1897 年設計）：重達 200 噸，用發電機組產生聲音*
+
 **Thaddeus Cahill** 的 Telharmonium 可以算是史上第一台合成器，而且它的技術路線相當於**硬體版的加法合成**（見 8.3 節）：
 
 - 用一整排 **齒輪發電機（tonewheel）** 產生純音，每個轉子對應一個頻率
@@ -38,6 +42,10 @@
 ▶️ [1902 年的第一份電子音樂錄音](https://www.youtube.com/watch?v=5PGOM9QnLWw)
 
 ### Theremin（1920）：外差原理
+
+<img src="../images/instruments/theremin.jpg" alt="Theremin（1920）：兩根天線，手不碰樂器就能演奏" style="width:100%;max-width:720px;" />
+
+*Theremin（1920）：兩根天線，手不碰樂器就能演奏*
 
 **Leon Theremin** 的樂器不需要碰觸，它的原理需要說明一下，因為用到的是第 8 章 8.5 節談過的**差頻**：
 
@@ -54,6 +62,14 @@
 
 ### Ondes Martenot（1928）與 Trautonium（1930）
 
+<img src="../images/instruments/ondes-martenot.jpg" alt="Ondes Martenot（1928）：鍵盤加上一條可連續滑動的絲線" style="width:100%;max-width:720px;" />
+
+*Ondes Martenot（1928）：鍵盤加上一條可連續滑動的絲線*
+
+<img src="../images/instruments/trautonium.jpg" alt="Trautonium（1930）：按壓電阻絲控制音高，沒有固定音格" style="width:100%;max-width:720px;" />
+
+*Trautonium（1930）：按壓電阻絲控制音高，沒有固定音格*
+
 **Ondes Martenot**（Maurice Martenot）解決了 Theremin 的演奏問題：加上**鍵盤 + 帶狀滑環（ribbon）**。鍵盤給你確定的音高，滑環給你連續的滑音。兩種都要，不必二選一。
 
 它還有一個常被忽略的創新：**多種擴音器**。除了一般喇叭，還有裝了共鳴弦的 *palme*、裝了鑼的金屬擴音器。同樣的訊號，經過不同的物理共鳴體，變成不同的樂器。
@@ -65,6 +81,10 @@
 ▶️ [Ondes Martenot 演奏](https://www.youtube.com/watch?v=v0aflcF0-ys)
 
 ### Hammond Organ（1935）
+
+<img src="../images/instruments/hammond-b3.jpg" alt="Hammond Organ（1935）：齒輪盤發聲，拉桿即時混合泛音" style="width:100%;max-width:720px;" />
+
+*Hammond Organ（1935）：齒輪盤發聲，拉桿即時混合泛音*
 
 Laurens Hammond 把 Telharmonium 的 tonewheel 原理**縮小到一台可以搬進教堂的機器**，並用九根**抽拉桿（drawbar）**讓演奏者即時調整每個泛音的音量。
 
@@ -126,6 +146,14 @@ Moog 的 24 dB/八度 低通濾波器（因電路長得像梯子而得名 *ladde
 
 ### 東岸 vs 西岸：兩種哲學
 
+<img src="../images/instruments/moog-modular.jpg" alt="Moog 模組化系統：每個模組一種功能，接線決定聲音" style="width:100%;max-width:720px;" />
+
+*Moog 模組化系統：每個模組一種功能，接線決定聲音*
+
+<img src="../images/instruments/buchla.jpg" alt="Buchla 100 系列：西岸哲學，觸控板與序列器取代鍵盤" style="width:100%;max-width:720px;" />
+
+*Buchla 100 系列：西岸哲學，觸控板與序列器取代鍵盤*
+
 | | **Moog（東岸）** | **Buchla（西岸）** |
 |---|---|---|
 | 介面 | **鍵盤** | **觸控板、無鍵盤** |
@@ -143,6 +171,10 @@ Buchla 刻意不做鍵盤，理由是：鍵盤會把音高鎖進十二平均律�
 ▶️ [Buchla 與 Moog 直接對比](https://www.youtube.com/watch?v=e6RSfbh9jhY)
 
 ### Minimoog（1970）：把模組化變成樂器
+
+<img src="../images/instruments/minimoog.jpg" alt="Minimoog（1970）：把模組化的接線固定下來，變成可以搬的樂器" style="width:100%;max-width:720px;" />
+
+*Minimoog（1970）：把模組化的接線固定下來，變成可以搬的樂器*
 
 模組化系統很強，但很難搬、很難重現，演出時也很容易接錯。Minimoog 的解法是：**把最常用的接線在內部預先接好**，只留下最需要調的旋鈕，加上鍵盤，做成一台可以扛上舞台的樂器。
 
@@ -167,6 +199,10 @@ Buchla 刻意不做鍵盤，理由是：鍵盤會把音高鎖進十二平均律�
 解法是**把微處理器放進合成器裡**：讓電腦負責分配聲部、記住設定、校正音準。
 
 ### Prophet-5（1978）：可以「存」音色的第一台
+
+<img src="../images/instruments/prophet-5.jpg" alt="Prophet-5（1978）：第一台能把音色存起來的複音合成器" style="width:100%;max-width:386px;" />
+
+*Prophet-5（1978）：第一台能把音色存起來的複音合成器*
 
 Sequential Circuits 的 **Dave Smith** 做出了 Prophet-5，這是史上第一台完全可程式化的複音合成器。
 
@@ -202,6 +238,10 @@ MIDI 至今仍在用，四十年了，因為它只做一件事並做對了：它
 
 ### 路線一：FM 合成（Yamaha DX7, 1983）
 
+<img src="../images/instruments/yamaha-dx7.jpg" alt="Yamaha DX7（1983）：FM 合成，數位、複音、比類比機便宜" style="width:100%;max-width:720px;" />
+
+*Yamaha DX7（1983）：FM 合成，數位、複音、比類比機便宜*
+
 第 8 章 8.5 節與第 4 章 4.5 節都談過原理，這裡補樂器史：
 
 - **John Chowning** 1973 年在史丹佛發表 FM 合成，史丹佛把專利授權給 **Yamaha**
@@ -219,6 +259,10 @@ MIDI 至今仍在用，四十年了，因為它只做一件事並做對了：它
 
 ### 路線二：取樣（Fairlight CMI, 1979）
 
+<img src="../images/instruments/fairlight-cmi.jpg" alt="Fairlight CMI（1979）：取樣器的起點，也是第一批數位音訊工作站" style="width:100%;max-width:720px;" />
+
+*Fairlight CMI（1979）：取樣器的起點，也是第一批數位音訊工作站*
+
 **Fairlight CMI**（澳洲，Peter Vogel & Kim Ryrie）是第一台商業數位取樣器，可以把真實聲音錄進記憶體，再用鍵盤彈它。
 
 - 售價約當年一棟房子
@@ -234,6 +278,10 @@ MIDI 至今仍在用，四十年了，因為它只做一件事並做對了：它
 ▶️ [Fairlight CMI 如何改變音樂](https://www.youtube.com/watch?v=jkiYy0i8FtA)
 
 ### 路線三：波表與混合式（PPG Wave 1981、Roland D-50 1987）
+
+<img src="../images/instruments/roland-d50.jpg" alt="Roland D-50（1987）：取樣的起音接上合成的延續音" style="width:100%;max-width:720px;" />
+
+*Roland D-50（1987）：取樣的起音接上合成的延續音*
 
 - **波表合成（wavetable）**：存一整排單週期波形，播放時在它們之間掃描 → 音色會**隨時間變形**。PPG Wave、後來的 Waldorf 都走這條路。
 - **Roland D-50（1987）的 LA 合成**：把**取樣的起音（attack）**接上**合成的延續音（sustain）**。因為人耳辨識樂器主要靠起音的那幾十毫秒（見 2.1 節「音色」），這招用極少的記憶體做出了驚人的真實感。
@@ -285,6 +333,10 @@ Yamaha VL1（1994）把這個想法做到極致：模擬管子的長度、吹嘴
 這裡有一個現象：軟體合成器的競爭焦點，很快從「音色」轉向「模擬得有多像」。大量的 CPU 被花在重現類比電路的非線性失真。也就是說，業界花了二十年，用數位去重建它二十年前拋棄的類比缺陷。
 
 ### 模組化的復興：Eurorack
+
+<img src="../images/instruments/eurorack.jpg" alt="Eurorack：1996 年定下的規格，讓模組化在二十一世紀復活" style="width:100%;max-width:720px;" />
+
+*Eurorack：1996 年定下的規格，讓模組化在二十一世紀復活*
 
 1995 年德國的 **Dieter Doepfer** 訂出 **Eurorack** 規格（模組高度 3U、電源排線標準化），任何人都能做相容模組。2010 年代它爆炸性成長。今天有數百家廠商、上萬種模組。
 
@@ -422,6 +474,10 @@ Theremin 太難所以沒普及；DX7 太難調所以大家只用預設；鍵盤�
 而這就回到第 1、2 章的問題了：你想讓誰、用什麼方式、發出什麼聲音。
 
 ---
+
+## 圖片來源
+
+本章的樂器照片全部取自 Wikimedia Commons，作者、授權與原始頁面列於 [images/instruments/CREDITS.md](../images/instruments/CREDITS.md)。
 
 ## 延伸
 

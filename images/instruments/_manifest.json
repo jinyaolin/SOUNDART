@@ -1,0 +1,119 @@
+[
+ {
+  "slug": "telharmonium",
+  "ext": ".jpg",
+  "caption": "Telharmonium（1897 年設計）：重達 200 噸，用發電機組產生聲音",
+  "w": 419,
+  "h": 288,
+  "lic": "Public domain",
+  "author": "User Chris 73 on en.wikipedia"
+ },
+ {
+  "slug": "theremin",
+  "ext": ".jpg",
+  "caption": "Theremin（1920）：兩根天線，手不碰樂器就能演奏",
+  "w": 900,
+  "h": 1200,
+  "lic": "CC BY-SA 4.0",
+  "author": "Andrevan"
+ },
+ {
+  "slug": "ondes-martenot",
+  "ext": ".jpg",
+  "caption": "Ondes Martenot（1928）：鍵盤加上一條可連續滑動的絲線",
+  "w": 900,
+  "h": 675,
+  "lic": "CC BY-SA 2.0",
+  "author": "andrew garton from Melbourne, Australia"
+ },
+ {
+  "slug": "trautonium",
+  "ext": ".jpg",
+  "caption": "Trautonium（1930）：按壓電阻絲控制音高，沒有固定音格",
+  "w": 900,
+  "h": 1168,
+  "lic": "CC BY 2.5",
+  "author": "User:MatthiasKabel"
+ },
+ {
+  "slug": "hammond-b3",
+  "ext": ".jpg",
+  "caption": "Hammond Organ（1935）：齒輪盤發聲，拉桿即時混合泛音",
+  "w": 900,
+  "h": 675,
+  "lic": "CC0",
+  "author": "jmorland"
+ },
+ {
+  "slug": "moog-modular",
+  "ext": ".jpg",
+  "caption": "Moog 模組化系統：每個模組一種功能，接線決定聲音",
+  "w": 900,
+  "h": 508,
+  "lic": "CC BY-SA 4.0",
+  "author": "Attila Szász"
+ },
+ {
+  "slug": "buchla",
+  "ext": ".jpg",
+  "caption": "Buchla 100 系列：西岸哲學，觸控板與序列器取代鍵盤",
+  "w": 900,
+  "h": 675,
+  "lic": "CC BY-SA 2.0",
+  "author": "Bennett"
+ },
+ {
+  "slug": "minimoog",
+  "ext": ".jpg",
+  "caption": "Minimoog（1970）：把模組化的接線固定下來，變成可以搬的樂器",
+  "w": 900,
+  "h": 675,
+  "lic": "CC BY 2.0",
+  "author": "Vincent Liu from Orange County, USA"
+ },
+ {
+  "slug": "prophet-5",
+  "ext": ".jpg",
+  "caption": "Prophet-5（1978）：第一台能把音色存起來的複音合成器",
+  "w": 386,
+  "h": 163,
+  "lic": "Public domain",
+  "author": "CPRdave at English Wikipedia"
+ },
+ {
+  "slug": "yamaha-dx7",
+  "ext": ".jpg",
+  "caption": "Yamaha DX7（1983）：FM 合成，數位、複音、比類比機便宜",
+  "w": 900,
+  "h": 305,
+  "lic": "Public domain",
+  "author": "Finnianhughes101"
+ },
+ {
+  "slug": "fairlight-cmi",
+  "ext": ".jpg",
+  "caption": "Fairlight CMI（1979）：取樣器的起點，也是第一批數位音訊工作站",
+  "w": 900,
+  "h": 597,
+  "lic": "CC BY-SA 4.0",
+  "author": "Peter Wielk"
+ },
+ {
+  "slug": "roland-d50",
+  "ext": ".jpg",
+  "caption": "Roland D-50（1987）：取樣的起音接上合成的延續音",
+  "w": 900,
+  "h": 349,
+  "lic": "Public domain",
+  "author": "iixorbiusii"
+ },
+ {
+  "slug": "eurorack",
+  "ext": ".jpg",
+  "caption": "Eurorack：1996 年定下的規格，讓模組化在二十一世紀復活",
+  "w": 900,
+  "h": 900,
+  "lic": "CC BY-SA 4.0",
+  "author": "Paul Anthony"
+ }
+]

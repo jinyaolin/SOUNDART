@@ -46,6 +46,18 @@ Note:
 
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=AV34h-YCMbE">Telharmonium：合成的合成</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=5PGOM9QnLWw">1902 年的第一份電子音樂錄音</a></p>
 
+
+--
+
+## Telharmonium（1897 年設計）
+
+<img class="diagram" src="../images/instruments/telharmonium.jpg" alt="Telharmonium（1897 年設計）：重達 200 噸，用發電機組產生聲音">
+
+<p class="figcap">Telharmonium（1897 年設計）：重達 200 噸，用發電機組產生聲音</p>
+
+Note:
+照片來源與授權見 images/instruments/CREDITS.md（User Chris 73 on en.wikipedia，Public domain）。
+
 ---
 
 ## 1920 Theremin：聽到的是差頻
@@ -63,6 +75,18 @@ Note:
 代價：音高**完全連續**，沒有琴格沒有鍵，全靠耳朵與手的空間記憶。
 
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=K6KbEnGnymk">Theremin 演奏〈Over the Rainbow〉</a></p>
+
+
+--
+
+## Theremin（1920）
+
+<img class="diagram" src="../images/instruments/theremin.jpg" alt="Theremin（1920）：兩根天線，手不碰樂器就能演奏">
+
+<p class="figcap">Theremin（1920）：兩根天線，手不碰樂器就能演奏</p>
+
+Note:
+照片來源與授權見 images/instruments/CREDITS.md（Andrevan，CC BY-SA 4.0）。
 
 ---
 
@@ -92,6 +116,42 @@ Note:
 >
 > 你在 7.3 節接的那四個 `[osc~] → [*~]`，
 > Hammond 在 1935 年就做成九根可以用手推的桿子了。
+
+
+--
+
+## Ondes Martenot（1928）
+
+<img class="diagram" src="../images/instruments/ondes-martenot.jpg" alt="Ondes Martenot（1928）：鍵盤加上一條可連續滑動的絲線">
+
+<p class="figcap">Ondes Martenot（1928）：鍵盤加上一條可連續滑動的絲線</p>
+
+Note:
+照片來源與授權見 images/instruments/CREDITS.md（andrew garton from Melbourne, ，CC BY-SA 2.0）。
+
+
+--
+
+## Trautonium（1930）
+
+<img class="diagram" src="../images/instruments/trautonium.jpg" alt="Trautonium（1930）：按壓電阻絲控制音高，沒有固定音格">
+
+<p class="figcap">Trautonium（1930）：按壓電阻絲控制音高，沒有固定音格</p>
+
+Note:
+照片來源與授權見 images/instruments/CREDITS.md（User:MatthiasKabel，CC BY 2.5）。
+
+
+--
+
+## Hammond Organ（1935）
+
+<img class="diagram" src="../images/instruments/hammond-b3.jpg" alt="Hammond Organ（1935）：齒輪盤發聲，拉桿即時混合泛音">
+
+<p class="figcap">Hammond Organ（1935）：齒輪盤發聲，拉桿即時混合泛音</p>
+
+Note:
+照片來源與授權見 images/instruments/CREDITS.md（jmorland，CC0）。
 
 ---
 
@@ -184,6 +244,30 @@ Moog 的 24 dB/八度低通濾波器（電路長得像梯子）有專利保護�
 Note:
 這一頁可以停久一點。Buchla 的立場在藝術系的課裡比在音樂系的課裡更好懂。
 
+
+--
+
+## Moog 模組化系統
+
+<img class="diagram" src="../images/instruments/moog-modular.jpg" alt="Moog 模組化系統：每個模組一種功能，接線決定聲音">
+
+<p class="figcap">Moog 模組化系統：每個模組一種功能，接線決定聲音</p>
+
+Note:
+照片來源與授權見 images/instruments/CREDITS.md（Attila Szász，CC BY-SA 4.0）。
+
+
+--
+
+## Buchla 100 系列
+
+<img class="diagram" src="../images/instruments/buchla.jpg" alt="Buchla 100 系列：西岸哲學，觸控板與序列器取代鍵盤">
+
+<p class="figcap">Buchla 100 系列：西岸哲學，觸控板與序列器取代鍵盤</p>
+
+Note:
+照片來源與授權見 images/instruments/CREDITS.md（Bennett，CC BY-SA 2.0）。
+
 ---
 
 ## 1970 Minimoog：把模組化變成樂器
@@ -200,6 +284,18 @@ Note:
 
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=sLx_x5Fuzp4">Minimoog 簡史</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=UsW2EDGbDqg">Wendy Carlos 與她的 Moog（BBC 1970）</a></p>
 
+
+--
+
+## Minimoog（1970）
+
+<img class="diagram" src="../images/instruments/minimoog.jpg" alt="Minimoog（1970）：把模組化的接線固定下來，變成可以搬的樂器">
+
+<p class="figcap">Minimoog（1970）：把模組化的接線固定下來，變成可以搬的樂器</p>
+
+Note:
+照片來源與授權見 images/instruments/CREDITS.md（Vincent Liu from Orange County，CC BY 2.0）。
+
 ---
 
 ## 1978 Prophet-5：可以「存」音色的第一台
@@ -212,6 +308,18 @@ Dave Smith 的突破不在音色，而在一個今天理所當然的功能——
 ### Prophet-5 讓「音色」第一次變成可以儲存、召回、交換的資料。
 
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=Ruh0B5QKBMs">Prophet 合成器的歷史</a></p>
+
+
+--
+
+## Prophet-5（1978）
+
+<img class="diagram" src="../images/instruments/prophet-5.jpg" alt="Prophet-5（1978）：第一台能把音色存起來的複音合成器">
+
+<p class="figcap">Prophet-5（1978）：第一台能把音色存起來的複音合成器</p>
+
+Note:
+照片來源與授權見 images/instruments/CREDITS.md（CPRdave at English Wikipedia，Public domain）。
 
 ---
 
@@ -263,6 +371,18 @@ Dave Smith（Sequential）與 **梯郁太郎**（Roland）推動的跨廠牌協�
 
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=w4g92vX1YF4">Chowning 談 FM 的起源</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=eeHNVVcuSVs">原版 DX7</a></p>
 
+
+--
+
+## Yamaha DX7（1983）
+
+<img class="diagram" src="../images/instruments/yamaha-dx7.jpg" alt="Yamaha DX7（1983）：FM 合成，數位、複音、比類比機便宜">
+
+<p class="figcap">Yamaha DX7（1983）：FM 合成，數位、複音、比類比機便宜</p>
+
+Note:
+照片來源與授權見 images/instruments/CREDITS.md（Finnianhughes101，Public domain）。
+
 ---
 
 ## 路線二：取樣（Fairlight CMI, 1979）
@@ -280,6 +400,18 @@ Dave Smith（Sequential）與 **梯郁太郎**（Roland）推動的跨廠牌協�
 
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=k0dn0lcvWkY">BBC Archive 1980：Fairlight CMI</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=jkiYy0i8FtA">Fairlight 如何改變音樂</a></p>
 
+
+--
+
+## Fairlight CMI（1979）
+
+<img class="diagram" src="../images/instruments/fairlight-cmi.jpg" alt="Fairlight CMI（1979）：取樣器的起點，也是第一批數位音訊工作站">
+
+<p class="figcap">Fairlight CMI（1979）：取樣器的起點，也是第一批數位音訊工作站</p>
+
+Note:
+照片來源與授權見 images/instruments/CREDITS.md（Peter Wielk，CC BY-SA 4.0）。
+
 ---
 
 ## 路線三：波表與混合式
@@ -293,6 +425,18 @@ Dave Smith（Sequential）與 **梯郁太郎**（Roland）推動的跨廠牌協�
 因為人耳辨識樂器主要靠起音的那幾十毫秒（2.1 節），這招用極少的記憶體做出驚人的真實感。
 
 > **一個很聰明的工程妥協**：記憶體貴，就把它花在最關鍵的 50 毫秒上。
+
+
+--
+
+## Roland D-50（1987）
+
+<img class="diagram" src="../images/instruments/roland-d50.jpg" alt="Roland D-50（1987）：取樣的起音接上合成的延續音">
+
+<p class="figcap">Roland D-50（1987）：取樣的起音接上合成的延續音</p>
+
+Note:
+照片來源與授權見 images/instruments/CREDITS.md（iixorbiusii，Public domain）。
 
 ---
 
@@ -354,6 +498,18 @@ Dave Smith（Sequential）與 **梯郁太郎**（Roland）推動的跨廠牌協�
 > **這跟第 4 章的第一課是同一件事：限制會長出風格。**
 
 <p class="vidlinks">▶ <a href="https://www.youtube.com/watch?v=u3JDmMIkBr0">Eurorack 的發明故事</a><span class="sep">·</span><a href="https://www.youtube.com/watch?v=CYQ0x3LtzWg">模組合成入門</a></p>
+
+
+--
+
+## Eurorack
+
+<img class="diagram" src="../images/instruments/eurorack.jpg" alt="Eurorack：1996 年定下的規格，讓模組化在二十一世紀復活">
+
+<p class="figcap">Eurorack：1996 年定下的規格，讓模組化在二十一世紀復活</p>
+
+Note:
+照片來源與授權見 images/instruments/CREDITS.md（Paul Anthony，CC BY-SA 4.0）。
 
 ---
 
