@@ -89,7 +89,7 @@ export const PRESETS = [
       { f:'adsr1', fp:'out', t:'out1', tp:'in' },
     ] } },
 
-  { id: 'ch7-sub-lfo', ch: '第 7 章 7.4', name: '🎚 減法合成：LFO 掃濾波器', patch: {
+  { id: 'ch7-sub-lfo', ch: '第 8 章 8.4', name: '🎚 減法合成：LFO 掃濾波器', patch: {
     name: '減法合成 + LFO 掃頻',
     nodes: [
       { id: 'osc1', type: 'osc', x: 40, y: 50, params: { freq: 110, detune: 0 }, opts: { type: 'sawtooth' } },
@@ -103,7 +103,7 @@ export const PRESETS = [
       { f:'flt1', fp:'out', t:'vca1', tp:'in' }, { f:'vca1', fp:'out', t:'out1', tp:'in' },
     ] } },
 
-  { id: 'ch7-additive', ch: '第 7 章 7.3', name: '➕ 加法合成：四個泛音疊出鋸齒', patch: {
+  { id: 'ch7-additive', ch: '第 8 章 8.3', name: '➕ 加法合成：四個泛音疊出鋸齒', patch: {
     name: '加法合成',
     nodes: [
       { id: 'o1', type: 'osc', x: 40, y: 20, params: { freq: 220, detune: 0 }, opts: { type: 'sine' } },
@@ -123,7 +123,7 @@ export const PRESETS = [
       { f:'g3', fp:'out', t:'out1', tp:'in' }, { f:'g4', fp:'out', t:'out1', tp:'in' },
     ] } },
 
-  { id: 'ch7-ringmod', ch: '第 7 章 7.5', name: '🔔 環形調變：兩個訊號相乘', patch: {
+  { id: 'ch7-ringmod', ch: '第 8 章 8.5', name: '🔔 環形調變：兩個訊號相乘', patch: {
     name: '環形調變',
     nodes: [
       { id: 'car', type: 'osc', x: 40, y: 40, params: { freq: 440, detune: 0 }, opts: { type: 'sine' } },
@@ -136,7 +136,7 @@ export const PRESETS = [
       { f:'vca1', fp:'out', t:'out1', tp:'in' },
     ] } },
 
-  { id: 'ch7-adsr', ch: '第 7 章 7.6', name: '📈 ADSR：把 Attack 調到 0 聽 click', patch: {
+  { id: 'ch7-adsr', ch: '第 8 章 8.6', name: '📈 ADSR：把 Attack 調到 0 聽 click', patch: {
     name: 'ADSR 包絡',
     nodes: [
       { id: 'seq1', type: 'seq', x: 30, y: 30, params: { bpm: 96 }, opts: {}, steps: seq([0,null,null,null,0,null,null,null,0,null,null,null,0,null,null,null]) },
@@ -149,7 +149,7 @@ export const PRESETS = [
       { f:'osc1', fp:'out', t:'adsr1', tp:'in' }, { f:'adsr1', fp:'out', t:'out1', tp:'in' },
     ] } },
 
-  { id: 'ch7-delay', ch: '第 7 章 7.8', name: '🔁 延遲家族：從梳狀濾波到回聲', patch: {
+  { id: 'ch7-delay', ch: '第 8 章 8.8', name: '🔁 延遲家族：從梳狀濾波到回聲', patch: {
     name: '延遲家族',
     nodes: [
       { id: 'seq1', type: 'seq', x: 30, y: 30, params: { bpm: 96 }, opts: {}, steps: seq([0,null,null,null,7,null,null,null,0,null,null,null,5,null,null,null]) },
@@ -164,7 +164,7 @@ export const PRESETS = [
       { f:'dly1', fp:'out', t:'out1', tp:'in' },
     ] } },
 
-  { id: 'ch7-fm', ch: '第 7 章 7.5', name: '🎺 FM 合成：調變器 → 深度 → 載波', patch: {
+  { id: 'ch7-fm', ch: '第 8 章 8.5', name: '🎺 FM 合成：調變器 → 深度 → 載波', patch: {
     name: 'FM 合成',
     nodes: [
       { id: 'mod', type: 'osc', x: 40, y: 60, params: { freq: 220, detune: 0 }, opts: { type: 'sine' } },
@@ -178,7 +178,7 @@ export const PRESETS = [
       { f:'car', fp:'out', t:'vca1', tp:'in' }, { f:'vca1', fp:'out', t:'out1', tp:'in' },
     ] } },
 
-  { id: 'ch7-fm-env', ch: '第 7 章 7.5', name: '🎹 FM：讓 Index 隨時間衰減（DX7 的祕密）', patch: {
+  { id: 'ch7-fm-env', ch: '第 8 章 8.5', name: '🎹 FM：讓 Index 隨時間衰減（DX7 的祕密）', patch: {
     name: 'FM + Index 包絡',
     nodes: [
       { id: 'seq1', type: 'seq', x: 20, y: 20, params: { bpm: 84 }, opts: {}, steps: seq([0,null,null,null,0,null,null,null,0,null,null,null,0,null,null,null]) },
