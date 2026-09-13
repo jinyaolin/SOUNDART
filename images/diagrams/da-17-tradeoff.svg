@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" font-family="-apple-system,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" role="img">
+<rect width="720" height="300" rx="10" fill="#1d1811"/>
+<text x="360.0" y="30.0" font-size="17" fill="#f0c87d" text-anchor="middle" font-weight="600">同一個旋鈕,兩種相反的需求</text>
+<line x1="70.0" y1="96.0" x2="650.0" y2="96.0" stroke="#3a3229" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="360.0" y1="96.0" x2="78.0" y2="96.0" stroke="#6fbfae" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="78.0,96.0 84.4,93.1 84.4,98.9" fill="#6fbfae"/>
+<line x1="360.0" y1="96.0" x2="642.0" y2="96.0" stroke="#e0a94e" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="642.0,96.0 635.6,98.9 635.6,93.1" fill="#e0a94e"/>
+<text x="190.0" y="82.0" font-size="12.5" fill="#6fbfae" text-anchor="middle" font-weight="600">buffer 小</text>
+<text x="530.0" y="82.0" font-size="12.5" fill="#e0a94e" text-anchor="middle" font-weight="600">buffer 大</text>
+<rect x="50.0" y="128.0" width="290.0" height="148.0" rx="8" fill="none" stroke="#6fbfae" stroke-width="1.6"/>
+<text x="195.0" y="152.0" font-size="13.5" fill="#6fbfae" text-anchor="middle" font-weight="600">即時演奏・監聽</text>
+<text x="195.0" y="170.0" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">延遲聽得出來</text>
+<rect x="70.0" y="184.0" width="22.0" height="18.0" rx="2" fill="none" stroke="#6fbfae" stroke-width="1.2"/>
+<rect x="95.0" y="184.0" width="22.0" height="18.0" rx="2" fill="none" stroke="#6fbfae" stroke-width="1.2"/>
+<rect x="120.0" y="184.0" width="22.0" height="18.0" rx="2" fill="none" stroke="#6fbfae" stroke-width="1.2"/>
+<rect x="145.0" y="184.0" width="22.0" height="18.0" rx="2" fill="none" stroke="#6fbfae" stroke-width="1.2"/>
+<rect x="170.0" y="184.0" width="22.0" height="18.0" rx="2" fill="none" stroke="#6fbfae" stroke-width="1.2"/>
+<rect x="195.0" y="184.0" width="22.0" height="18.0" rx="2" fill="none" stroke="#6fbfae" stroke-width="1.2"/>
+<rect x="220.0" y="184.0" width="22.0" height="18.0" rx="2" fill="none" stroke="#6fbfae" stroke-width="1.2"/>
+<rect x="245.0" y="184.0" width="22.0" height="18.0" rx="2" fill="none" stroke="#6fbfae" stroke-width="1.2"/>
+<rect x="270.0" y="184.0" width="22.0" height="18.0" rx="2" fill="none" stroke="#6fbfae" stroke-width="1.2"/>
+<rect x="295.0" y="184.0" width="22.0" height="18.0" rx="2" fill="none" stroke="#6fbfae" stroke-width="1.2"/>
+<text x="195.0" y="226.0" font-size="11.5" fill="#f2ece1" text-anchor="middle" font-weight="400">延遲要短</text>
+<text x="195.0" y="244.0" font-size="11.5" fill="#f2ece1" text-anchor="middle" font-weight="400">每格期限緊,容易爆音</text>
+<rect x="380.0" y="128.0" width="290.0" height="148.0" rx="8" fill="none" stroke="#e0a94e" stroke-width="1.6"/>
+<text x="525.0" y="152.0" font-size="13.5" fill="#e0a94e" text-anchor="middle" font-weight="600">非即時混音・輸出</text>
+<text x="525.0" y="170.0" font-size="11" fill="#a89f92" text-anchor="middle" font-weight="400">延遲無所謂</text>
+<rect x="400.0" y="184.0" width="80.3" height="18.0" rx="2" fill="none" stroke="#e0a94e" stroke-width="1.2"/>
+<rect x="483.3" y="184.0" width="80.3" height="18.0" rx="2" fill="none" stroke="#e0a94e" stroke-width="1.2"/>
+<rect x="566.7" y="184.0" width="80.3" height="18.0" rx="2" fill="none" stroke="#e0a94e" stroke-width="1.2"/>
+<text x="525.0" y="226.0" font-size="11.5" fill="#f2ece1" text-anchor="middle" font-weight="400">餘裕大,不怕短暫尖峰</text>
+<text x="525.0" y="244.0" font-size="11.5" fill="#f2ece1" text-anchor="middle" font-weight="400">開銷攤得開,跑得穩</text>
+<text x="360.0" y="288.0" font-size="11.5" fill="#a89f92" text-anchor="middle" font-weight="400">沒有「正確」的 buffer 大小,只有適合當下用途的大小</text>
+</svg>

@@ -528,6 +528,40 @@ def d16():
     return h, s
 
 
+# ── 17. 兩種情境的取捨 ────────────────────────────────────
+def d17():
+    h = 300
+    s = head(h, "同一個旋鈕,兩種相反的需求")
+    # 取捨軸
+    ay = 96
+    s += line(70, ay, 650, ay, LINE, 1.6)
+    s += arrow(360, ay, 78, ay, TEAL, 1.6)
+    s += arrow(360, ay, 642, ay, GOLD, 1.6)
+    s += txt(190, ay - 14, "buffer 小", 12.5, TEAL, weight=600)
+    s += txt(530, ay - 14, "buffer 大", 12.5, GOLD, weight=600)
+
+    def panel(x0, color, title, sub, cells, cw, rows):
+        out = rect(x0, 128, 290, 148, color, "none", rx=8, sw=1.6)
+        out += txt(x0 + 145, 152, title, 13.5, color, weight=600)
+        out += txt(x0 + 145, 170, sub, 11, DIM)
+        # buffer 格子示意
+        gy = 184
+        tot = 250
+        w1 = tot / cells
+        for i in range(cells):
+            out += rect(x0 + 20 + i * w1, gy, w1 - 3, 18, color, "none", rx=2, sw=1.2)
+        for j, r in enumerate(rows):
+            out += txt(x0 + 145, 226 + j * 18, r, 11.5, INK)
+        return out
+
+    s += panel(50, TEAL, "即時演奏・監聽", "延遲聽得出來", 10, 25,
+               ["延遲要短", "每格期限緊,容易爆音"])
+    s += panel(380, GOLD, "非即時混音・輸出", "延遲無所謂", 3, 83,
+               ["餘裕大,不怕短暫尖峰", "開銷攤得開,跑得穩"])
+    s += txt(360, h - 12, "沒有「正確」的 buffer 大小,只有適合當下用途的大小", 11.5, DIM)
+    return h, s
+
+
 # ── 18. Underflow ─────────────────────────────────────────
 def d18():
     h = 275
@@ -606,7 +640,8 @@ DIAGRAMS = [
     ("da-09-sr-vs-bd.svg", d09), ("da-10-chain.svg", d10),
     ("da-11-clock-vs-cpu.svg", d11), ("da-12-batch.svg", d12),
     ("da-13-buffer-blocks.svg", d13), ("da-14-double-buffer.svg", d14),
-    ("da-16-buffer-size.svg", d16), ("da-18-underrun.svg", d18),
+    ("da-16-buffer-size.svg", d16), ("da-17-tradeoff.svg", d17),
+    ("da-18-underrun.svg", d18),
     ("da-19-latency-path.svg", d19), ("da-20-pd-preview.svg", d20),
 ]
 
