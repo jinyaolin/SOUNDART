@@ -380,6 +380,24 @@ Andrew Belt 在 2017 年推出它，把 Eurorack 整個搬進螢幕：一樣的�
 
 ▶️ [VCV Rack 官方網站](https://vcvrack.com/Rack)
 
+### Korg Volca（2013 至今）：便宜到可以亂玩的硬體
+
+<img src="../images/instruments/volca-keys.jpg" alt="Korg Volca Keys（2013）：電池供電、內建喇叭，一台約一百多美元" style="width:100%;max-width:720px;" />
+
+*Korg Volca Keys（2013）：電池供電、內建喇叭，一台約一百多美元*
+
+把前面三節排在一起會看到一個空格。Eurorack 有手的參與，但一套系統動輒數千美元；VCV Rack 免費，但只剩滑鼠。那有沒有又便宜、又摸得到的東西？
+
+2013 年 Korg 推出 **Volca** 系列，第一批三台（Keys、Bass、Beats）每台定價 119.99 英鎊。到現在累積了十款在售：類比的 Bass、Nubass、Keys、Kick，節奏機 Beats、Drum，FM 合成的 FM、取樣的 Sample、半模組的 Modular，以及混音用的 Mix。
+
+它們共用同一套設計決定：**電池供電、內建喇叭、一組 SYNC 孔加 MIDI IN、一個內建的步進定序器**。這些加起來的意思是，你可以把它放進背包，在沒有電源和喇叭的地方直接開始，而且多台之間用一條線就能同步。
+
+最後那一點值得多想一下。一台 Volca 是一件樂器，三台用 SYNC 串起來就是一個小系統，每台負責一個聲部。這就是模組化的思路，只是規模縮到掌上、價格縮到十分之一。系列裡的 **Volca Modular** 更直接，它是半模組結構，面板上就是給你插短線的孔。
+
+對這門課還有一個實際的接點：Volca 有 MIDI IN，所以你在 Pure Data 裡寫的序列可以直接驅動它。螢幕裡的補丁負責邏輯，桌上的盒子負責發聲。
+
+▶️ [Korg Volca 系列](https://www.korg.com/us/products/dj/)
+
 ### 自己造樂器
 
 而最後一條路，就是這門課在做的事：用 Pure Data / Max/MSP 自己造一台不存在的樂器。

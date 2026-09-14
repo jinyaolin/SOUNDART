@@ -21,3 +21,5 @@ CC BY-SA 系列另要求衍生作品採用相同授權）。
 | `fairlight-cmi.jpg` | Fairlight CMI | Peter Wielk | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Fairlight_CMI-IIx.jpg) |
 | `roland-d50.jpg` | Roland D-50 | iixorbiusii | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Roland_D-50_Front_(tweaked_image).jpg) |
 | `eurorack.jpg` | Eurorack | Paul Anthony | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Eurorack_Modular_Synthesizer.jpg) |
+| `volca-keys.jpg` | Korg Volca Keys | Multicherry | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Korg_Volca_Keys.jpg) |
+| `volca-modular.jpg` | Korg Volca Modular | Ashley Pomeroy | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Korg_Volca_Modular_7921.jpg) |

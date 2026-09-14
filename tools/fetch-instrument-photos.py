@@ -51,6 +51,10 @@ PICKS = [
      "Roland D-50（1987）：取樣的起音接上合成的延續音"),
     ("eurorack", "Eurorack Modular Synthesizer.jpg",
      "Eurorack：1996 年定下的規格，讓模組化在二十一世紀復活"),
+    ("volca-keys", "Korg Volca Keys.jpg",
+     "Korg Volca Keys（2013）：電池供電、內建喇叭，一台約一百多美元"),
+    ("volca-modular", "Korg Volca Modular 7921.jpg",
+     "Korg Volca Modular（2019）：巴掌大的半模組，用短線接 patch"),
 ]
 
 LIC_RANK = {"public domain": 0, "cc0": 1, "cc by": 2, "cc-by": 2, "cc by-sa": 3}
@@ -116,6 +120,10 @@ def main():
             continue
         ext = ".jpg" if not fname.lower().endswith(".png") else ".png"
         dest = os.path.join(OUT, slug + ext)
+        if os.path.exists(dest):
+            print("  – %-16s 已存在，略過下載" % slug)
+            rows.append((slug, ext, fname, caption, m))
+            continue
         try:
             req = urllib.request.Request(m["url"], headers=UA)
             data = _open(req, 60).read()

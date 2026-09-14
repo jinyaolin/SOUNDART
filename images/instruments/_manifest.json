@@ -115,5 +115,23 @@
   "h": 900,
   "lic": "CC BY-SA 4.0",
   "author": "Paul Anthony"
+ },
+ {
+  "slug": "volca-keys",
+  "ext": ".jpg",
+  "caption": "Korg Volca Keys（2013）：電池供電、內建喇叭，一台約一百多美元",
+  "w": 900,
+  "h": 506,
+  "lic": "CC BY-SA 4.0",
+  "author": "Multicherry"
+ },
+ {
+  "slug": "volca-modular",
+  "ext": ".jpg",
+  "caption": "Korg Volca Modular（2019）：巴掌大的半模組，用短線接 patch",
+  "w": 900,
+  "h": 817,
+  "lic": "CC BY-SA 4.0",
+  "author": "Ashley Pomeroy"
  }
 ]

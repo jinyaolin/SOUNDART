@@ -590,6 +590,56 @@ Note:
 也可以順便問:你在 VCV 裡把 CV 從 LFO 拉到濾波器截止頻率,
 跟在 Pd 裡把 [osc~] 接到 [*~],是不是同一種思考?
 
+--
+
+## Korg Volca（2013）：便宜到可以亂玩
+
+把前面三張排在一起，會看到一個空格：
+
+| | 便宜 | 貴 |
+|---|---|---|
+| **有手** | ？ | Eurorack |
+| **沒手** | VCV Rack | — |
+
+2013 年 Korg 用 **Volca** 填了那一格。第一批三台，每台 119.99 英鎊。
+
+Note:
+這張的重點不是產品,是那個 2×2 的空格。
+Eurorack 給你身體的參與但要數千美元;VCV Rack 免費但只剩滑鼠。
+Volca 是第三個答案:便宜到可以買錯、可以摔、可以亂玩。
+
+--
+
+## 十款，共用同一套設計決定
+
+<img class="diagram" src="../images/instruments/volca-keys.jpg" alt="Korg Volca Keys（2013）：電池供電、內建喇叭，一台約一百多美元">
+
+**電池供電**・**內建喇叭**・**SYNC 孔 + MIDI IN**・**內建步進定序器**
+
+放進背包，在沒有電源也沒有喇叭的地方直接開始。
+
+Note:
+在售十款:類比的 Bass / Nubass / Keys / Kick,節奏機 Beats / Drum,
+FM 合成的 FM、取樣的 Sample、半模組的 Modular、混音的 Mix。
+照片來源與授權見 images/instruments/CREDITS.md（Multicherry，CC BY-SA 4.0）。
+
+--
+
+## 一台是樂器，三台是系統
+
+<img class="diagram" src="../images/instruments/volca-modular.jpg" alt="Korg Volca Modular（2019）：巴掌大的半模組，用短線接 patch">
+
+<p class="figcap">Volca Modular（2019）：巴掌大的半模組，面板上就是給你插短線的孔</p>
+
+用一條 SYNC 線把幾台串起來，每台負責一個聲部——
+模組化的思路，規模縮到掌上、價格縮到十分之一。
+
+Note:
+接回這門課:Volca 有 MIDI IN,所以 Pure Data 裡寫的序列可以直接驅動它。
+螢幕裡的補丁負責邏輯,桌上的盒子負責發聲。
+這是「自己造樂器」那一節的前奏——你不一定要從零做硬體,可以讓軟體去指揮現成的硬體。
+照片來源與授權見 images/instruments/CREDITS.md（Ashley Pomeroy，CC BY-SA 4.0）。
+
 ---
 
 ## 而最後一條路，就是這門課
